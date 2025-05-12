@@ -1,0 +1,721 @@
+/* minimalist-style.css */
+
+/* Variables y Reset Minimalista */
+:root {
+    --primary: #007aff;
+    --text-light: #222;
+    --text-dark: #eee;
+    --bg-light: #ffffff;
+    --bg-dark: #121212;
+    --border-light: #eaeaeb;
+    --border-dark: #333;
+    --gray-light: #666;
+    --gray-dark: #999;
+    --transition: all 0.3s ease;
+    --font-main:
+        "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        sans-serif;
+}
+
+/* Modo claro (default) */
+.light {
+    --bg-color: var(--bg-light);
+    --text-color: var(--text-light);
+    --border-color: var(--border-light);
+    --secondary-text-color: var(--gray-light);
+    --link-color: var(--primary);
+    --header-bg: rgba(255, 255, 255, 0.8);
+    --footer-bg: var(--bg-light);
+    --nav-mobile-bg: var(--bg-light); /* Fondo del menú en móvil */
+}
+
+/* Modo oscuro */
+.dark {
+    --bg-color: var(--bg-dark);
+    --text-color: var(--text-dark);
+    --border-color: var(--border-dark);
+    --secondary-text-color: var(--gray-dark);
+    --link-color: var(--primary);
+    --header-bg: rgba(18, 18, 18, 0.8);
+    --footer-bg: var(--bg-dark);
+    --nav-mobile-bg: var(--bg-dark); /* Fondo del menú en móvil */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    line-height: 1.7;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    transition: var(--transition);
+    font-size: 16px;
+    padding-top: 60px; /* Ajustado ligeramente, lo manejaremos con la altura del header */
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Minimalista */
+.header {
+    background-color: var(--header-bg);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition);
+    height: 60px; /* Altura fija en escritorio */
+    display: flex; /* Aseguramos flexbox para centrar verticalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Usar el ancho completo del container */
+    max-width: 900px; /* Un poco más ancho para el header */
+    padding: 0 15px; /* Asegurar padding horizontal */
+}
+
+.logo {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-decoration: none;
+    z-index: 101; /* Asegurar que el logo esté por encima del nav si se superponen */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease-in-out; /* Transición para el menú responsive */
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: var(--text-color);
+}
+
+/* Botones de tema/idioma */
+.theme-toggle,
+.language-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+    transition: color 0.2s ease;
+    font-size: 1.4rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    z-index: 101; /* Asegurar que los botones estén por encima del nav */
+}
+
+.theme-toggle:hover,
+.language-toggle:hover {
+    color: var(--text-color);
+}
+
+/* Estilo específico para el botón de idioma */
+.language-toggle {
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 5px 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.language-text {
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+}
+
+/* Estilo para el botón de menú hamburguesa (oculto por defecto) */
+.menu-toggle {
+    display: none; /* Oculto en escritorio */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 110; /* Mayor que el nav para que esté siempre visible */
+}
+
+.menu-toggle svg {
+    width: 24px;
+    height: 24px;
+    color: var(--text-color);
+    transition: color 0.2s ease;
+}
+
+.menu-toggle:hover svg {
+    color: var(--bg-light);
+}
+
+/* Main Content Area */
+.main {
+    padding: 40px 0;
+}
+
+/* Intro Section */
+.intro {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+/* Contenedor para la foto y el texto en la intro */
+.intro-content-wrapper {
+    display: flex; /* Usa Flexbox para la disposición */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+    gap: 30px; /* Espacio entre la foto y el texto */
+    flex-wrap: wrap; /* Permite que los elementos se apilen en pantallas pequeñas */
+}
+
+/* Estilo de la foto de perfil */
+.profile-picture {
+    width: 162px; /* Tamaño de la foto */
+    height: 162px; /* Tamaño de la foto */
+    border-radius: 50%; /* Forma circular */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    border: 3px solid var(--bg-light); /* Borde alrededor de la foto */
+    flex-shrink: 0; /* Evita que la imagen se encoja */
+}
+
+/* Contenedor para el texto de la intro */
+.intro-text-content {
+    flex-grow: 1; /* Permite que el texto ocupe el espacio restante */
+    /* Si quieres un ancho máximo para el texto: max-width: 500px; */
+}
+
+.intro h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+    max-width: 650px; /* Mantén esto si quieres limitar el ancho de los párrafos */
+}
+
+/* Separador visual */
+.divider {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 40px 0;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* --- Timeline Styles for Experience and Projects --- */
+
+/* Regla para las listas (contenedores de items) */
+.experience-list,
+.projects-list {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+/* Regla para los items de la lista */
+.experience-item,
+.project-item {
+    margin-bottom: 30px;
+    padding-left: 0;
+    position: relative;
+}
+
+/* Estilo para el contenedor interno del contenido dentro de cada item */
+.experience-item .experience-details,
+.project-item .project-details {
+    padding-left: 25px; /* Este padding crea el espacio para la línea */
+}
+
+/* Estilo para el contenedor del título/rol y la fecha */
+.experience-item .experience-header,
+.project-item .project-header {
+    display: flex; /* Usamos flexbox */
+    justify-content: space-between; /* Separa el bloque de texto de la fecha */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    margin-bottom: 10px; /* Espacio entre el header y la lista de puntos */
+}
+
+/* Estilo para el contenedor del título y el rol */
+.experience-item .experience-header > div,
+.project-item .project-header > div {
+    flex-grow: 1; /* Permite que este div ocupe el espacio disponible */
+    /* margin-right: 10px; */ /* Espacio opcional entre el texto y la fecha */
+}
+
+/* Regla para la línea vertical (pseudo-elemento ::before) */
+.experience-item::before,
+.project-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: var(--border-color);
+    z-index: 1;
+}
+
+/* Regla para el círculo marcador (pseudo-elemento ::after) */
+.experience-item::after,
+.project-item::after {
+    content: "";
+    position: absolute;
+    top: 8px; /* Ajusta la posición vertical del círculo */
+    left: -5px; /* Ajusta la posición horizontal para que esté sobre la línea */
+    width: 10px;
+    height: 10px;
+    background-color: var(
+        --bg-light
+    ); /* Cambiado a bg-light para contraste en dark mode */
+    border-radius: 50%;
+    z-index: 2;
+    /* border: 2px solid var(--bg-color); */ /* Ajustado para visibilidad */
+    border: 2px solid var(--border-color); /* O usa primary color si prefieres */
+    box-sizing: border-box;
+}
+/* Ajuste para el círculo en modo oscuro */
+.dark .experience-item::after,
+.dark .project-item::after {
+    background-color: var(--bg-light); /* Fondo oscuro para el círculo */
+    border: 2px solid var(--border-dark);
+}
+
+/* Estilo para el título de la empresa/proyecto (h3) */
+.experience-item h3,
+.project-item h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0px; /* Quitamos margen inferior para acercarlo al rol */
+    color: var(--text-color);
+    line-height: 1.2; /* Ajusta la altura de línea si es necesario */
+}
+
+/* Estilo para el rol/título del puesto (.experience-role) */
+.experience-item .experience-role,
+.project-item .project-role {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+    margin-top: 0px; /* Quitamos margen superior para acercarlo al h3 */
+    margin-bottom: 0; /* Quitamos margen inferior */
+    line-height: 1.2; /* Ajusta la altura de línea si es necesario */
+}
+
+/* Estilo para el párrafo de la fecha */
+.experience-item .experience-date,
+.project-item .project-date {
+    font-size: 0.9rem; /* Tamaño de fuente para la fecha */
+    color: var(--secondary-text-color); /* Color para la fecha */
+    white-space: nowrap; /* Evita que la fecha se divida en varias líneas */
+    flex-shrink: 0; /* Evita que la fecha se encoja si el texto es muy largo */
+    margin-left: 10px; /* Espacio a la izquierda de la fecha */
+    /* align-self: flex-start; */ /* Alinea la fecha con la parte superior del contenedor flex */
+}
+
+/* Estilo para los párrafos generales dentro de los items (usados en proyectos, por ejemplo) */
+.experience-item > .experience-details > p, /* Selecciona párrafos directos dentro de experience-details */
+.project-item > .project-details > p {
+    /* Selecciona párrafos directos dentro de project-details */
+    font-size: 0.95rem;
+    color: var(--secondary-text-color);
+    margin-bottom: 0;
+    margin-top: 10px; /* Espacio encima si hay un párrafo después del header */
+}
+
+/* Estilo para las listas anidadas (los puntos de trabajo/proyecto) */
+.experience-item ul,
+.project-item ul {
+    list-style: disc; /* O bullet, como prefieras */
+    padding-left: 20px;
+    margin-top: 10px; /* Espacio encima de la lista de puntos */
+}
+
+/* Estilo para los items dentro de las listas anidadas */
+.experience-item ul li,
+.project-item ul li {
+    margin-bottom: 5px;
+    color: var(--text-color); /* Color cambiado a text-color principal */
+    position: static; /* Reset position */
+    padding-left: 0; /* Reset padding */
+    font-size: 0.95rem; /* Tamaño consistente */
+}
+
+/* Deshacemos los pseudo-elementos en los li internos */
+.experience-item ul li::before,
+.experience-item ul li::after,
+.project-item ul li::before,
+.project-item ul li::after {
+    content: none;
+}
+
+/* Ajuste para el último elemento de CADA lista (experiencia y proyectos) */
+.experience-list li:last-child::before,
+.projects-list li:last-child::before {
+    height: 100%; /* Ajusta la altura para que la línea termine cerca del círculo del último item */
+}
+
+/* --- Fin Estilos Timeline --- */
+
+/* --- About Section --- */
+/* Estilo general para párrafos en About */
+.about > p {
+    /* Selecciona solo el párrafo introductorio directo */
+    color: var(
+        --text-color
+    ); /* Color principal para el párrafo introductorio */
+    margin-bottom: 1rem; /* Espacio después del párrafo introductorio */
+    font-size: 1.1rem; /* Coincide con intro p */
+}
+
+/* Estilos para el contenedor de los 3 puntos */
+.about-points-grid {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));*/
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Estilos para cada punto individual */
+.about-point {
+    display: flex;
+    flex-direction: row; /* Icono a la izquierda, bloque de texto a la derecha */
+    align-items: flex-start; /* Alinea la parte superior del icono con la parte superior del bloque de texto */
+    gap: 15px; /* Espacio entre icono y texto */
+}
+
+/* Estilos para el contenedor del ícono */
+.about-icon {
+    flex-shrink: 0; /* Evita que el icono se encoja */
+    margin-top: 2px; /* Pequeño ajuste opcional para alinear mejor el icono con la línea base del título */
+}
+
+/* Estilos para las etiquetas SVG dentro de los puntos About */
+.about-icon svg {
+    width: 24px; /* Tamaño del ícono */
+    height: 24px;
+    color: var(--secondary-text-color); /* Color grisáceo para el icono */
+    stroke-width: 2; /* Asegura grosor de línea consistente */
+}
+
+/* NUEVO: Estilos para el contenedor del texto */
+.about-point .about-text-content {
+    flex-grow: 1; /* Permite que este contenedor ocupe el espacio restante */
+}
+
+/* Ajustes a H3 y P dentro del nuevo contenedor */
+.about-point .about-text-content h3 {
+    font-size: 1.1rem;
+    font-weight: 600; /* Más énfasis */
+    margin-bottom: 5px; /* Espacio entre título y descripción */
+    color: var(--text-color);
+    line-height: 1.3;
+    display: block; /* Asegura que sea bloque */
+    width: 100%;
+}
+
+.about-point .about-text-content p {
+    font-size: 0.95rem;
+    color: var(--secondary-text-color);
+    line-height: 1.6;
+    margin-top: 0; /* Quitamos margen superior */
+    margin-bottom: 0;
+    display: block; /* Asegura que sea bloque */
+    width: 100%;
+}
+
+/* --- Fin About Section --- */
+
+/* Footer Minimalista */
+.footer {
+    background-color: var(--footer-bg);
+    border-top: 1px solid var(--border-color);
+    padding: 20px 0;
+    text-align: left;
+    font-size: 0.9rem;
+    color: var(--secondary-text-color);
+    transition: var(--transition);
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start; /* Centra los íconos en el footer */
+}
+
+.social-links a {
+    display: inline-flex; /* Permite centrar el SVG dentro del link */
+    align-items: center; /* Centra el SVG verticalmente */
+    justify-content: center; /* Centra el SVG horizontalmente */
+    color: var(--secondary-text-color);
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: var(--text-color);
+}
+
+.social-links svg {
+    width: 24px; /* Ajusta el tamaño del ícono SVG */
+    height: 24px;
+    fill: currentColor; /* Rellena el SVG con el color del texto actual */
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    body {
+        padding-top: 50px; /* Ajusta padding-top si el header es más pequeño en móvil */
+    }
+
+    .header {
+        height: 50px; /* Ajusta altura del header en móvil */
+    }
+
+    .header .container {
+        flex-direction: row; /* Asegura que el logo y la navegación estén en fila */
+        justify-content: space-between; /* Distribuye espacio */
+        align-items: center; /* Centra verticalmente */
+    }
+
+    /* About points responsive (icon next to title) */
+    .about-points-grid {
+        /* Ya se vuelve 1 columna por auto-fit en pantallas pequeñas */
+        /* Puedes ajustar el gap si lo necesitas */
+    }
+
+    .about-point {
+        display: flex; /* Asegurarse de que sigue siendo flex */
+        flex-direction: row; /* MANTENER EN FILA para icono y texto */
+        align-items: flex-start; /* Mantener la alineación al inicio */
+        gap: 15px; /* Mantener el espacio entre icono y texto */
+        text-align: left; /* Asegurar alineación de texto a la izquierda dentro de cada punto */
+    }
+
+    .about-point .about-icon {
+        flex-shrink: 0; /* Evita que el icono se encoja */
+        margin-bottom: 0; /* Elimina el margen inferior si se añadió antes */
+        margin-top: 2px; /* Mismo ajuste que en escritorio para alineación visual */
+    }
+
+    .about-point .about-text-content {
+        flex-grow: 1; /* Permite que el contenedor de texto ocupe el espacio restante */
+        width: auto; /* Permite que el ancho se ajuste al contenido */
+    }
+
+    /* Asegurarse de que el h3 y p dentro de about-text-content se apilan */
+    .about-point .about-text-content h3 {
+        font-size: 1rem; /* Ajustar tamaño si es necesario */
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: block; /* Sigue siendo bloque */
+        width: 100%; /* Sigue tomando el ancho completo de su contenedor padre flex item */
+        text-align: left; /* Asegurar alineación de texto a la izquierda */
+    }
+
+    .about-point .about-text-content p {
+        font-size: 0.9rem; /* Ajustar tamaño si es necesario */
+        color: var(--secondary-text-color);
+        line-height: 1.6;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: block; /* Sigue siendo bloque */
+        width: 100%; /* Sigue tomando el ancho completo de su contenedor padre flex item */
+        text-align: left; /* Asegurar alineación de texto a la izquierda */
+    }
+
+    .social-links {
+        justify-content: flex-start; /* Centra los íconos sociales en móvil */
+    }
+}
+
+/* Media query para la hamburguesa */
+@media (max-width: 640px) {
+    .social-links {
+        justify-content: flex-start; /* Centra los íconos en el footer */
+    }
+    .nav {
+        /* Ocultar la navegación por defecto */
+        display: none;
+        flex-direction: column; /* La navegación se apilará cuando esté visible */
+        position: absolute; /* Posicionar el menú */
+        top: 50px; /* Debajo del header */
+        left: 0;
+        width: 100%;
+        background-color: var(
+            --nav-mobile-bg
+        ); /* Usar variable para el fondo responsive */
+        border-bottom: 1px solid var(--border-color);
+        padding: 10px 15px;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 90; /* Menor que los botones de toggle y logo */
+        transition: transform 0.3s ease-in-out;
+        /* Inicialmente fuera de la vista */
+        transform: translateY(-100%);
+    }
+
+    /* Mostrar la navegación cuando tenga la clase 'is-open' (se activa con JS) */
+    .nav.is-open {
+        display: flex; /* Mostrar como flexbox */
+        transform: translateY(0); /* Deslizar hacia abajo */
+    }
+
+    .nav a,
+    .language-toggle,
+    .theme-toggle {
+        width: 100%; /* Hacer que los enlaces y botones ocupen todo el ancho */
+        padding: 10px 0; /* Añadir padding vertical */
+        border-bottom: 1px solid var(--border-color); /* Separador entre items */
+        text-align: left; /* Alinear texto a la izquierda */
+        margin-left: 0; /* Eliminar margen izquierdo del language-toggle */
+        border-radius: 0; /* Eliminar border-radius del language-toggle */
+    }
+
+    /* Eliminar el borde inferior del último elemento para evitar doble borde */
+    .nav a:last-of-type,
+    .language-toggle:last-of-type {
+        border-bottom: none;
+    }
+
+    /* Asegurar que el botón de tema no tenga borde inferior si es el último */
+    .nav .theme-toggle {
+        border-bottom: none;
+    }
+
+    /* Mostrar el botón de menú hamburguesa */
+    .menu-toggle {
+        display: flex; /* Mostrar como flexbox para centrar el SVG */
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Ocultar los botones de toggle (tema e idioma) del flujo normal cuando el menú está cerrado */
+    /* Se mostrarán como parte de la navegación cuando esté abierta */
+    .theme-toggle,
+    .language-toggle {
+        display: none;
+    }
+
+    /* Asegurarse de que los botones de toggle se muestren dentro del menú abierto */
+    .nav.is-open .theme-toggle,
+    .nav.is-open .language-toggle {
+        display: flex;
+    }
+}
+
+/* Media query para pantallas aún más pequeñas si es necesario (mantener lo que ya tenías) */
+@media (max-width: 480px) {
+    .social-links {
+        justify-content: flex-start; /* Centra los íconos en el footer */
+    }
+    .container {
+        padding: 0 10px; /* Reduce el padding lateral */
+    }
+
+    .intro h1 {
+        font-size: 1.3rem;
+    }
+
+    .intro p, /* Aplicar tamaño a intro p también */
+    .about > p {
+        /* Aplicar tamaño a about intro p también */
+        font-size: 0.95rem;
+    }
+
+    .section h2 {
+        font-size: 1.1rem;
+    }
+
+    /* Timeline text size */
+    .experience-item h3,
+    .project-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .experience-item .experience-role,
+    .project-item .project-role {
+        font-size: 0.9rem;
+    }
+
+    .experience-item ul li,
+    .project-item ul li {
+        font-size: 0.9rem;
+    }
+
+    /* About point text size */
+    .about-point .about-text-content h3 {
+        font-size: 1rem;
+    }
+
+    .about-point .about-text-content p {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+}
+
+/* Estilo para el subrayado de la sección activa */
+.nav a.active {
+  position: relative;
+  color: var(--text-color);
+}
+
+.nav a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+
+}
+
+/* Asegurar que el subrayado no desaparezca en móvil */
+@media (max-width: 640px) {
+  .nav.is-open a.active::after {
+    bottom: 8px; /* Ajustar posición para el menú móvil */
+  }
+}
