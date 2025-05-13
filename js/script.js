@@ -468,7 +468,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Section education
       "education.title": "Education",
       "education.subtitle1":
-        "Instituto Universitario de Tecnología Antonio José de Sucre",
+        "Antonio José de Sucre University Institute of Technology",
       "education.desc1": "University Technician in Information Technology",
       "education.site1": "Puerto La Cruz, Venezuela",
       "education.date1": "March 2010 - August 2015",
@@ -620,4 +620,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Escuchar el evento scroll
   window.addEventListener("scroll", highlightActiveSection);
+
+  const logoLink = document.querySelector(".logo");
+
+  if (logoLink) {
+    logoLink.addEventListener("click", function (event) {
+      event.preventDefault();
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+
+      history.replaceState(null, "", window.location.pathname);
+    });
+  }
 });
