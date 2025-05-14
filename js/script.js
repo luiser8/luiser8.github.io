@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "education.subtitle2": "ACL Academy",
       "education.desc2": "Azure DevOps - Certificado Nro 11097",
       "education.site2": "Santiago, Chile",
-      "education.date2": "9 horas - Agosto 2015",
+      "education.date2": "9 horas - Agosto 2022",
 
       "education.subtitle3": "Achievement",
       "education.desc3":
@@ -476,7 +476,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "education.subtitle2": "ACL Academy",
       "education.desc2": "Azure DevOps - Certificate No. 11097",
       "education.site2": "Santiago, Chile",
-      "education.date2": "9 hours - August 2015",
+      "education.date2": "9 hours - August 2022",
 
       "education.subtitle3": "Achievement",
       "education.desc3":
