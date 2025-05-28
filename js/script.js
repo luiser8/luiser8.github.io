@@ -130,12 +130,14 @@ document.addEventListener("DOMContentLoaded", function () {
       // Claves para PSM
       "experience.psm.title":
         "Instituto Universitario Politécnico Santiago Mariño",
-      "experience.psm.role": "Desarrollador Full Stack - Freelance", // Assign the correct role
+      "experience.psm.role": "Técnico IT y Desarrollador - Freelance", // Assign the correct role
       "experience.psm.date": "Noviembre 2022 – Actualidad", // <<< Added date key
       "experience.psm.work1.desc":
         "Desarrollo de la web oficial de la Universidad, siendo esta version una unificación de todas las extensiones dentro del país, ademas de construir un backoffice para la administración del contenido web de cada una de las extensiones de la Institución Educativa que estan dentro de la web construida. Utilizando tecnologías C#, .NET, MongoDB y React.",
       "experience.psm.work2.desc":
         "Desarrollo de una aplicación local para la gestión de caja y reportes de cierres de caja, ademas poder visualizar los estudiantes inscritos, poder inscribirlos, asignar cuotas, todo un conjunto de herramientas para la administración de la institución. Utilizando tecnologías como C#, .NET Framework, SQL Server y React.",
+      "experience.psm.work3.desc":
+        "Servicio Tecnico IT en las instalaciones, en cuales desempeño las funciones de DBA SQL Server, me encargo de optimizar ciertos procesos en los datos, ademas de prestar asistencia tecnica en los servidores locales de Active Directory, Proxy y File Server.",
 
       // Claves para Boitas
       "experience.boitas.title": "Boitas.com",
@@ -345,12 +347,14 @@ document.addEventListener("DOMContentLoaded", function () {
       // Keys for PSM
       "experience.psm.title":
         "Santiago Mariño Polytechnic University Institute",
-      "experience.psm.role": "Full Stack Developer - Freelance", // Assign the correct role
+      "experience.psm.role": "IT Technician and Developer - Freelance", // Assign the correct role
       "experience.psm.date": "November 2022 – Present", // <<< Added date key
       "experience.psm.work1.desc":
         "Development of the official University website, this version serving as a unification of all extensions within the country. Additionally, built a backoffice for administering the web content of each educational institution extension included within the constructed website. Utilizing technologies such as C#, .NET, MongoDB, and React.",
       "experience.psm.work2.desc":
         "Development of a local application for cash management and cash closing reports. Also included features to view enrolled students, enroll them, and assign fees – a comprehensive set of tools for institutional administration. Utilizing technologies such as C#, .NET Framework, SQL Server, and React.",
+      "experience.psm.work3.desc":
+        "On-site IT Technical Service, where I perform the functions of SQL Server DBA, I am in charge of optimizing certain data processes, in addition to providing technical assistance on local Active Directory, Proxy and File Server servers.",
 
       // Keys for Boitas
       "experience.boitas.title": "Boitas.com",
