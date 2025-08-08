@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.biblioteca.date": "Febrero 2025 - Actualidad",
 
         "projects.psm.title":
-          "Sitio web oficial Instituto Universitario Politécnico Santiago Mariño",
+          "Sitio web Instituto Universitario Politécnico Santiago Mariño",
         "projects.psm.role": "Proyecto cliente",
         "projects.psm.link": "Visitar proyecto",
         "projects.psm.desc1":
@@ -497,9 +497,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.biblioteca.date": "February 2025 - Present",
 
         "projects.psm.title":
-          "Official website of the Santiago Mariño Polytechnic University Institute",
+          "Website of the Santiago Mariño Polytechnic University Institute",
         "projects.psm.role": "Client project",
-        "projects.psm.link": "Visit the project",
+        "projects.psm.link": "Visit project",
         "projects.psm.desc1":
           "Centralized Content Management and Unification: Unifies all extensions into a single website. It allows each section to autonomously edit its own content, ensuring a coherent visual identity throughout the portal.",
         "projects.psm.desc2":
@@ -512,7 +512,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         "projects.camin.title": "MRW Website",
         "projects.camin.role": "Client Project",
-        "projects.camin.link": "Visit Project",
+        "projects.camin.link": "Visit project",
         "projects.camin.desc1":
           "Website Development: This project involved the full-scale creation of the official MRW website, covering every stage from initial design to final implementation. The main goal was to modernize the brand's digital presence by offering a functional and appealing platform for its customers.",
         "projects.camin.desc2":

@@ -740,7 +740,7 @@ body {
     align-items: center;
     gap: 8px;
     margin-top: 4px;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+    flex-wrap: wrap;
 }
 
 /* Estilo para el texto del rol */
@@ -749,27 +749,16 @@ body {
     color: var(--secondary-text-color);
 }
 
-/* Estilo para el link del proyecto */
+/* Estilo base para el link del proyecto */
 .project-role-link {
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    color: var(--primary); /* Usa el color primario definido en tus variables */
-    text-decoration: none;
+    color: var(--text-color); /* Usa el color de texto normal */
+    text-decoration: none; /* Sin subrayado por defecto */
     font-size: 0.9em;
     transition: var(--transition);
     padding: 2px 4px;
-    border-radius: 4px;
-}
-
-/* Estilo para el hover del link */
-.project-role-link:hover {
-    color: var(--text-color);
-    background-color: rgba(
-        var(--primary-rgb),
-        0.1
-    ); /* Efecto sutil de fondo al hover */
-    text-decoration: underline;
 }
 
 /* Estilo para el icono del link */
@@ -777,18 +766,22 @@ body {
     width: 14px;
     height: 14px;
     flex-shrink: 0;
+    stroke: var(--text-color); /* Color del icono igual al texto */
     transition: var(--transition);
 }
 
-/* Modo oscuro - ajustes específicos */
-.dark .project-role-link {
-    color: var(--primary); /* Mantiene el mismo color en modo oscuro */
+/* Efecto hover simplificado */
+.project-role-link:hover {
+    text-decoration: underline; /* Solo subrayado al hover */
+}
+
+/* Modo oscuro - ajuste para mantener contraste */
+.dark .project-role-link,
+.dark .project-role-link svg {
+    color: var(--text-dark);
+    stroke: var(--text-dark);
 }
 
 .dark .project-role-link:hover {
-    color: var(--text-dark);
-    background-color: rgba(
-        var(--primary-rgb),
-        0.2
-    ); /* Fondo más visible en modo oscuro */
+    color: var(--text-dark); /* Mantiene el mismo color en hover */
 }
