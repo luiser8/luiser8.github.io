@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.subtitle":
           "Desarrollador con 7 años de experiencia, especialista principal en C# .NET.",
         "intro.stacks":
-          "Domino stacks como Node.js, Nest, React, JavaScript y TypeScript. Cuento con experiencia en diversas bases de datos (SQL/NoSQL), Cloud (Azure), DevOps (Docker, Git, CI/CD) y sistemas Linux. También me desempeño como Mentor.",
+          "Domino stacks como Node.js, NestJS, React, JavaScript y TypeScript. Cuento con experiencia en diversas bases de datos (SQL/NoSQL), Cloud (Azure), DevOps (Docker, Git, CI/CD) y sistemas Linux. También me desempeño como Mentor.",
         "intro.contact": "¡Estoy listo para conectar y colaborar!",
         "hero.button": "Contáctame", // Esta clave parece no usarse en el HTML actual
 
@@ -121,9 +121,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.acl.work1.desc":
           "Participé en el desarrollo de una aplicación para agendamiento de citas médicas, generando calidad de servicio a distintos usuarios, pacientes y responsables de cada empresa afiliada, una plataforma web con más de 1 mil empresas asociadas y más de 5 mil usuarios, implementando nuevos requerimientos y mejorando la eficiencia del sistema, utilizando despliegues continuos con el uso de Azure DevOps CI/CD Y Docker, además realicé una actualización de .NET Core 3.1 a .NET 8.",
         "experience.acl.work2.desc":
-          "También estuve en el equipo de desarrollo de un sistema integrado único (ACHS Virtual) para ofrecer sesiones, recursos y roles para todas las aplicaciones de ACHS, dando cabida a la centralización de la sesión de cada uno de los usuarios dentro de la organización. Utilizando arquitectura de Micro Servicios BFF y demás tecnologías como Azure DevOps CI/CD, TypeScript Nest, SQL Server y React.",
+          "También estuve en el equipo de desarrollo de un sistema integrado único (ACHS Virtual) para ofrecer sesiones, recursos y roles para todas las aplicaciones de ACHS, dando cabida a la centralización de la sesión de cada uno de los usuarios dentro de la organización. Utilizando arquitectura de Micro Servicios BFF y demás tecnologías como Azure DevOps CI/CD, TypeScript NestJS, SQL Server y React.",
         "experience.acl.work3.desc":
-          "También estuve en el equipo de desarrollo llamado (ACHS Mantención) para generar mantenimientos de distintas aplicaciones de toda la empresa ACHS. Utilizando tecnologías como Azure DevOps CI/CD, TypeScript Nest, SQL Server y React.",
+          "También estuve en el equipo de desarrollo llamado (ACHS Mantención) para generar mantenimientos de distintas aplicaciones de toda la empresa ACHS. Utilizando tecnologías como Azure DevOps CI/CD, TypeScript NestJS, SQL Server y React.",
         "experience.acl.work4.desc":
           "Es importante destacar que, en los 3 proyectos, implementamos un enfoque integral que incluyó análisis de ciberseguridad y rendimiento en cada funcionalidad desarrollada. Realicé optimizaciones específicas en consultas y métodos complejos para asegurar su eficiencia. Adicionalmente, garantizamos la calidad del código mediante revisiones exhaustivas con SonarQube. Este proceso riguroso nos permitió crear software de alta calidad e integrando Test Unitarios y te Integración para obtener una alta calidad de código.",
 
@@ -133,13 +133,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.psm.role": "Técnico IT y Desarrollador - Freelance", // Assign the correct role
         "experience.psm.date": "Noviembre 2022 – Actualidad", // <<< Added date key
         "experience.psm.work1.desc":
-          "Desarrollo de la web oficial de la Universidad, siendo esta version una unificación de todas las extensiones dentro del país, ademas de construir un backoffice para la administración del contenido web de cada una de las extensiones de la Institución Educativa que estan dentro de la web construida. Utilizando tecnologías C#, .NET, MongoDB y React.",
+          "Desarrollo de la web oficial de la Universidad, siendo esta versión una unificación de todas las extensiones dentro del país, además cuenta con una data interna de cada sección de la página, para facilitar la edición y visualización del contenido web de cada una de las extensiones de la Institución Educativa que están dentro de la web construida. Utilizando tecnologías como React y TailwindCSS.",
         "experience.psm.work2.desc":
-          "Desarrollo de una aplicación local para la gestión de caja y reportes de cierres de caja, ademas poder visualizar los estudiantes inscritos, poder inscribirlos, asignar cuotas, todo un conjunto de herramientas para la administración de la institución. Utilizando tecnologías como C#, .NET Framework, SQL Server y React.",
+          "Desarrollo de una aplicación local para la gestión de caja y reportes de cierres de caja, además poder visualizar los estudiantes inscritos, poder inscribirlos, asignar cuotas, todo un conjunto de herramientas para la administración de la institución. Utilizando tecnologías como C#, .NET Framework, SQL Server y React.",
         "experience.psm.work3.desc":
           "Servicio Tecnico IT en las instalaciones, en cuales desempeño las funciones de DBA SQL Server, me encargo de optimizar ciertos procesos en los datos, ademas de prestar asistencia tecnica en los servidores locales de Active Directory, Proxy y File Server.",
         "experience.psm.work4.desc":
-          "Desarrollo de una aplicación local para consulta de notas e historial académico, cortes academicos, horarios, esto para ayudar a la población estudiantil a administrar sus datos académicos. Utilizando tecnologías como C#, .NET Framework, SQL Server.",
+          "Desarrollo de una aplicación de tipo monolito en modo local para consulta de notas e historial académico, cortes academicos, horarios, esto para ayudar a la población estudiantil a administrar sus datos académicos. Utilizando tecnologías como C#, MVC, .NET Framework, SQL Server.",
 
         // Claves para Boitas
         "experience.boitas.title": "Boitas.com",
@@ -216,7 +216,9 @@ document.addEventListener("DOMContentLoaded", function () {
         // Sección Proyectos
         "projects.title": "Proyectos",
         // Claves para proyectos con fechas (ejemplo)
+
         "projects.glucose.title": "Aplicación seguimiento de glucosa",
+        "projects.glucose.role": "Proyecto personal",
         "projects.glucose.desc1":
           "Visualización gráfica y análisis de tendencias: Permite a los usuarios ver sus niveles de glucosa en gráficos interactivos, identificando patrones y tendencias a lo largo del tiempo (días, semanas, meses) para una mejor comprensión de su manejo.",
         "projects.glucose.desc2":
@@ -226,14 +228,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.glucose.desc4":
           "Generación de informes y resúmenes de datos: Capacidad de generar informes periódicos (diarios, semanales, mensuales) con resúmenes de las mediciones, promedios y tiempo en rango, útiles para el seguimiento personal o para compartir con profesionales de la salud.",
         "projects.glucose.desc5":
-          "Funcionalidad offline limitada: La aplicación permitirá a los usuarios visualizar datos recientes y registrar eventos (como comidas o ejercicio) incluso cuando no tengan conexión a internet. Los datos se sincronizarán automáticamente con la plataforma central una vez que se restablezca la conectividad.",
-        "projects.glucose.desc6":
-          "Notificaciones push integradas: Además de los correos electrónicos y SMS, la aplicación móvil enviará notificaciones push directamente al dispositivo del usuario para alertas importantes (niveles fuera de rango, recordatorios, etc.), ofreciendo una forma más inmediata y discreta de recibir información.",
-        "projects.glucose.desc7":
           "Las tecnologías utilizadas para este proyecto incluyen Python Flask API, con desarrollo futuro en React Native para la aplicación móvil y PostgreSQL.",
         "projects.glucose.date": "Diciembre 2024 - Actualidad",
 
         "projects.biblioteca.title": "Aplicación biblioteca virtual",
+        "projects.biblioteca.role": "Proyecto cliente",
         "projects.biblioteca.desc1":
           "Gestión granular de usuarios y roles: Implementar diferentes niveles de permisos y roles (por ejemplo, Estudiante, Profesor, Investigador, Bibliotecario, Administrador) para controlar el acceso a ciertos materiales, funcionalidades de backoffice y tipos de acciones (como solicitar préstamos extendidos, descargar ciertos documentos, etc.).",
         "projects.biblioteca.desc2":
@@ -241,18 +240,51 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.biblioteca.desc3":
           "Visualización integrada de documentos digitales: Para tesis, informes y ciertos libros digitales, la aplicación puede incluir un visor web que permita a los usuarios leer el contenido directamente en el navegador sin necesidad de descargarlo siempre, mejorando la seguridad y la experiencia de lectura rápida.",
         "projects.biblioteca.desc4":
-          "Clasificación temática y navegación por colecciones: Organizar los materiales no solo por búsqueda, sino también permitiendo navegar por categorías temáticas, departamentos académicos, tipos de material (tesis, informes, libros, revistas), o colecciones especiales definidas por la institución.",
-        "projects.biblioteca.desc5":
-          "Perfil de usuario con historial y favoritos: Cada usuario puede tener un perfil donde vea su historial de lectura/préstamo, guarde materiales en una lista de favoritos para acceso rápido y reciba recomendaciones personalizadas.",
-        "projects.biblioteca.desc6":
           "Módulo de carga y gestión de contenido (Backoffice): Herramientas robustas en el backoffice para que el personal de la biblioteca pueda cargar nuevos materiales fácilmente (individualmente o en lotes), editar metadatos completos (resúmenes, palabras clave, ISBN, etc.), gestionar versiones y formatos.",
-        "projects.biblioteca.desc7":
-          "Estadísticas y reportes de uso (Backoffice): Proveer al personal de la biblioteca con dashboards y reportes sobre el uso de la plataforma: materiales más consultados/prestados, usuarios más activos, estadísticas por departamento, tipos de material, etc., para ayudar en la gestión y adquisición de recursos.",
-        "projects.biblioteca.desc8":
-          "Integración potencial con el sistema de gestión académica de la institución: Sincronizar datos de usuarios (estudiantes, personal) directamente desde la base de datos central de la institución para simplificar el proceso de alta y gestión de usuarios de la biblioteca.",
-        "projects.biblioteca.desc9":
+        "projects.biblioteca.desc5":
           "Las tecnologías utilizadas para este proyecto incluyen .NET y React para el frontend, base de datos con SQL Server y Redis.",
         "projects.biblioteca.date": "Febrero 2025 - Actualidad",
+
+        "projects.psm.title":
+          "Sitio web oficial Instituto Universitario Politécnico Santiago Mariño",
+        "projects.psm.role": "Proyecto cliente",
+        "projects.psm.link": "Visitar proyecto",
+        "projects.psm.desc1":
+          "Unificación y Gestión de Contenido Centralizado: Unifica todas las extensiones en una sola web. Permite a cada sección editar su propio contenido de forma autónoma, garantizando una identidad visual coherente en todo el portal.",
+        "projects.psm.desc2":
+          "Web de Marca y Atracción Digital: El sitio web es una herramienta de marketing enfocada en atraer a nuevos estudiantes. El diseño es atractivo y moderno, optimizado para campañas de publicidad digital y la promoción de los logros de la universidad.",
+        "projects.psm.desc3":
+          "Portal con Enfoque Móvil: Prioriza la experiencia del usuario en dispositivos móviles. Las funciones clave, como mapas del campus y notificaciones, están diseñadas para un acceso rápido y sencillo desde un teléfono o tableta.",
+        "projects.psm.desc4":
+          "Las tecnologías utilizadas para este proyecto incluyen React y TailwindCSS.",
+        "projects.psm.date": "Marzo 2025 - Actualidad",
+
+        "projects.camin.title": "Sitio web MRW",
+        "projects.camin.role": "Proyecto cliente",
+        "projects.camin.link": "Visitar proyecto",
+        "projects.camin.desc1":
+          "Desarrollo del Sitio Web: Este proyecto consistió en la creación integral del sitio web oficial de MRW, cubriendo todas las etapas desde el diseño inicial hasta la implementación final. El objetivo principal fue modernizar la presencia digital de la marca, ofreciendo una plataforma funcional y atractiva para sus clientes.",
+        "projects.camin.desc2":
+          "Rastreo de Envíos Nacionales: Una herramienta robusta que permite a los usuarios dar seguimiento en tiempo real a sus paquetes y envíos dentro del territorio nacional, ofreciendo transparencia y control.",
+        "projects.camin.desc3":
+          "Presentación de Servicios: Se diseñó una sección dedicada a mostrar de manera gráfica e intuitiva todos los servicios de MRW, facilitando a los clientes la comprensión de las diferentes opciones de envío y logística disponibles.",
+        "projects.camin.desc4":
+          "Optimización de Imágenes y Archivos: Se implementaron técnicas avanzadas para reducir el tamaño de las imágenes y otros archivos, lo que resultó en una mejora sustancial en la velocidad de carga del sitio web.",
+        "projects.camin.desc5":
+          "Las tecnologías utilizadas para este proyecto incluyen Vue.js y Nuxt.js.",
+        "projects.camin.date": "Enero 2021 – Marzo 2022",
+
+        "projects.avior.title": "Sitio web Avior Airlines",
+        "projects.avior.role": "Proyecto cliente",
+        "projects.avior.link": "Visitar proyecto",
+        "projects.avior.desc1":
+          "Desarrollo del Sitio Web: Este proyecto web de Avior Airlines, centrándose en la reserva y compra de boletos. Esto incluyó la integración de un motor de búsqueda y un sistema de pago eficiente, asegurando una experiencia de usuario fluida y segura.",
+        "projects.avior.desc2":
+          "Integración y construcción de APIs con SABRE: Construimos múltiples APIs para gestionar las solicitudes de reserva y compra de boletos. Estas APIs se comunicaban directamente con el proveedor SABRE, lo que garantizó un procesamiento de datos preciso y en tiempo real.",
+        "projects.avior.desc3":
+          "Desarrollo del servicio de reembolso de boletos: Diseñé y desarrollé completamente el servicio de reembolso de boletos. Esto implicó la creación de la lógica de negocio para procesar las solicitudes de manera eficiente, así como la integración con los sistemas financieros de la aerolínea para asegurar una gestión correcta de los reembolsos.",
+        "projects.avior.desc4":
+          "Las tecnologías utilizadas para este proyecto incluyen C#, .NET Framework, SQL Server y React.",
 
         // Sección Educación
         "education.title": "Educación",
@@ -306,7 +338,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.subtitle":
           "Developer with 7 years of experience, main specialist in C# .NET.",
         "intro.stacks":
-          "I'm proficient in stacks such as Node.js, Nest, React, JavaScript, and TypeScript. I have experience with various databases (SQL/NoSQL), Cloud (Azure), DevOps (Docker, Git, CI/CD), and Linux systems. I also serve as a Mentor.",
+          "I'm proficient in stacks such as Node.js, NestJS, React, JavaScript, and TypeScript. I have experience with various databases (SQL/NoSQL), Cloud (Azure), DevOps (Docker, Git, CI/CD), and Linux systems. I also serve as a Mentor.",
         "intro.contact": "I'm ready to connect and collaborate!",
         "hero.button": "Contact me", // Esta clave parece no usarse en el HTML actual
 
@@ -340,9 +372,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.acl.work1.desc":
           "Participated in the development of a medical appointment scheduling application, providing service quality to various users, patients, and representatives of each affiliated company. This was a web platform with over 1,000 associated companies and over 5,000 users. I implemented new requirements and improved system efficiency, utilizing continuous deployments with Azure DevOps CI/CD and Docker. Additionally, I performed an upgrade from .NET Core 3.1 to .NET 8.",
         "experience.acl.work2.desc":
-          "I was also part of the development team for a single integrated system (ACHS Virtual) to provide sessions, resources, and roles for all ACHS applications, allowing for centralized session management for each user within the organization. This system utilized BFF Microservices architecture and other technologies such as Azure DevOps CI/CD, TypeScript Nest, SQL Server, and React.",
+          "I was also part of the development team for a single integrated system (ACHS Virtual) to provide sessions, resources, and roles for all ACHS applications, allowing for centralized session management for each user within the organization. This system utilized BFF Microservices architecture and other technologies such as Azure DevOps CI/CD, TypeScript NestJS, SQL Server, and React.",
         "experience.acl.work3.desc":
-          "Also worked on the development team called (ACHS Maintenance) to perform maintenance for various applications across the entire ACHS company. Utilized technologies such as Azure DevOps CI/CD, TypeScript Nest, SQL Server, and React.",
+          "Also worked on the development team called (ACHS Maintenance) to perform maintenance for various applications across the entire ACHS company. Utilized technologies such as Azure DevOps CI/CD, TypeScript NestJS, SQL Server, and React.",
         "experience.acl.work4.desc":
           "It's important to note that, in all three projects, we implemented a comprehensive approach that included cybersecurity and performance analysis for each feature developed. I performed specific optimizations on complex queries and methods to ensure their efficiency. Additionally, we guaranteed code quality through exhaustive reviews using SonarQube. This rigorous process allowed us to create high-quality software and integrate unit and integration testing to achieve high code quality.",
 
@@ -352,13 +384,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.psm.role": "IT Technician and Developer - Freelance", // Assign the correct role
         "experience.psm.date": "November 2022 – Present", // <<< Added date key
         "experience.psm.work1.desc":
-          "Development of the official University website, this version serving as a unification of all extensions within the country. Additionally, built a backoffice for administering the web content of each educational institution extension included within the constructed website. Utilizing technologies such as C#, .NET, MongoDB, and React.",
+          "Development of the University's official website. This version unifies all extensions across the country. It also includes internal data for each section of the page to facilitate editing and viewing web content for each of the educational institution's extensions within the website. Technologies such as React and TailwindCSS were used.",
         "experience.psm.work2.desc":
           "Development of a local application for cash management and cash closing reports. Also included features to view enrolled students, enroll them, and assign fees – a comprehensive set of tools for institutional administration. Utilizing technologies such as C#, .NET Framework, SQL Server, and React.",
         "experience.psm.work3.desc":
           "On-site IT Technical Service, where I perform the functions of SQL Server DBA, I am in charge of optimizing certain data processes, in addition to providing technical assistance on local Active Directory, Proxy and File Server servers.",
         "experience.psm.work4.desc":
-          "Development of a local application for reviewing grades and academic history, academic cutoffs, and schedules, to help students manage their academic data. Using technologies such as C#, .NET Framework 4, and SQL Server",
+          "Development of a local, monolithic application for reviewing grades and academic history, academic breaks, and schedules, to help students manage their academic data. Using technologies such as C#, MVC, .NET Framework, and SQL Server.",
 
         // Keys for Boitas
         "experience.boitas.title": "Boitas.com",
@@ -436,43 +468,75 @@ document.addEventListener("DOMContentLoaded", function () {
         // Projects section
         "projects.title": "Projects",
         // Claves para proyectos con fechas (ejemplo)
-        "projects.glucose.title": "Glucose tracking application",
+        "projects.glucose.title": "Glucose Tracking Application",
+        "projects.glucose.role": "Personal Project",
         "projects.glucose.desc1":
-          "Graphical visualization and trend analysis: Allows users to view their glucose levels in interactive graphs, identifying patterns and trends over time (days, weeks, months) for a better understanding of their management.",
+          "Graphical visualization and trend analysis: Allows users to view their glucose levels in interactive charts, identifying patterns and trends over time (days, weeks, months) for a better understanding of their management.",
         "projects.glucose.desc2":
-          "Related event logging: Facilitates the recording of key factors such as meals (with carbohydrates if desired), exercise, medication, and other events to contextualize glucose measurements.",
+          "Related events logging: Facilitates the logging of key factors such as meals (with carbs if desired), exercise, medication, and other events to contextualize glucose measurements.",
         "projects.glucose.desc3":
-          "Customizable alerts and contact notifications: Allows users to define specific alert thresholds and configure the sending of important notifications (such as extreme levels) to designated family members or caregivers.",
+          "Customizable alerts and notifications to contacts: Allows users to define specific alert thresholds and configure important notifications (such as extreme levels) to be sent to designated family members or caregivers.",
         "projects.glucose.desc4":
-          "Data report and summary generation: Ability to generate periodic reports (daily, weekly, monthly) with summaries of measurements, averages, and time in range, useful for personal tracking or sharing with healthcare professionals.",
+          "Data report and summary generation: Ability to generate periodic reports (daily, weekly, monthly) with summaries of measurements, averages, and time-in-range, useful for personal monitoring or for sharing with healthcare professionals.",
         "projects.glucose.desc5":
-          "Limited offline functionality: The application will allow users to view recent data and log events (such as meals or exercise) even without an internet connection. Data will automatically sync with the central platform once connectivity is restored.",
-        "projects.glucose.desc6":
-          "Integrated push notifications: In addition to emails and SMS, the mobile application will send push notifications directly to the user's device for important alerts (out-of-range levels, reminders, etc.), offering a more immediate and discreet way to receive information.",
-        "projects.glucose.desc7":
-          "Technologies used for this project include Python Flask API, with future development in React Native for the mobile app and PostgreSQL.",
+          "The technologies used for this project include a Python Flask API, with future development planned for a mobile application using React Native and a PostgreSQL database.",
         "projects.glucose.date": "December 2024 - Present",
 
-        "projects.biblioteca.title": "Virtual library application",
+        "projects.biblioteca.title": "Virtual Library Application",
+        "projects.biblioteca.role": "Client Project",
         "projects.biblioteca.desc1":
-          "Granular user and role management: Implement different permission and role levels (e.g., Student, Professor, Researcher, Librarian, Administrator) to control access to certain materials, backoffice functionalities, and action types (like requesting extended loans, downloading specific documents, etc.).",
+          "Granular user and role management: Implement different levels of permissions and roles (e.g., Student, Professor, Researcher, Librarian, Administrator) to control access to certain materials, back-office functionalities, and types of actions (like requesting extended loans, downloading certain documents, etc.).",
         "projects.biblioteca.desc2":
-          "Material loan and reservation system: Not just access, but also a system to manage the loan (digital or physical) of materials with due dates, and the possibility to reserve materials that are currently on loan.",
+          "Material loan and reservation system: Not only access, but also a system to manage the loan (digital or physical) of materials with due dates and the possibility of reserving materials that are currently on loan.",
         "projects.biblioteca.desc3":
-          "Integrated digital document viewer: For theses, reports, and certain digital books, the application can include a web viewer allowing users to read content directly in the browser without always needing to download it, improving security and quick reading experience.",
+          "Integrated digital document viewer: For theses, reports, and certain digital books, the application can include a web viewer that allows users to read the content directly in the browser without always needing to download it, improving security and the quick-reading experience.",
         "projects.biblioteca.desc4":
-          "Thematic classification and collection Browse: Organize materials not only by search but also allowing navigation by thematic categories, academic departments, material types (theses, reports, books, journals), or special collections defined by the institution.",
+          "Content upload and management module (Back-office): Robust back-office tools for library staff to easily upload new materials (individually or in batches), edit complete metadata (abstracts, keywords, ISBN, etc.), and manage versions and formats.",
         "projects.biblioteca.desc5":
-          "User profile with history and favorites: Each user can have a profile where they view their reading/loan history, save materials to a favorites list for quick access, and receive personalized recommendations.",
-        "projects.biblioteca.desc6":
-          "Content upload and management module (Backoffice): Robust tools in the backoffice for library staff to easily upload new materials (individually or in batches), edit complete metadata (abstracts, keywords, ISBN, etc.), manage versions and formats.",
-        "projects.biblioteca.desc7":
-          "Usage statistics and reports (Backoffice): Provide library staff with dashboards and reports on platform usage: most consulted/loaned materials, most active users, statistics by department, material types, etc., to aid in resource management and acquisition.",
-        "projects.biblioteca.desc8":
-          "Potential integration with the institution's academic management system: Synchronize user data (students, staff) directly from the institution's central database to simplify the library user registration and management process.",
-        "projects.biblioteca.desc9":
-          "Technologies used for this project include .NET and React for the frontend, and a database with SQL Server and Redis.",
+          "The technologies used for this project include .NET and React for the frontend, with SQL Server and Redis for the database.",
         "projects.biblioteca.date": "February 2025 - Present",
+
+        "projects.psm.title":
+          "Official website of the Santiago Mariño Polytechnic University Institute",
+        "projects.psm.role": "Client project",
+        "projects.psm.link": "Visit the project",
+        "projects.psm.desc1":
+          "Centralized Content Management and Unification: Unifies all extensions into a single website. It allows each section to autonomously edit its own content, ensuring a coherent visual identity throughout the portal.",
+        "projects.psm.desc2":
+          "Brand and Digital Attraction Website: The website is a marketing tool focused on attracting new students. The design is appealing and modern, optimized for digital advertising campaigns and the promotion of the university's achievements.",
+        "projects.psm.desc3":
+          "Mobile-First Portal: Prioritizes the user experience on mobile devices. Key features, such as campus maps and notifications, are designed for quick and easy access from a phone or tablet.",
+        "projects.psm.desc4":
+          "The technologies used for this project include React and TailwindCSS.",
+        "projects.psm.date": "March 2025 - Present",
+
+        "projects.camin.title": "MRW Website",
+        "projects.camin.role": "Client Project",
+        "projects.camin.link": "Visit Project",
+        "projects.camin.desc1":
+          "Website Development: This project involved the full-scale creation of the official MRW website, covering every stage from initial design to final implementation. The main goal was to modernize the brand's digital presence by offering a functional and appealing platform for its customers.",
+        "projects.camin.desc2":
+          "Domestic Shipment Tracking: A robust tool that allows users to track their packages and shipments within the national territory in real-time, providing transparency and control.",
+        "projects.camin.desc3":
+          "Service Showcase: A dedicated section was designed to graphically and intuitively display all of MRW's services, making it easier for customers to understand the different shipping and logistics options available.",
+        "projects.camin.desc4":
+          "Image and File Optimization: Advanced techniques were implemented to reduce the size of images and other files, resulting in a substantial improvement in the website's loading speed.",
+        "projects.camin.desc5":
+          "The technologies used for this project include Vue.js and Nuxt.js.",
+        "projects.camin.date": "January 2021 – March 2022",
+
+        "projects.avior.title": "Avior Airlines Website",
+        "projects.avior.role": "Client Project",
+        "projects.avior.link": "Visit project",
+        "projects.avior.desc1":
+          "Website Development: This Avior Airlines web project focused on ticket booking and purchasing. This included the integration of a search engine and an efficient payment system, ensuring a fluid and secure user experience.",
+        "projects.avior.desc2":
+          "API Integration and Development with SABRE: We built multiple APIs to manage ticket booking and purchasing requests. These APIs communicated directly with the SABRE provider, which ensured accurate and real-time data processing.",
+        "projects.avior.desc3":
+          "Ticket Refund Service Development: I fully designed and developed the ticket refund service. This involved creating the business logic to efficiently process requests, as well as integrating it with the airline's financial systems to ensure correct refund management.",
+        "projects.avior.desc4":
+          "The technologies used for this project include C#, .NET Framework, SQL Server, and React.",
+        "projects.avior.date": "November 2017 – July 2022",
 
         // Section education
         "education.title": "Education",
