@@ -285,6 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Desarrollo del servicio de reembolso de boletos: Diseñé y desarrollé completamente el servicio de reembolso de boletos. Esto implicó la creación de la lógica de negocio para procesar las solicitudes de manera eficiente, así como la integración con los sistemas financieros de la aerolínea para asegurar una gestión correcta de los reembolsos.",
         "projects.avior.desc4":
           "Las tecnologías utilizadas para este proyecto incluyen C#, .NET Framework, SQL Server y React.",
+        "projects.avior.date": "Noviembre 2017 – Julio 2022",
 
         // Sección Educación
         "education.title": "Educación",
