@@ -86,31 +86,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador con 7 años de experiencia, especialista principal en C# .NET.",
+          "Desarrollador de software con 7 años de experiencia construyendo sistemas escalables y mantenibles. Especializado en .NET (C#) y JavaScript.",
         "intro.stacks":
-          "Domino stacks como Node.js, NestJS, React, JavaScript y TypeScript. Cuento con experiencia en diversas bases de datos (SQL/NoSQL), Cloud (Azure), DevOps (Docker, Git, CI/CD) y sistemas Linux. También me desempeño como Mentor.",
-        "intro.contact": "¡Estoy listo para conectar y colaborar!",
+          "Conocimientos sólidos en Node.js, TypeScript, NestJS, React, Python, Azure, DevOps (Docker, CI/CD) y bases de datos SQL/NoSQL. Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
         "hero.button": "Contáctame", // Esta clave parece no usarse en el HTML actual
-
-        // Sección Sobre mí (About) - Claves y textos actualizados
-        "about.title": "Sobre mí", // Mantienes esta clave
-        // Nuevo párrafo introductorio
-        "about.introText":
-          "Más de 7 años de experiencia como desarrollador en distintos stacks. Trabajando con equipos de producto enfocados en el cliente final así como equipos de plataforma.",
-        "about.backendTitle": "Desarrollador Web", // Título punto 1
-        // Texto punto 1
-        "about.backendText":
-          "Desarrollador con experiencia en la construcción de APIS, Aplicaciones Monolitos y en interfaces gráficas, impulsando la eficiencia y escalabilidad en sistemas complejos para soportar millones de usuarios.",
-        "about.crossfunctionalTitle": "Colaborador Multifuncional", // Título punto 2
-        // Texto punto 2
-        "about.crossfunctionalText":
-          "Con experiencia en frontend, backend, y equipos SRE, disfruto colaborando con equipos cross-functional para dar vida a ideas innovadoras.",
-        "about.valueDrivenTitle": "Soluciones Orientadas al Valor", // Título punto 3
-        "about.valueDrivenText":
-          "Me apasiona trabajar en equipos de producto y plataforma, creando soluciones digitales que entregan valor e impactan a los usuarios finales.",
-        "about.valueMentorText":
-          "Ayudo a futuros profesionales en fase de crecimiento y recién graduados, ademas poder proporcionarles la orientación y las herramientas necesarias para acelerar tu desarrollo e impulsando su crecimiento integral.",
-        "about.valueMentorTitle": "Acelerando el Potencial",
 
         // Sección Experiencia
         "experience.title": "Experiencia",
@@ -337,32 +316,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hello, I'm Luis Eduardo Rondón",
         "intro.subtitle":
-          "Developer with 7 years of experience, main specialist in C# .NET.",
+          "Software developer with 7 years of experience building scalable and maintainable systems. Specialized in .NET (C#) and JavaScript.",
         "intro.stacks":
-          "I'm proficient in stacks such as Node.js, NestJS, React, JavaScript, and TypeScript. I have experience with various databases (SQL/NoSQL), Cloud (Azure), DevOps (Docker, Git, CI/CD), and Linux systems. I also serve as a Mentor.",
-        "intro.contact": "I'm ready to connect and collaborate!",
+          "Strong knowledge of Node.js, TypeScript, NestJS, React, Python, Azure, DevOps (Docker, CI/CD), and SQL/NoSQL databases. Passionate about development, mentoring, and working in high-performance teams. I'm ready to connect and collaborate!",
         "hero.button": "Contact me", // Esta clave parece no usarse en el HTML actual
-
-        // Sección About me (About) - Claves y textos actualizados
-        "about.title": "About me", // Mantienes esta clave
-        // Nuevo párrafo introductorio
-        "about.introText":
-          "Over 7 years of experience as a developer across various stacks. Working with end-customer-focused product teams as well as platform teams.",
-        "about.backendTitle": "Web Developer", // Título punto 1
-        // Texto punto 1
-        "about.backendText":
-          "Developer with experience building APIs, Monolith Applications, and graphical interfaces, driving efficiency and scalability in complex systems to support millions of users.",
-        "about.crossfunctionalTitle": "Cross-functional Collaborator", // Título punto 2
-        // Texto punto 2
-        "about.crossfunctionalText":
-          "With experience in frontend, backend, and SRE teams, I enjoy collaborating with cross-functional teams to bring innovative ideas to life.",
-        "about.valueDrivenTitle": "Value-Driven Solutions", // Título punto 3
-        // Texto punto 3
-        "about.valueDrivenText":
-          "I am passionate about working in product and platform teams, creating digital solutions that deliver value and impact end users.",
-        "about.valueMentorText":
-          "I help emerging professionals and recent graduates, and I can also provide them with the guidance and tools they need to accelerate their development and boost their overall growth.",
-        "about.valueMentorTitle": "Accelerating Potential",
 
         // Section Experience
         "experience.title": "Experience",
