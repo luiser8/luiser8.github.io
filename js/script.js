@@ -86,9 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador de software con 7 años de experiencia construyendo sistemas escalables y mantenibles. Especializado en .NET (C#) y JavaScript.",
+          "Desarrollador de software con +7 años de experiencia construyendo sistemas escalables y mantenibles. Especializado en .NET (C#).",
         "intro.stacks":
-          "Conocimientos sólidos en Node.js, TypeScript, NestJS, React, Python, Azure DevOps, Docker, CI/CD y bases de datos SQL/NoSQL. Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
+          "Ademas cuento con conocimientos sólidos en JavaScript, TypeScript, Node.js, NestJS, React, Vue.js, Python, Azure DevOps, Docker, CI/CD y bases de datos SQL/NoSQL. Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
         "hero.button": "Contáctame", // Esta clave parece no usarse en el HTML actual
 
         // Sección Experiencia
@@ -316,9 +316,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hello, I'm Luis Eduardo Rondón",
         "intro.subtitle":
-          "Software developer with 7 years of experience building scalable and maintainable systems. Specialized in .NET (C#) and JavaScript.",
+          "Software developer with 7+ years of experience building scalable and maintainable systems. Specialized in .NET (C#).",
         "intro.stacks":
-          "Strong knowledge of Node.js, TypeScript, NestJS, React, Python, Azure DevOps, Docker, CI/CD, and SQL/NoSQL databases. Passionate about development, mentoring, and working in high-performance teams. I'm ready to connect and collaborate!",
+          "I also have solid knowledge of JavaScript, TypeScript, Node.js, NestJS, React, Vue.js, Python, Azure DevOps, Docker, CI/CD, and SQL/NoSQL databases. Passionate about development, mentoring, and working in high-performance teams. I'm ready to connect and collaborate!",
         "hero.button": "Contact me", // Esta clave parece no usarse en el HTML actual
 
         // Section Experience
