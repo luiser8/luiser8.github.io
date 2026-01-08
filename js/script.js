@@ -93,6 +93,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Sección Experiencia
         "experience.title": "Experiencia",
+        // Claves para LIVELIFY
+        "experience.live.title": "LiveLify / Método Libre",
+        "experience.live.role": "Desarrollador Full Stack - Freelance", // Assign the correct role
+        "experience.live.date": "Junio 2025 – Enero 2026", // <<< Added date key
+        "experience.live.work1.desc":
+          "Desarrollo de un API Rest enfocado en establecer metas y logros personales por alcanzar de manera específica y apuntando a solo 6 áreas de la vida más importantes según clientes encuestados para construir este proyecto bastante peculiar e interesante, dándole al usuario final un seguimiento de sus metas por alcanzar, creando proyectos personales y así poder visualizar sus avances de manera gráfica. Construido con Nodejs con el Framework NestJS, Docker, PostgreSQL y Prisma como ORM. Ademas siguiendo ademas buenas practicas utilizando arquitectura hexagonal.",
+        "experience.live.work2.desc":
+          "Desarrollo además del API ya mencionado también desarrollé la Aplicación Frontend de manera fluida y organizada aportando además lógica de negocio en el API así permitiendo que a futuro se tenga que desarrollar una App Móvil. Este desarrollo se utilizó React y TailwindCSS.",
+        "experience.live.work3.desc":
+          "Desarrollo y maquetación del landing page para las ventas de dicho servicio al cliente, un sitio web sencillo con la información acerca del servicio ofrecido, precios, planes y formas de como usarlo. Construido con React y TailwindCSS.",
+        "experience.live.work4.desc":
+          "También estuve a cargo de la configuración y construcción de los parámetros para el despliegue a distintos ambientes usando Google Cloud Services y configuración de los dominios.",
+
         // Claves para ACL
         "experience.acl.title": "ACL - ACHS",
         "experience.acl.role": "Desarrollador Full Stack", // Asigna el rol correcto
@@ -221,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.biblioteca.desc4":
           "Módulo de carga y gestión de contenido (Backoffice): Herramientas robustas en el backoffice para que el personal de la biblioteca pueda cargar nuevos materiales fácilmente (individualmente o en lotes), editar metadatos completos (resúmenes, palabras clave, ISBN, etc.), gestionar versiones y formatos.",
         "projects.biblioteca.desc5":
-          "Las tecnologías utilizadas para este proyecto incluyen .NET y React para el frontend, base de datos con SQL Server y Redis.",
+          "Las tecnologías utilizadas para este proyecto incluyen .NET MVC o monolito como tambien se le suele conocer, tambien siguiendo ademas buenas practicas utilizando arquitectura hexagonal, base de datos con SQL Server.",
         "projects.biblioteca.date": "Febrero 2025 - Actualidad",
 
         "projects.psm.title":
@@ -236,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Portal con Enfoque Móvil: Prioriza la experiencia del usuario en dispositivos móviles. Las funciones clave, como mapas del campus y notificaciones, están diseñadas para un acceso rápido y sencillo desde un teléfono o tableta.",
         "projects.psm.desc4":
           "Las tecnologías utilizadas para este proyecto incluyen React y TailwindCSS.",
-        "projects.psm.date": "Marzo 2025 - Actualidad",
+        "projects.psm.date": "Marzo 2024 - Actualidad",
 
         "projects.camin.title": "Sitio web MRW",
         "projects.camin.role": "Proyecto cliente",
@@ -323,6 +336,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Section Experience
         "experience.title": "Experience",
+
+        // Keys for LIVELIFY
+        "experience.live.title": "LiveLify / Free Method",
+        "experience.live.role": "Full Stack Developer - Freelance",
+        "experience.live.date": "June 2025 – January 2026",
+        "experience.live.work1.desc":
+          "Development of a REST API focused on setting specific personal goals and achievements, targeting only six of the most important life areas as identified by surveyed clients. This unique and interesting project allows end users to track their progress, create personal projects, and visualize their achievements graphically. Built with Node.js using the NestJS framework, Docker, PostgreSQL, and Prisma as the ORM, it also adheres to best practices using a hexagonal architecture.",
+        "experience.live.work2.desc":
+          "In addition to the aforementioned API, I also developed the Frontend Application in a fluid and organized manner, contributing business logic to the API to allow for future development of a Mobile App. This development used React and TailwindCSS.",
+        "experience.live.work3.desc":
+          "Development and layout of the landing page for the sales of this customer service. A simple website with information about the offered service, pricing, plans, and instructions on how to use it. Built with React and TailwindCSS.",
+        "experience.live.work4.desc":
+          "I was also responsible for the configuration and setup of parameters for deployment to different environments using Google Cloud Services and domain configuration",
+
         // Keys for ACL
         "experience.acl.title": "ACL - ACHS",
         "experience.acl.role": "Full Stack Developer",
@@ -451,7 +478,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.biblioteca.desc4":
           "Content upload and management module (Back-office): Robust back-office tools for library staff to easily upload new materials (individually or in batches), edit complete metadata (abstracts, keywords, ISBN, etc.), and manage versions and formats.",
         "projects.biblioteca.desc5":
-          "The technologies used for this project include .NET and React for the frontend, with SQL Server and Redis for the database.",
+          "The technologies used for this project include .NET MVC or monolith as it is also commonly known, also following good practices using hexagonal architecture, database with SQL Server.",
         "projects.biblioteca.date": "February 2025 - Present",
 
         "projects.psm.title":
@@ -466,7 +493,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Mobile-First Portal: Prioritizes the user experience on mobile devices. Key features, such as campus maps and notifications, are designed for quick and easy access from a phone or tablet.",
         "projects.psm.desc4":
           "The technologies used for this project include React and TailwindCSS.",
-        "projects.psm.date": "March 2025 - Present",
+        "projects.psm.date": "March 2024 - Present",
 
         "projects.camin.title": "MRW Website",
         "projects.camin.role": "Client Project",
