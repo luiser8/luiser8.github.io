@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Claves para Soporte
         "experience.soporte.title":
           "Instituto Universitario de Tecnología Antonio José de Sucre",
-        "experience.soporte.role": "Soporte Tecnico IT", // Assign the correct role
+        "experience.soporte.role": "Jefe de Soporte IT / Técnico de Sistemas", // Assign the correct role
         "experience.soporte.date": "Marzo 2008 – Mayo 2017", // <<< Added date key
         "experience.soporte.work1.desc":
           "Técnico en Soporte IT, asistencia tecnica local y otra sede cercanaras a los usuarios, equipos, laboratorios de computación, redes y servidores, ademas de realizar mantenimiento preventivo y correctivo de equipos, redes y servidores.",
@@ -443,7 +443,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Keys for Soporte
         "experience.soporte.title":
           "Antonio José de Sucre University Institute of Technology",
-        "experience.soporte.role": "IT Technical Support", // Assign the correct role
+        "experience.soporte.role": "Head of IT Support / Systems Technician", // Assign the correct role
         "experience.soporte.date": "March 2008 – May 2017", // <<< Added date key
         "experience.soporte.work1.desc":
           "IT Support Technician, providing technical assistance locally and to nearby branches for users, equipment, computer labs, networks, and servers. Also performed preventive and corrective maintenance on equipment, networks, and servers.",
