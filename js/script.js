@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.live.title": "LiveLify / Método Libre",
         "experience.live.role": "Desarrollador Full Stack - Freelance", // Assign the correct role
         "experience.live.date": "Junio 2025 – Enero 2026", // <<< Added date key
+        "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
           "Desarrollo de un API Rest enfocado en establecer metas y logros personales por alcanzar de manera específica y apuntando a solo 6 áreas de la vida(Desarrollo personal, Actvidad profesional, Alimentación y salud, Dinero y finanzas, Familia y amigos, Amor y pareja) más importantes según clientes encuestados para construir este proyecto bastante peculiar e interesante, dándole al usuario final un seguimiento de sus metas por alcanzar, creando proyectos personales y así poder visualizar sus avances de manera gráfica. Construido con Nodejs con el Framework NestJS, Docker, PostgreSQL y Prisma como ORM. Ademas siguiendo ademas buenas practicas utilizando arquitectura hexagonal.",
         "experience.live.work2.desc":
@@ -110,6 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.acl.title": "ACL - ACHS",
         "experience.acl.role": "Desarrollador Full Stack", // Asigna el rol correcto
         "experience.acl.date": "Ocubre 2021 – Marzo 2025", // <<< Añadida clave de fecha
+        "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
           "Participé en el desarrollo de una aplicación para agendamiento de citas médicas, generando calidad de servicio a distintos usuarios, pacientes y responsables de cada empresa afiliada, una plataforma web con más de 1 mil empresas asociadas y más de 5 mil usuarios, implementando nuevos requerimientos y mejorando la eficiencia del sistema, utilizando despliegues continuos con el uso de Azure DevOps CI/CD Y Docker, además realicé una actualización de .NET Core 3.1 a .NET 8.",
         "experience.acl.work2.desc":
@@ -124,6 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Instituto Universitario Politécnico Santiago Mariño",
         "experience.psm.role": "Técnico IT y Desarrollador - Freelance", // Assign the correct role
         "experience.psm.date": "Noviembre 2022 – Actualidad", // <<< Added date key
+        "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
           "Desarrollo de la web oficial de la Universidad, siendo esta versión una unificación de todas las extensiones dentro del país, además cuenta con una data interna de cada sección de la página, para facilitar la edición y visualización del contenido web de cada una de las extensiones de la Institución Educativa que están dentro de la web construida. Utilizando tecnologías como React y TailwindCSS.",
         "experience.psm.work2.desc":
@@ -137,6 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.boitas.title": "Boitas.com",
         "experience.boitas.role": "Desarrollador Full Stack", // Assign the correct role
         "experience.boitas.date": "Mayo 2021 – Octubre 2021", // <<< Added date key
+        "experience.boitas.from": "Cuidad de México, México",
         "experience.boitas.work1.desc":
           "Participé en el desarrollo de una aplicación web integrada (Web Boitas.com) para la realización de compras online, reservas y pagos. Utilizando tecnologías como elastic search para optimizar las grandes busquedas y tecnologias de desarrollo como Nodejs, MongoDB, graphQL y Vue.js.",
         "experience.boitas.work2.desc":
@@ -148,6 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.camin.title": "Camin Global",
         "experience.camin.role": "Desarrollador Frontend - Freelance", // Assign the correct role
         "experience.camin.date": "Enero 2021 – Marzo 2022", // <<< Added date key
+        "experience.camin.from": "Lecheria, Venezuela",
         "experience.camin.work1.desc":
           "Desarrollo completo, desde el diseño hasta la implementación del sitio web oficial de MRW, las caracteristicas de este sitio es inicialmente para mostrar el seguimiento de envíos Nacionales, ademas de mostrar de manera gráfica todo lo referente a MRW y su servicios. Utilizamos tecnologías como Vue.js y Nuxt.js.",
         "experience.camin.work2.desc":
@@ -159,6 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.avior.title": "Avior Airlines",
         "experience.avior.role": "Desarrollador Full Stack", // Assign the correct role
         "experience.avior.date": "Noviembre 2017 – Julio 2022", // <<< Added date key
+        "experience.avior.from": "Barcelona, Venezuela",
         "experience.avior.work1.desc":
           "Participé en el desarrollo la web oficial de Avior Airlines, para la reserva y compra de boletos, ademas de construir APIS para todo el tratamiento de estas solicitudes con el proveedor SABRE, tambien desarrolle complementamente el servicio de reembolso de boletos. Utilizando tecnologías C#, .NET Framework, SQL Server y React de parte del frontend.",
         "experience.avior.work2.desc":
@@ -172,6 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.smartWork.title": "SmartWork",
         "experience.smartWork.role": "Desarrollador Full Stack", // Assign the correct role
         "experience.smartWork.date": "Abril 2020 – Enero 2021", // <<< Added date key
+        "experience.smartWork.from": "Quito, Ecuador",
         "experience.smartWork.work1.desc":
           "Desarrolle un API Rest para administrar las adquisiciones de cada uno de los clientes, negocios, este API Rest era para realizar todas las asignaciones de locales y herramientas. Utilizando tecnologías C#, .NET Framework, SQL Server.",
         "experience.smartWork.work2.desc":
@@ -183,6 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.satelca.title": "Satélites y Telecomunicaciones (Satelca)",
         "experience.satelca.role": "Desarrollador Backend", // Assign the correct role
         "experience.satelca.date": "Mayo 2017 – Noviembre 2017", // <<< Added date key
+        "experience.satelca.from": "Lecheria, Venezuela",
         "experience.satelca.work1.desc":
           "Desarrollo de librerias para la utilización de comunicaciones GPS con dispositivos importados, esto para dar servicios de ubicación vehicular, y poder ser distribuidos en los vechiculos como servicio de la empresa, con esto se logro homologar estos dispositivos pudiendo obtener su mayor provecho y rendimiento. Utilizando tecnologías con telefonia GSM (Digitel), C# y SQL Server.",
         "experience.satelca.work2.desc":
@@ -192,6 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.profesor.title": "Profesor de programación en Programate",
         "experience.profesor.role": "Profesor de PHP, JavaScript, CSS y React", // Assign the correct role
         "experience.profesor.date": "Febrero 2020 – Diciembre 2022", // <<< Added date key
+        "experience.profesor.from": "Puerto La Cruz, Venezuela",
         "experience.profesor.work1.desc":
           "Como instructor, desarrollé e impartí cursos básicos e intermedios sobre PHP, JavaScript, CSS y React. Mi objetivo era equipar a los estudiantes con una sólida comprensión de la programación backend (PHP) y la capacidad de construir aplicaciones web utilizando este conjunto de tecnologías.",
 
@@ -200,6 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Instituto Universitario de Tecnología Antonio José de Sucre",
         "experience.soporte.role": "Jefe de Soporte IT / Técnico de Sistemas", // Assign the correct role
         "experience.soporte.date": "Marzo 2008 – Mayo 2017", // <<< Added date key
+        "experience.soporte.from": "Puerto La Cruz, Venezuela",
         "experience.soporte.work1.desc":
           "Técnico en Soporte IT, asistencia tecnica local y otra sede cercanaras a los usuarios, equipos, laboratorios de computación, redes y servidores, ademas de realizar mantenimiento preventivo y correctivo de equipos, redes y servidores.",
         "experience.soporte.work2.desc":
@@ -222,6 +232,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.glucose.desc5":
           "Las tecnologías utilizadas para este proyecto incluyen Python Flask API, con desarrollo futuro en React Native para la aplicación móvil y PostgreSQL.",
         "projects.glucose.date": "Diciembre 2024 - Actualidad",
+        "experience.glucose.from": "Barcelona, Venezuela",
 
         "projects.biblioteca.title": "Aplicación biblioteca virtual",
         "projects.biblioteca.role": "Proyecto cliente",
@@ -236,6 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.biblioteca.desc5":
           "Las tecnologías utilizadas para este proyecto incluyen .NET MVC o monolito como tambien se le suele conocer, tambien siguiendo ademas buenas practicas utilizando arquitectura hexagonal, base de datos con SQL Server.",
         "projects.biblioteca.date": "Febrero 2025 - Actualidad",
+        "experience.biblioteca.from": "Barcelona, Venezuela",
 
         "projects.psm.title":
           "Sitio web Instituto Universitario Politécnico Santiago Mariño",
@@ -250,6 +262,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.psm.desc4":
           "Las tecnologías utilizadas para este proyecto incluyen React y TailwindCSS.",
         "projects.psm.date": "Marzo 2024 - Actualidad",
+        "experience.psm.from": "Caracas, Venezuela",
 
         "projects.camin.title": "Sitio web MRW",
         "projects.camin.role": "Proyecto cliente",
@@ -265,6 +278,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.camin.desc5":
           "Las tecnologías utilizadas para este proyecto incluyen Vue.js y Nuxt.js.",
         "projects.camin.date": "Enero 2021 – Marzo 2022",
+        "experience.camin.from": "Lecheria, Venezuela",
 
         "projects.avior.title": "Sitio web Avior Airlines",
         "projects.avior.role": "Proyecto cliente",
@@ -278,6 +292,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.avior.desc4":
           "Las tecnologías utilizadas para este proyecto incluyen C#, .NET Framework, SQL Server y React.",
         "projects.avior.date": "Noviembre 2017 – Julio 2022",
+        "experience.avior.from": "Barcelona, Venezuela",
 
         // Sección Educación
         "education.title": "Educación",
@@ -341,6 +356,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.live.title": "LiveLify / Free Method",
         "experience.live.role": "Full Stack Developer - Freelance",
         "experience.live.date": "June 2025 – January 2026",
+        "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
           "Development of a REST API focused on setting specific personal goals and achievements, targeting only six areas of life (Personal Development, Professional Activity, Nutrition and Health, Money and Finances, Family and Friends, Love and Relationships) deemed most important by surveyed clients. This unique and interesting project allows end users to track their goals, create personal projects, and visualize their progress graphically. Built with Node.js using the NestJS framework, Docker, PostgreSQL, and Prisma as the ORM, it also adheres to best practices and utilizes a hexagonal architecture.",
         "experience.live.work2.desc":
@@ -354,6 +370,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.acl.title": "ACL - ACHS",
         "experience.acl.role": "Full Stack Developer",
         "experience.acl.date": "October 2021 – March 2025",
+        "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
           "Participated in the development of a medical appointment scheduling application, providing service quality to various users, patients, and representatives of each affiliated company. This was a web platform with over 1,000 associated companies and over 5,000 users. I implemented new requirements and improved system efficiency, utilizing continuous deployments with Azure DevOps CI/CD and Docker. Additionally, I performed an upgrade from .NET Core 3.1 to .NET 8.",
         "experience.acl.work2.desc":
@@ -368,6 +385,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Santiago Mariño Polytechnic University Institute",
         "experience.psm.role": "IT Technician and Developer - Freelance", // Assign the correct role
         "experience.psm.date": "November 2022 – Present", // <<< Added date key
+        "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
           "Development of the University's official website. This version unifies all extensions across the country. It also includes internal data for each section of the page to facilitate editing and viewing web content for each of the educational institution's extensions within the website. Technologies such as React and TailwindCSS were used.",
         "experience.psm.work2.desc":
@@ -381,6 +399,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.boitas.title": "Boitas.com",
         "experience.boitas.role": "Full Stack Developer", // Assign the correct role
         "experience.boitas.date": "May 2021 – October 2021", // <<< Added date key
+        "experience.boitas.from": "Mexico City, Mexico",
         "experience.boitas.work1.desc":
           "Participated in the development of an integrated web application (Web Boitas.com) for online purchases, reservations, and payments. Utilized technologies like Elasticsearch to optimize large searches and development technologies such as Node.js, MongoDB, GraphQL, and Vue.js.",
         "experience.boitas.work2.desc":
@@ -392,6 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.camin.title": "Camin Global",
         "experience.camin.role": "Frontend Developer - Freelance", // Assign the correct role
         "experience.camin.date": "January 2021 – March 2022", // <<< Added date key
+        "experience.camin.from": "Lecheria, Venezuela",
         "experience.camin.work1.desc":
           "Complete development, from design to implementation, of the official MRW website. Key features of this site include tracking national shipments, and visually showcasing everything related to MRW and its services. Utilized technologies such as Vue.js and Nuxt.js.",
         "experience.camin.work2.desc":
@@ -403,6 +423,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.avior.title": "Avior Airlines",
         "experience.avior.role": "Full Stack Developer", // Assign the correct role
         "experience.avior.date": "November 2017 – July 2022", // <<< Added date key
+        "experience.avior.from": "Barcelona, Venezuela",
         "experience.avior.work1.desc":
           "I participated in the development of Avior Airlines' official website for ticket reservations and purchases. I also built APIs for processing these requests with the provider SABRE. I also developed the ticket refund service. I used C#, .NET Framework, SQL Server, and React technologies for the frontend.",
         "experience.avior.work2.desc":
@@ -416,6 +437,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.smartWork.title": "SmartWork",
         "experience.smartWork.role": "Full Stack Developer", // Assign the correct role
         "experience.smartWork.date": "April 2020 – January 2021", // <<< Added date key
+        "experience.smartWork.from": "Quito, Ecuador",
         "experience.smartWork.work1.desc":
           "I developed a REST API to manage the acquisitions of each client and business. This REST API was used to perform all the allocations of locations and tools. Using C#, .NET Framework, and SQL Server technologies.",
         "experience.smartWork.work2.desc":
@@ -428,6 +450,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Satellites and Telecommunications (Satelca)",
         "experience.satelca.role": "Backend Developer", // Assign the correct role
         "experience.satelca.date": "May 2017 – November 2017", // <<< Added date key
+        "experience.satelca.from": "Lecheria, Venezuela",
         "experience.satelca.work1.desc":
           "Developed libraries for utilizing GPS communications with imported devices to provide vehicle location services, distributed in vehicles as a company service. This successfully homologated these devices, maximizing their benefit and performance. Utilized technologies including GSM telephony (Digitel), C#, and SQL Server.",
         "experience.satelca.work2.desc":
@@ -437,6 +460,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.profesor.title": "Programming teacher at Programate",
         "experience.profesor.role": "PHP, JavaScript, CSS and React Teacher", // Assign the correct role
         "experience.profesor.date": "February 2020 – December 2022", // <<< Added date key
+        "experience.profesor.from": "Puerto La Cruz, Venezuela",
         "experience.profesor.work1.desc":
           "As an instructor, I developed and taught basic and intermediate courses on PHP, JavaScript, CSS, and React. My goal was to equip students with a solid understanding of backend programming (PHP) and the ability to build web applications using this set of technologies.",
 
@@ -445,6 +469,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Antonio José de Sucre University Institute of Technology",
         "experience.soporte.role": "Head of IT Support / Systems Technician", // Assign the correct role
         "experience.soporte.date": "March 2008 – May 2017", // <<< Added date key
+        "experience.soporte.from": "Puerto La Cruz, Venezuela",
         "experience.soporte.work1.desc":
           "IT Support Technician, providing technical assistance locally and to nearby branches for users, equipment, computer labs, networks, and servers. Also performed preventive and corrective maintenance on equipment, networks, and servers.",
         "experience.soporte.work2.desc":
@@ -466,6 +491,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.glucose.desc5":
           "The technologies used for this project include a Python Flask API, with future development planned for a mobile application using React Native and a PostgreSQL database.",
         "projects.glucose.date": "December 2024 - Present",
+        "experience.glucose.from": "Barcelona, Venezuela",
 
         "projects.biblioteca.title": "Virtual Library Application",
         "projects.biblioteca.role": "Client Project",
@@ -480,6 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.biblioteca.desc5":
           "The technologies used for this project include .NET MVC or monolith as it is also commonly known, also following good practices using hexagonal architecture, database with SQL Server.",
         "projects.biblioteca.date": "February 2025 - Present",
+        "experience.biblioteca.from": "Barcelona, Venezuela",
 
         "projects.psm.title":
           "Website of the Santiago Mariño Polytechnic University Institute",
@@ -494,6 +521,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.psm.desc4":
           "The technologies used for this project include React and TailwindCSS.",
         "projects.psm.date": "March 2024 - Present",
+        "experience.psm.from": "Caracas, Venezuela",
 
         "projects.camin.title": "MRW Website",
         "projects.camin.role": "Client Project",
@@ -509,6 +537,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.camin.desc5":
           "The technologies used for this project include Vue.js and Nuxt.js.",
         "projects.camin.date": "January 2021 – March 2022",
+        "experience.camin.from": "Lecheria, Venezuela",
 
         "projects.avior.title": "Avior Airlines Website",
         "projects.avior.role": "Client Project",
@@ -522,6 +551,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects.avior.desc4":
           "The technologies used for this project include C#, .NET Framework, SQL Server, and React.",
         "projects.avior.date": "November 2017 – July 2022",
+        "experience.avior.from": "Barcelona, Venezuela",
 
         // Section education
         "education.title": "Education",

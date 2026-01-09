@@ -28,6 +28,7 @@
     --header-bg: rgba(255, 255, 255, 0.8);
     --footer-bg: var(--bg-light);
     --nav-mobile-bg: var(--bg-light); /* Fondo del menú en móvil */
+    --primary-text-color: var(--text-light);
 }
 
 /* Modo oscuro */
@@ -40,6 +41,7 @@
     --header-bg: rgba(18, 18, 18, 0.8);
     --footer-bg: var(--bg-dark);
     --nav-mobile-bg: var(--bg-dark); /* Fondo del menú en móvil */
+    --primary-text-color: var(--text-dark);
 }
 
 * {
@@ -235,7 +237,7 @@ body {
     font-weight: 700;
 }
 
-/* --- Timeline Styles for Experience and Projects --- */
+/* --- Timeline Styles for Experience, Projects and Education --- */
 
 /* Regla para las listas (contenedores de items) */
 .experience-list,
@@ -259,21 +261,70 @@ body {
     padding-left: 25px; /* Este padding crea el espacio para la línea */
 }
 
-/* Estilo para el contenedor del título/rol y la fecha */
+/* AJUSTE PRINCIPAL: Header usando Grid para alinear fecha y ubicación */
 .experience-item .experience-header,
 .project-item .project-header {
-    display: flex; /* Usamos flexbox */
-    justify-content: space-between; /* Separa el bloque de texto de la fecha */
-    align-items: flex-start; /* Alinea los elementos al inicio */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
-    margin-bottom: 10px; /* Espacio entre el header y la lista de puntos */
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    align-items: start;
+    margin-bottom: 10px;
+    gap: 2px 20px;
 }
 
-/* Estilo para el contenedor del título y el rol */
-.experience-item .experience-header > div,
-.project-item .project-header > div {
-    flex-grow: 1; /* Permite que este div ocupe el espacio disponible */
-    /* margin-right: 10px; */ /* Espacio opcional entre el texto y la fecha */
+/* Contenedor del título y rol en la primera columna */
+.experience-item .experience-header > div:first-child,
+.project-item .project-header > div:first-child {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+/* Título de la empresa/proyecto/institución */
+.experience-item h3,
+.project-item h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--text-color);
+    line-height: 1.2;
+}
+
+/* Estilo para el rol/título del puesto (Proyectos y Educación) */
+.experience-item .experience-role,
+.project-item .project-role {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+    margin: 2px 0 0 0;
+    line-height: 1.2;
+}
+
+/* AJUSTE PRINCIPAL: Estilo para la FECHA */
+.experience-item .experience-date,
+.project-item .project-date {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 0.9rem;
+    font-weight: 600; /* Negrita como en la imagen */
+    color: var(--primary-text-color);
+    margin: 0;
+    text-align: right;
+    white-space: nowrap;
+    line-height: 1.3;
+}
+
+/* AJUSTE PRINCIPAL: Estilo para la UBICACIÓN (ciudad, país) - USADO EN EXPERIENCIA Y EDUCACIÓN */
+.experience-item .experience-from,
+.project-item .experience-from {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+    margin: 0;
+    text-align: right;
+    white-space: nowrap;
+    line-height: 1.3;
+    align-self: start;
 }
 
 /* Regla para la línea vertical (pseudo-elemento ::before) */
@@ -303,74 +354,42 @@ body {
     ); /* Cambiado a bg-light para contraste en dark mode */
     border-radius: 50%;
     z-index: 2;
-    /* border: 2px solid var(--bg-color); */ /* Ajustado para visibilidad */
-    border: 2px solid var(--border-color); /* O usa primary color si prefieres */
+    border: 2px solid var(--border-color);
     box-sizing: border-box;
 }
+
 /* Ajuste para el círculo en modo oscuro */
 .dark .experience-item::after,
 .dark .project-item::after {
-    background-color: var(--bg-light); /* Fondo oscuro para el círculo */
+    background-color: var(--bg-light);
     border: 2px solid var(--border-dark);
 }
 
-/* Estilo para el título de la empresa/proyecto (h3) */
-.experience-item h3,
-.project-item h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 0px; /* Quitamos margen inferior para acercarlo al rol */
-    color: var(--text-color);
-    line-height: 1.2; /* Ajusta la altura de línea si es necesario */
-}
-
-/* Estilo para el rol/título del puesto (.experience-role) */
-.experience-item .experience-role,
-.project-item .project-role {
-    font-size: 1rem;
-    color: var(--secondary-text-color);
-    margin-top: 0px; /* Quitamos margen superior para acercarlo al h3 */
-    margin-bottom: 0; /* Quitamos margen inferior */
-    line-height: 1.2; /* Ajusta la altura de línea si es necesario */
-}
-
-/* Estilo para el párrafo de la fecha */
-.experience-item .experience-date,
-.project-item .project-date {
-    font-size: 0.9rem; /* Tamaño de fuente para la fecha */
-    color: var(--secondary-text-color); /* Color para la fecha */
-    white-space: nowrap; /* Evita que la fecha se divida en varias líneas */
-    flex-shrink: 0; /* Evita que la fecha se encoja si el texto es muy largo */
-    margin-left: 10px; /* Espacio a la izquierda de la fecha */
-    /* align-self: flex-start; */ /* Alinea la fecha con la parte superior del contenedor flex */
-}
-
-/* Estilo para los párrafos generales dentro de los items (usados en proyectos, por ejemplo) */
-.experience-item > .experience-details > p, /* Selecciona párrafos directos dentro de experience-details */
+/* Estilo para los párrafos generales dentro de los items */
+.experience-item > .experience-details > p,
 .project-item > .project-details > p {
-    /* Selecciona párrafos directos dentro de project-details */
     font-size: 0.95rem;
     color: var(--secondary-text-color);
     margin-bottom: 0;
-    margin-top: 10px; /* Espacio encima si hay un párrafo después del header */
+    margin-top: 10px;
 }
 
 /* Estilo para las listas anidadas (los puntos de trabajo/proyecto) */
 .experience-item ul,
 .project-item ul {
-    list-style: disc; /* O bullet, como prefieras */
+    list-style: disc;
     padding-left: 20px;
-    margin-top: 10px; /* Espacio encima de la lista de puntos */
+    margin-top: 10px;
 }
 
 /* Estilo para los items dentro de las listas anidadas */
 .experience-item ul li,
 .project-item ul li {
     margin-bottom: 5px;
-    color: var(--text-color); /* Color cambiado a text-color principal */
-    position: static; /* Reset position */
-    padding-left: 0; /* Reset padding */
-    font-size: 0.95rem; /* Tamaño consistente */
+    color: var(--text-color);
+    position: static;
+    padding-left: 0;
+    font-size: 0.95rem;
 }
 
 /* Deshacemos los pseudo-elementos en los li internos */
@@ -381,29 +400,24 @@ body {
     content: none;
 }
 
-/* Ajuste para el último elemento de CADA lista (experiencia y proyectos) */
+/* Ajuste para el último elemento de CADA lista */
 .experience-list li:last-child::before,
 .projects-list li:last-child::before {
-    height: 100%; /* Ajusta la altura para que la línea termine cerca del círculo del último item */
+    height: 100%;
 }
 
 /* --- Fin Estilos Timeline --- */
 
 /* --- About Section --- */
-/* Estilo general para párrafos en About */
 .about > p {
-    /* Selecciona solo el párrafo introductorio directo */
-    color: var(
-        --text-color
-    ); /* Color principal para el párrafo introductorio */
-    margin-bottom: 1rem; /* Espacio después del párrafo introductorio */
-    font-size: 1.1rem; /* Coincide con intro p */
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 /* Estilos para el contenedor de los 3 puntos */
 .about-points-grid {
     display: grid;
-    /*grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));*/
     gap: 30px;
     margin-top: 30px;
 }
@@ -411,38 +425,38 @@ body {
 /* Estilos para cada punto individual */
 .about-point {
     display: flex;
-    flex-direction: row; /* Icono a la izquierda, bloque de texto a la derecha */
-    align-items: flex-start; /* Alinea la parte superior del icono con la parte superior del bloque de texto */
-    gap: 15px; /* Espacio entre icono y texto */
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
 }
 
 /* Estilos para el contenedor del ícono */
 .about-icon {
-    flex-shrink: 0; /* Evita que el icono se encoja */
-    margin-top: 2px; /* Pequeño ajuste opcional para alinear mejor el icono con la línea base del título */
+    flex-shrink: 0;
+    margin-top: 2px;
 }
 
 /* Estilos para las etiquetas SVG dentro de los puntos About */
 .about-icon svg {
-    width: 24px; /* Tamaño del ícono */
+    width: 24px;
     height: 24px;
-    color: var(--secondary-text-color); /* Color grisáceo para el icono */
-    stroke-width: 2; /* Asegura grosor de línea consistente */
+    color: var(--secondary-text-color);
+    stroke-width: 2;
 }
 
-/* NUEVO: Estilos para el contenedor del texto */
+/* Estilos para el contenedor del texto */
 .about-point .about-text-content {
-    flex-grow: 1; /* Permite que este contenedor ocupe el espacio restante */
+    flex-grow: 1;
 }
 
 /* Ajustes a H3 y P dentro del nuevo contenedor */
 .about-point .about-text-content h3 {
     font-size: 1.1rem;
-    font-weight: 600; /* Más énfasis */
-    margin-bottom: 5px; /* Espacio entre título y descripción */
+    font-weight: 600;
+    margin-bottom: 5px;
     color: var(--text-color);
     line-height: 1.3;
-    display: block; /* Asegura que sea bloque */
+    display: block;
     width: 100%;
 }
 
@@ -450,9 +464,9 @@ body {
     font-size: 0.95rem;
     color: var(--secondary-text-color);
     line-height: 1.6;
-    margin-top: 0; /* Quitamos margen superior */
+    margin-top: 0;
     margin-bottom: 0;
-    display: block; /* Asegura que sea bloque */
+    display: block;
     width: 100%;
 }
 
@@ -478,13 +492,13 @@ body {
     margin-top: 20px;
     display: flex;
     gap: 15px;
-    justify-content: flex-start; /* Centra los íconos en el footer */
+    justify-content: flex-start;
 }
 
 .social-links a {
-    display: inline-flex; /* Permite centrar el SVG dentro del link */
-    align-items: center; /* Centra el SVG verticalmente */
-    justify-content: center; /* Centra el SVG horizontalmente */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: var(--secondary-text-color);
     transition: color 0.2s ease;
 }
@@ -494,247 +508,12 @@ body {
 }
 
 .social-links svg {
-    width: 24px; /* Ajusta el tamaño del ícono SVG */
+    width: 24px;
     height: 24px;
-    fill: currentColor; /* Rellena el SVG con el color del texto actual */
+    fill: currentColor;
 }
 
-/* --- Responsive Adjustments --- */
-@media (max-width: 768px) {
-    body {
-        padding-top: 50px; /* Ajusta padding-top si el header es más pequeño en móvil */
-    }
-
-    .header {
-        height: 50px; /* Ajusta altura del header en móvil */
-    }
-
-    .header .container {
-        flex-direction: row; /* Asegura que el logo y la navegación estén en fila */
-        justify-content: space-between; /* Distribuye espacio */
-        align-items: center; /* Centra verticalmente */
-    }
-
-    /* About points responsive (icon next to title) */
-    .about-points-grid {
-        /* Ya se vuelve 1 columna por auto-fit en pantallas pequeñas */
-        /* Puedes ajustar el gap si lo necesitas */
-    }
-
-    .about-point {
-        display: flex; /* Asegurarse de que sigue siendo flex */
-        flex-direction: row; /* MANTENER EN FILA para icono y texto */
-        align-items: flex-start; /* Mantener la alineación al inicio */
-        gap: 15px; /* Mantener el espacio entre icono y texto */
-        text-align: left; /* Asegurar alineación de texto a la izquierda dentro de cada punto */
-    }
-
-    .about-point .about-icon {
-        flex-shrink: 0; /* Evita que el icono se encoja */
-        margin-bottom: 0; /* Elimina el margen inferior si se añadió antes */
-        margin-top: 2px; /* Mismo ajuste que en escritorio para alineación visual */
-    }
-
-    .about-point .about-text-content {
-        flex-grow: 1; /* Permite que el contenedor de texto ocupe el espacio restante */
-        width: auto; /* Permite que el ancho se ajuste al contenido */
-    }
-
-    /* Asegurarse de que el h3 y p dentro de about-text-content se apilan */
-    .about-point .about-text-content h3 {
-        font-size: 1rem; /* Ajustar tamaño si es necesario */
-        font-weight: 600;
-        margin-bottom: 5px;
-        display: block; /* Sigue siendo bloque */
-        width: 100%; /* Sigue tomando el ancho completo de su contenedor padre flex item */
-        text-align: left; /* Asegurar alineación de texto a la izquierda */
-    }
-
-    .about-point .about-text-content p {
-        font-size: 0.9rem; /* Ajustar tamaño si es necesario */
-        color: var(--secondary-text-color);
-        line-height: 1.6;
-        margin-top: 0;
-        margin-bottom: 0;
-        display: block; /* Sigue siendo bloque */
-        width: 100%; /* Sigue tomando el ancho completo de su contenedor padre flex item */
-        text-align: left; /* Asegurar alineación de texto a la izquierda */
-    }
-
-    .social-links {
-        justify-content: flex-start; /* Centra los íconos sociales en móvil */
-    }
-}
-
-@media (max-width: 710px) {
-    .intro-content-wrapper {
-        flex-wrap: wrap;
-    }
-
-    .profile-picture {
-        width: 232px;
-        height: 232px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 3px solid var(--bg-light);
-        flex-shrink: 0;
-        margin: 0 auto;
-    }
-}
-
-/* Media query para la hamburguesa */
-@media (max-width: 640px) {
-    .social-links {
-        justify-content: flex-start; /* Centra los íconos en el footer */
-    }
-    .nav {
-        /* Ocultar la navegación por defecto */
-        display: none;
-        flex-direction: column; /* La navegación se apilará cuando esté visible */
-        position: absolute; /* Posicionar el menú */
-        top: 50px; /* Debajo del header */
-        left: 0;
-        width: 100%;
-        background-color: var(
-            --nav-mobile-bg
-        ); /* Usar variable para el fondo responsive */
-        border-bottom: 1px solid var(--border-color);
-        padding: 10px 15px;
-        gap: 10px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 90; /* Menor que los botones de toggle y logo */
-        transition: transform 0.3s ease-in-out;
-        /* Inicialmente fuera de la vista */
-        transform: translateY(-100%);
-    }
-
-    /* Mostrar la navegación cuando tenga la clase 'is-open' (se activa con JS) */
-    .nav.is-open {
-        display: flex; /* Mostrar como flexbox */
-        transform: translateY(0); /* Deslizar hacia abajo */
-    }
-
-    .nav a,
-    .language-toggle,
-    .theme-toggle {
-        width: 100%; /* Hacer que los enlaces y botones ocupen todo el ancho */
-        padding: 10px 0; /* Añadir padding vertical */
-        border-bottom: 1px solid var(--border-color); /* Separador entre items */
-        text-align: left; /* Alinear texto a la izquierda */
-        margin-left: 0; /* Eliminar margen izquierdo del language-toggle */
-        border-radius: 0; /* Eliminar border-radius del language-toggle */
-    }
-
-    /* Eliminar el borde inferior del último elemento para evitar doble borde */
-    .nav a:last-of-type,
-    .language-toggle:last-of-type {
-        border-bottom: none;
-    }
-
-    /* Asegurar que el botón de tema no tenga borde inferior si es el último */
-    .nav .theme-toggle {
-        border-bottom: none;
-    }
-
-    /* Mostrar el botón de menú hamburguesa */
-    .menu-toggle {
-        display: flex; /* Mostrar como flexbox para centrar el SVG */
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* Ocultar los botones de toggle (tema e idioma) del flujo normal cuando el menú está cerrado */
-    /* Se mostrarán como parte de la navegación cuando esté abierta */
-    .theme-toggle,
-    .language-toggle {
-        display: none;
-    }
-
-    /* Asegurarse de que los botones de toggle se muestren dentro del menú abierto */
-    .nav.is-open .theme-toggle,
-    .nav.is-open .language-toggle {
-        display: flex;
-    }
-}
-
-/* Media query para pantallas aún más pequeñas si es necesario (mantener lo que ya tenías) */
-@media (max-width: 480px) {
-    .social-links {
-        justify-content: flex-start; /* Centra los íconos en el footer */
-    }
-    .container {
-        padding: 0 10px; /* Reduce el padding lateral */
-    }
-
-    .intro h1 {
-        font-size: 1.3rem;
-    }
-
-    .intro p, /* Aplicar tamaño a intro p también */
-    .about > p {
-        /* Aplicar tamaño a about intro p también */
-        font-size: 0.95rem;
-    }
-
-    .section h2 {
-        font-size: 1.1rem;
-    }
-
-    /* Timeline text size */
-    .experience-item h3,
-    .project-item h3 {
-        font-size: 1.1rem;
-    }
-
-    .experience-item .experience-role,
-    .project-item .project-role {
-        font-size: 0.9rem;
-    }
-
-    .experience-item ul li,
-    .project-item ul li {
-        font-size: 0.9rem;
-    }
-
-    /* About point text size */
-    .about-point .about-text-content h3 {
-        font-size: 1rem;
-    }
-
-    .about-point .about-text-content p {
-        font-size: 0.9rem;
-    }
-
-    .footer {
-        font-size: 0.8rem;
-    }
-}
-
-/* Estilo para el subrayado de la sección activa */
-.nav a.active {
-    position: relative;
-    color: var(--text-color);
-}
-
-.nav a.active::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-}
-
-/* Asegurar que el subrayado no desaparezca en móvil */
-@media (max-width: 640px) {
-    .nav.is-open a.active::after {
-        bottom: 8px; /* Ajustar posición para el menú móvil */
-    }
-}
-
-/* Agrega esto en tu archivo minimalist-style.css */
-
-/* Contenedor para rol y link */
+/* Contenedor para rol y link en proyectos */
 .role-and-link {
     display: flex;
     align-items: center;
@@ -754,8 +533,8 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    color: var(--text-color); /* Usa el color de texto normal */
-    text-decoration: none; /* Sin subrayado por defecto */
+    color: var(--text-color);
+    text-decoration: none;
     font-size: 0.9em;
     transition: var(--transition);
     padding: 2px 4px;
@@ -766,13 +545,13 @@ body {
     width: 14px;
     height: 14px;
     flex-shrink: 0;
-    stroke: var(--text-color); /* Color del icono igual al texto */
+    stroke: var(--text-color);
     transition: var(--transition);
 }
 
 /* Efecto hover simplificado */
 .project-role-link:hover {
-    text-decoration: underline; /* Solo subrayado al hover */
+    text-decoration: underline;
 }
 
 /* Modo oscuro - ajuste para mantener contraste */
@@ -783,5 +562,260 @@ body {
 }
 
 .dark .project-role-link:hover {
-    color: var(--text-dark); /* Mantiene el mismo color en hover */
+    color: var(--text-dark);
+}
+
+/* Estilo para el subrayado de la sección activa */
+.nav a.active {
+    position: relative;
+    color: var(--text-color);
+}
+
+.nav a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    body {
+        padding-top: 50px;
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* About points responsive */
+    .about-point {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 15px;
+        text-align: left;
+    }
+
+    .about-point .about-icon {
+        flex-shrink: 0;
+        margin-top: 2px;
+    }
+
+    .about-point .about-text-content {
+        flex-grow: 1;
+        width: auto;
+    }
+
+    .about-point .about-text-content h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .about-point .about-text-content p {
+        font-size: 0.9rem;
+        color: var(--secondary-text-color);
+        line-height: 1.6;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 710px) {
+    .intro-content-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .profile-picture {
+        width: 232px;
+        height: 232px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid var(--bg-light);
+        flex-shrink: 0;
+        margin: 0 auto;
+    }
+}
+
+/* Media query para la hamburguesa y ajustes responsive */
+@media (max-width: 640px) {
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: var(--nav-mobile-bg);
+        border-bottom: 1px solid var(--border-color);
+        padding: 10px 15px;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 90;
+        transition: transform 0.3s ease-in-out;
+        transform: translateY(-100%);
+    }
+
+    .nav.is-open {
+        display: flex;
+        transform: translateY(0);
+    }
+
+    .nav a,
+    .language-toggle,
+    .theme-toggle {
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--border-color);
+        text-align: left;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .nav a:last-of-type,
+    .language-toggle:last-of-type {
+        border-bottom: none;
+    }
+
+    .nav .theme-toggle {
+        border-bottom: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .theme-toggle,
+    .language-toggle {
+        display: none;
+    }
+
+    .nav.is-open .theme-toggle,
+    .nav.is-open .language-toggle {
+        display: flex;
+    }
+
+    /* Ajustes responsive para timeline en móvil */
+    .experience-item .experience-header,
+    .project-item .project-header {
+        grid-template-columns: 1fr; /* Una sola columna en móvil */
+        grid-template-rows: auto auto auto auto;
+        gap: 5px;
+    }
+
+    .experience-item .experience-header > div:first-child,
+    .project-item .project-header > div:first-child {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    .experience-item .experience-date,
+    .project-item .project-date {
+        grid-column: 1;
+        grid-row: 3;
+        text-align: left;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+
+    .experience-item .experience-from,
+    .project-item .experience-from {
+        grid-column: 1;
+        grid-row: 4;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    /* Asegurar que el subrayado no desaparezca en móvil */
+    .nav.is-open a.active::after {
+        bottom: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .intro h1 {
+        font-size: 1.3rem;
+    }
+
+    .intro p,
+    .about > p {
+        font-size: 0.95rem;
+    }
+
+    .section h2 {
+        font-size: 1.1rem;
+    }
+
+    /* Timeline text size en móvil */
+    .experience-item h3,
+    .project-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .experience-item .experience-role,
+    .project-item .project-role {
+        font-size: 0.9rem;
+    }
+
+    .experience-item .experience-date,
+    .project-item .project-date {
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+
+    .experience-item .experience-from,
+    .project-item .experience-from {
+        font-size: 0.8rem;
+    }
+
+    .experience-item ul li,
+    .project-item ul li {
+        font-size: 0.9rem;
+    }
+
+    /* About point text size */
+    .about-point .about-text-content h3 {
+        font-size: 1rem;
+    }
+
+    .about-point .about-text-content p {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
 }
