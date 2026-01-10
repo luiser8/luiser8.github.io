@@ -86,9 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador de software con +7 años de experiencia construyendo sistemas escalables y mantenibles. Especializado en .NET (C#).",
+          "Desarrollador de Software con 7+ años de experiencia, especializado en backend. Experto tanto en C#/.NET (aplicaciones desktop, monolíticos, APIs) como en Node.js/NestJS (APIs y microservicios), con habilidades frontend para soluciones completas.",
         "intro.stacks":
-          "Ademas cuento con conocimientos sólidos en JavaScript, TypeScript, Node.js, NestJS, React, Vue.js, Python, Azure DevOps, Docker, CI/CD y bases de datos SQL/NoSQL. Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
+          "Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
         "hero.button": "Contáctame", // Esta clave parece no usarse en el HTML actual
 
         // Sección Experiencia
@@ -344,9 +344,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hello, I'm Luis Eduardo Rondón",
         "intro.subtitle":
-          "Software developer with 7+ years of experience building scalable and maintainable systems. Specialized in .NET (C#).",
+          "Software Developer with 7+ years of experience, specializing in backend. Expert in both C#/.NET (desktop applications, monoliths, APIs) and Node.js/NestJS (APIs and microservices), with frontend skills for complete solutions.",
         "intro.stacks":
-          "I also have solid knowledge of JavaScript, TypeScript, Node.js, NestJS, React, Vue.js, Python, Azure DevOps, Docker, CI/CD, and SQL/NoSQL databases. Passionate about development, mentoring, and working in high-performance teams. I'm ready to connect and collaborate!",
+          "Passionate about development, mentorship, and working in high-performance teams. I'm ready to connect and collaborate!",
         "hero.button": "Contact me", // Esta clave parece no usarse en el HTML actual
 
         // Section Experience
