@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador de Software con 7+ años de experiencia, especializado en backend. Experto tanto en C#/.NET (aplicaciones de escritorio, monolíticos, APIs) como en Node.js/NestJS (APIs y microservicios), con habilidades frontend para soluciones completas.",
+          "Desarrollador de Software con 7+ años de experiencia, especializado en C#/.NET (aplicaciones de escritorio, monolíticos, APIs) y en Node.js/NestJS (APIs y microservicios), con habilidades frontend para soluciones completas.",
         "intro.stacks":
           "Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
         "hero.button": "Contáctame", // Esta clave parece no usarse en el HTML actual
@@ -355,7 +355,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hello, I'm Luis Eduardo Rondón",
         "intro.subtitle":
-          "Software Developer with 7+ years of experience, specializing in backend. Expert in both C#/.NET (desktop applications, monoliths, APIs) and Node.js/NestJS (APIs and microservices), with frontend skills for complete solutions.",
+          "Software Developer with 7+ years of experience, specializing in C#/.NET (desktop applications, monolithic, APIs) and Node.js/NestJS (APIs and microservices), with frontend skills for complete solutions.",
         "intro.stacks":
           "Passionate about development, mentorship, and working in high-performance teams. I'm ready to connect and collaborate!",
         "hero.button": "Contact me", // Esta clave parece no usarse en el HTML actual
