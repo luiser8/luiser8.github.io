@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador de Software con 7+ años de experiencia, especializado en backend. Experto tanto en C#/.NET (aplicaciones desktop, monolíticos, APIs) como en Node.js/NestJS (APIs y microservicios), con habilidades frontend para soluciones completas.",
+          "Desarrollador de Software con 7+ años de experiencia, especializado en backend. Experto tanto en C#/.NET (aplicaciones de escritorio, monolíticos, APIs) como en Node.js/NestJS (APIs y microservicios), con habilidades frontend para soluciones completas.",
         "intro.stacks":
           "Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
         "hero.button": "Contáctame", // Esta clave parece no usarse en el HTML actual
