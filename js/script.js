@@ -22,6 +22,17 @@ document.addEventListener("DOMContentLoaded", function () {
         elements.nav.classList.remove("is-open");
       });
     });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener("click", (event) => {
+      if (
+        elements.nav.classList.contains("is-open") &&
+        !elements.nav.contains(event.target) &&
+        !elements.menuToggle.contains(event.target)
+      ) {
+        elements.nav.classList.remove("is-open");
+      }
+    });
   }
 
   // Actualizar año en el footer
