@@ -93,6 +93,9 @@ document.addEventListener("DOMContentLoaded", function () {
         education: "Educación",
         cv: "CV",
 
+        //Titulo
+        "title.name": "Luis Eduardo Rondón | Desarrollador",
+
         // Sección Intro
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
@@ -350,6 +353,9 @@ document.addEventListener("DOMContentLoaded", function () {
         projects: "Projects",
         education: "Education",
         cv: "CV",
+
+        //Titulo
+        "title.name": "Luis Eduardo Rondón | Developer",
 
         // Sección Intro
         "intro.name": "Luis Eduardo Rondón",
