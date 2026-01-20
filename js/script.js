@@ -182,10 +182,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.avior.work1.desc":
           "Participé en el desarrollo la web oficial de Avior Airlines, para la reserva y compra de boletos, ademas de construir APIS para todo el tratamiento de estas solicitudes con el proveedor SABRE, tambien desarrolle complementamente el servicio de reembolso de boletos. Utilizando tecnologías C#, .NET Framework, SQL Server y React de parte del frontend.",
         "experience.avior.work2.desc":
-          "Desarrolle complementamente aplicación móvil Avior Calificaciones de Avior Airlines, para las calificaciones de los vuelos, por parte de los usuarios, asi poder ver y evaluar la satisfaccion del servicio prestado por la Aerolínea. Utilizando tecnologías Ionic.",
+          "Configure un Servidor https y ftp para desarrollo del proyecto web oficial, usando Ubuntu Server en AWS EC2.",
         "experience.avior.work3.desc":
-          "Desarrolle conjuntamente una aplicación gráfica para la presidencia de la aerolinea Avior Airlines, para la gestión de reportes por todos los departamentos, esto para ayudarle a visualizar al presidente ejecutivo como van las operaciones al momento, así poder tomar decisiones informadas y mejorar el servicio prestado por la Aerolínea. Utilizando tecnologías .NET Framework MVC y SQL Server.",
+          "Desarrolle complementamente aplicación móvil Avior Calificaciones de Avior Airlines, para las calificaciones de los vuelos, por parte de los usuarios, asi poder ver y evaluar la satisfaccion del servicio prestado por la Aerolínea. Utilizando tecnologías Ionic.",
         "experience.avior.work4.desc":
+          "Desarrolle conjuntamente una aplicación gráfica para la presidencia de la aerolinea Avior Airlines, para la gestión de reportes por todos los departamentos, esto para ayudarle a visualizar al presidente ejecutivo como van las operaciones al momento, así poder tomar decisiones informadas y mejorar el servicio prestado por la Aerolínea. Utilizando tecnologías .NET Framework MVC y SQL Server.",
+        "experience.avior.work5.desc":
           "En conjunto con el equipo realizamos una capacitación con el proveedor Internacional Sabre para la implementacion del API de servicios aéreos, con esto brindar al sitio web una comunicación efectiva al momento de tener datos en tiempo real con la estación de servicio, vuelos y web check in.",
 
         // Claves para SmartWork
@@ -444,10 +446,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.avior.work1.desc":
           "I participated in the development of Avior Airlines' official website for ticket reservations and purchases. I also built APIs for processing these requests with the provider SABRE. I also developed the ticket refund service. I used C#, .NET Framework, SQL Server, and React technologies for the frontend.",
         "experience.avior.work2.desc":
-          "I also developed the Avior Airlines mobile app, Avior Ratings, for user flight ratings, allowing users to view and evaluate satisfaction with the airline's service. Using Ionic technology.",
+          "Configure an https and ftp server for the development of the official web project, using Ubuntu Server on AWS EC2.",
         "experience.avior.work3.desc":
-          "I jointly developed a graphical application for the Avior Airlines management team to manage reports across all departments. This helped the CEO visualize current operations, enabling him to make informed decisions and improve the airline's service. Using .NET Framework MVC and SQL Server technologies.",
+          "I also developed the Avior Airlines mobile app, Avior Ratings, for user flight ratings, allowing users to view and evaluate satisfaction with the airline's service. Using Ionic technology.",
         "experience.avior.work4.desc":
+          "I jointly developed a graphical application for the Avior Airlines management team to manage reports across all departments. This helped the CEO visualize current operations, enabling him to make informed decisions and improve the airline's service. Using .NET Framework MVC and SQL Server technologies.",
+        "experience.avior.work5.desc":
           "Together with the team, we conducted training with the provider Sabre International for the implementation of the air services API, providing the website with effective communication by having real-time data with the service station, flights, and web check-in.",
 
         // Keys for SmartWork
