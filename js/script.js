@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
     languageText: document.querySelector(".language-text"),
     year: document.getElementById("year"),
   };
-
   // Manejo del menú móvil
   if (elements.menuToggle && elements.nav) {
     elements.menuToggle.addEventListener("click", () => {
