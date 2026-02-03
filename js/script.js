@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     elements.menuToggle.addEventListener("click", () => {
       elements.nav.classList.toggle("is-open");
     });
-
     // Cerrar menú al hacer clic en enlaces
     elements.nav.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => {
