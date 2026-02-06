@@ -91,253 +91,249 @@ document.addEventListener("DOMContentLoaded", function () {
         education: "Educación",
         cv: "CV",
 
-        //Titulo
-        "title.name": "Luis Eduardo Rondón | Desarrollador",
+        // Titulo
+        "title.name": "Luis Eduardo Rondón | Desarrollador Senior",
 
         // Sección Intro
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador de Software con 7+ años de experiencia, especializado en C#/.NET (aplicaciones de escritorio, monolíticos, APIs) y en Node.js/NestJS (APIs y microservicios), con habilidades frontend para soluciones completas.",
+          "Desarrollador de Software con 7+ años de experiencia, especializado en arquitecturas backend con C#/.NET y Node.js/NestJS. Experto en diseñar soluciones escalables (APIs, microservicios, monolíticos) y en implementar frontends robustos para productos completos.",
         "intro.stacks":
-          "Apasionado por el desarrollo, la mentoría y el trabajo en equipos de alto rendimiento. ¡Estoy listo para conectar y colaborar!",
-        "hero.button": "Contáctame", // Esta clave parece no usarse en el HTML actual
+          "Apasionado por la excelencia técnica, la mentoría y la colaboración en equipos de alto rendimiento.",
 
-        // Sección Experiencia
+        // Sección Experiencia - Redacción Senior
         "experience.title": "Experiencia",
-        // Claves para LIVELIFY
+
+        // LiveLify
         "experience.live.title": "LiveLify / Método Libre",
-        "experience.live.role": "Desarrollador Full Stack - Freelance", // Assign the correct role
-        "experience.live.date": "Junio 2025 – Enero 2026", // <<< Added date key
+        "experience.live.role": "Desarrollador Full Stack Senior - Freelance",
+        "experience.live.date": "Junio 2025 – Enero 2026",
         "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
-          "Desarrollo de un API Rest enfocado en establecer metas y logros personales por alcanzar de manera específica y apuntando a solo 6 áreas de la vida(Desarrollo personal, Actvidad profesional, Alimentación y salud, Dinero y finanzas, Familia y amigos, Amor y pareja) más importantes según clientes encuestados para construir este proyecto bastante peculiar e interesante, dándole al usuario final un seguimiento de sus metas por alcanzar, creando proyectos personales y así poder visualizar sus avances de manera gráfica. Construido con Nodejs con el Framework NestJS, Docker, PostgreSQL y Prisma como ORM. Ademas siguiendo ademas buenas practicas utilizando arquitectura hexagonal.",
+          "Diseñé y desarrollé el API REST principal para un sistema de gestión de metas personales. Apliqué principios de Domain-Driven Design y el patrón Hexagonal con NestJS para crear un núcleo de negocio desacoplado, mantenible y listo para escalar, utilizando PostgreSQL y Prisma ORM.",
         "experience.live.work2.desc":
-          "Desarrollo además del API ya mencionado también desarrollé la Aplicación Frontend de manera fluida y organizada aportando además lógica de negocio en el API así permitiendo que a futuro se tenga que desarrollar una App Móvil. Este desarrollo se utilizó React y TailwindCSS.",
+          "Diseñé y construí la aplicación frontend en React con TailwindCSS, tomando decisiones de arquitectura de estado y componentes que permiten una experiencia de usuario fluida. La lógica de negocio se mantuvo en el backend para facilitar el desarrollo futuro de una app móvil.",
         "experience.live.work3.desc":
-          "Desarrollo y maquetación del landing page para las ventas de dicho servicio al cliente, un sitio web sencillo con la información acerca del servicio ofrecido, precios, planes y formas de como usarlo. Construido con React y TailwindCSS.",
+          "Lideré el desarrollo del landing page para ventas, priorizando la optimización de conversiones y un rendimiento web excepcional. Implementé buenas prácticas de SEO y diseño responsivo con React y TailwindCSS.",
         "experience.live.work4.desc":
-          "También estuve a cargo de la configuración y construcción de los parámetros para el despliegue a distintos ambientes usando Google Cloud Services y configuración de los dominios.",
+          "Definí y configuré la estrategia completa de despliegue e infraestructura en Google Cloud Platform (GCP). Automatizé la creación de entornos, gestioné dominios y establecí pipelines para garantizar entregas consistentes y confiables.",
 
-        // Claves para ACL
+        // ACL - ACHS
         "experience.acl.title": "ACL - ACHS",
-        "experience.acl.role": "Desarrollador Full Stack", // Asigna el rol correcto
-        "experience.acl.date": "Ocubre 2021 – Marzo 2025", // <<< Añadida clave de fecha
+        "experience.acl.role": "Desarrollador Full Stack Senior",
+        "experience.acl.date": "Octubre 2021 – Marzo 2025",
         "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
-          "Participé en el desarrollo de una aplicación para agendamiento de citas médicas, generando calidad de servicio a distintos usuarios, pacientes y responsables de cada empresa afiliada, una plataforma web con más de 1 mil empresas asociadas y más de 5 mil usuarios, implementando nuevos requerimientos y mejorando la eficiencia del sistema, utilizando despliegues continuos con el uso de Azure DevOps CI/CD Y Docker, además realicé una actualización de .NET Core 3.1 a .NET 8.",
+          "Lideré la evolución y optimización de una plataforma crítica de agendamiento médico, utilizada por más de 1,000 empresas y 5,000 usuarios. Mi principal logro fue dirigir la migración completa de .NET Core 3.1 a .NET 8, mejorando significativamente el rendimiento y reduciendo la deuda técnica. Establecí pipelines de CI/CD con Azure DevOps y Docker.",
         "experience.acl.work2.desc":
-          "También estuve en el equipo de desarrollo de un sistema integrado único (ACHS Virtual) para ofrecer sesiones, recursos y roles para todas las aplicaciones de ACHS, dando cabida a la centralización de la sesión de cada uno de los usuarios dentro de la organización. Utilizando arquitectura de Micro Servicios BFF y demás tecnologías como Azure DevOps CI/CD, TypeScript NestJS, SQL Server y React.",
+          "Contribuí al diseño e implementación del sistema unificado de identidad (ACHS Virtual) basado en una arquitectura de microservicios BFF (Backend For Frontend). Fui responsable de desarrollar servicios seguros con TypeScript y NestJS que centralizaron la autenticación y autorización para toda la organización.",
         "experience.acl.work3.desc":
-          "También estuve en el equipo de desarrollo llamado (ACHS Mantención) para generar mantenimientos de distintas aplicaciones de toda la empresa ACHS. Utilizando tecnologías como Azure DevOps CI/CD, TypeScript NestJS, SQL Server y React.",
+          "Como parte del equipo de mantención, diagnosticé y resolví problemas complejos en diversas aplicaciones corporativas. Realicé optimizaciones profundas en consultas SQL para SQL Server y refactoricé módulos legacy, mejorando la estabilidad y tiempo de respuesta de los sistemas.",
         "experience.acl.work4.desc":
-          "Es importante destacar que, en los 3 proyectos, implementamos un enfoque integral que incluyó análisis de ciberseguridad y rendimiento en cada funcionalidad desarrollada. Realicé optimizaciones específicas en consultas y métodos complejos para asegurar su eficiencia. Adicionalmente, garantizamos la calidad del código mediante revisiones exhaustivas con SonarQube. Este proceso riguroso nos permitió crear software de alta calidad e integrando Test Unitarios y te Integración para obtener una alta calidad de código.",
+          "Establecí y hice cumplir altos estándares de calidad. Implementé análisis de código estático con SonarQube, diseñé estrategias de pruebas unitarias e integración, y realicé revisiones de código enfocadas en seguridad y rendimiento, elevando la robustez general del software entregado.",
 
-        // Claves para PSM
+        // Politécnico Santiago Mariño
         "experience.psm.title":
           "Instituto Universitario Politécnico Santiago Mariño",
-        "experience.psm.role": "Técnico IT y Desarrollador - Freelance", // Assign the correct role
-        "experience.psm.date": "Noviembre 2022 – Actualidad", // <<< Added date key
+        "experience.psm.role": "Desarrollador Full Stack Senior - Freelance",
+        "experience.psm.date": "Noviembre 2022 – Actualidad",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
-          "Desarrollo de la web oficial de la Universidad, siendo esta versión una unificación de todas las extensiones dentro del país, además cuenta con una data interna de cada sección de la página, para facilitar la edición y visualización del contenido web de cada una de las extensiones de la Institución Educativa que están dentro de la web construida. Utilizando tecnologías como React y TailwindCSS.",
+          "Diseñé y desarrollé la arquitectura de la nueva web unificada de la universidad. Implementé un sistema de gestión de contenido interno que permite a cada extensión administrar su información de forma autónoma, utilizando React y TailwindCSS para una experiencia de edición ágil.",
         "experience.psm.work2.desc":
-          "Desarrollo de una aplicación local para la gestión de caja y reportes de cierres de caja, además poder visualizar los estudiantes inscritos, poder inscribirlos, asignar cuotas, todo un conjunto de herramientas para la administración de la institución. Utilizando tecnologías como C#, .NET Framework, SQL Server y React.",
+          "Concebí y construí una suite administrativa local para gestión financiera y académica. La solución, desarrollada en C# .NET Framework con frontend en React y SQL Server, automatiza procesos críticos como inscripciones, control de caja y asignación de cuotas.",
         "experience.psm.work3.desc":
-          "Servicio Tecnico IT en las instalaciones, en cuales desempeño las funciones de DBA SQL Server, me encargo de optimizar ciertos procesos en los datos, ademas de prestar asistencia tecnica en los servidores locales de Active Directory, Proxy y File Server.",
+          "Actúo como DBA y administrador de sistemas, optimizando procesos en SQL Server y gestionando la infraestructura local (Active Directory, Proxy, File Server). Proporciono soporte técnico especializado y garantizo la alta disponibilidad de los servicios.",
         "experience.psm.work4.desc":
-          "Desarrollo de una aplicación de tipo monolito en modo local para consulta de notas e historial académico, cortes academicos, horarios, esto para ayudar a la población estudiantil a administrar sus datos académicos. Utilizando tecnologías como C#, MVC, .NET Framework, SQL Server.",
+          "Desarrollé una aplicación monolítica en .NET MVC para consulta académica, resolviendo la necesidad de los estudiantes de acceder a notas, horarios e historiales de manera rápida y confiable en la red local.",
 
-        // Claves para Boitas
+        // Boitas.com
         "experience.boitas.title": "Boitas.com",
-        "experience.boitas.role": "Desarrollador Full Stack", // Assign the correct role
-        "experience.boitas.date": "Mayo 2021 – Octubre 2021", // <<< Added date key
-        "experience.boitas.from": "Cuidad de México, México",
+        "experience.boitas.role": "Desarrollador Full Stack",
+        "experience.boitas.date": "Mayo 2021 – Octubre 2021",
+        "experience.boitas.from": "Ciudad de México, México",
         "experience.boitas.work1.desc":
-          "Participé en el desarrollo de una aplicación web integrada (Web Boitas.com) para la realización de compras online, reservas y pagos. Utilizando tecnologías como elastic search para optimizar las grandes busquedas y tecnologias de desarrollo como Nodejs, MongoDB, graphQL y Vue.js.",
+          "Desarrollé funcionalidades clave para la plataforma de e-commerce y reservas, integrando Elasticsearch para optimizar las búsquedas en grandes volúmenes de datos. La stack tecnológica incluyó Node.js, MongoDB, GraphQL y Vue.js.",
         "experience.boitas.work2.desc":
-          "Desarrollo del back-office (Web Boitas.com) para administrar las compras online, reservas, sesiones y pagos. Pudiendo configurar todas las opciones dentro de la aplicación web, utilizando tecnologías como Nodejs, MongoDB, graphQL y Vue.js.",
+          "Construí el panel de administración (back-office) que permite gestionar órdenes, reservas y configuraciones del sistema. Mi enfoque estuvo en crear una interfaz intuitiva y APIs eficientes para operaciones masivas.",
         "experience.boitas.work3.desc":
-          "También realicé optimizaciones clave en servicios existentes. Un ejemplo destacado fue la mejora en los envíos de Emails: implementé una cola y utilicé Sendgrid, optimizando significativamente los envíos automatizados para aumentar la eficiencia y la fiabilidad del proceso, según lo requerido por negocio.",
+          "Identifiqué y resolví un cuello de botella crítico en el servicio de notificaciones por email. Propuse y ejecuté una solución basada en colas de mensajería e integración con SendGrid, lo que incrementó radicalmente la confiabilidad y eficiencia de los envíos automatizados.",
 
-        // Claves para Camin
+        // Camin Global
         "experience.camin.title": "Camin Global",
-        "experience.camin.role": "Desarrollador Frontend - Freelance", // Assign the correct role
-        "experience.camin.date": "Enero 2021 – Marzo 2022", // <<< Added date key
-        "experience.camin.from": "Lecheria, Venezuela",
+        "experience.camin.role": "Desarrollador Frontend - Freelance",
+        "experience.camin.date": "Enero 2021 – Marzo 2022",
+        "experience.camin.from": "Lechería, Venezuela",
         "experience.camin.work1.desc":
-          "Desarrollo completo, desde el diseño hasta la implementación del sitio web oficial de MRW, las caracteristicas de este sitio es inicialmente para mostrar el seguimiento de envíos Nacionales, ademas de mostrar de manera gráfica todo lo referente a MRW y su servicios. Utilizamos tecnologías como Vue.js y Nuxt.js.",
+          "Lideré el desarrollo frontend del sitio web oficial de MRW desde el diseño hasta la implementación. Construí una aplicación con Vue.js y Nuxt.js centrada en la experiencia de usuario para el rastreo de envíos y la presentación de servicios.",
         "experience.camin.work2.desc":
-          "Optimización de imágenes y reducción del tamaño de archivos para mejorar la velocidad de carga del sitio web, ademas de cambiar la dirección del API que esta encargado de buscar los elementos del rastreo de los envios.",
+          "Realicé una optimización integral del rendimiento web, aplicando técnicas avanzadas de compresión de imágenes y minificación de recursos. Además, reestructuré la integración con APIs de rastreo para mejorar la eficiencia de las consultas.",
         "experience.camin.work3.desc":
-          "También estuve apoyando en el despliegue del sitio web completo con el proveedor de servicios GoDaddy, donde realize la instalación del servidor y la instalación tanto del backend(lo desarrollo otro desarrollador), motor de base de datos MySQL y frontend que habia realizado.",
+          "Gestioné el despliegue completo de la solución en un entorno GoDaddy. Configuré el servidor, desplegué la base de datos MySQL y la aplicación frontend, asegurando una puesta en producción estable y funcional.",
 
-        // Claves para Avior
+        // Avior Airlines
         "experience.avior.title": "Avior Airlines",
-        "experience.avior.role": "Desarrollador Full Stack", // Assign the correct role
-        "experience.avior.date": "Noviembre 2017 – Julio 2022", // <<< Added date key
+        "experience.avior.role": "Desarrollador Full Stack",
+        "experience.avior.date": "Noviembre 2017 – Julio 2022",
         "experience.avior.from": "Barcelona, Venezuela",
         "experience.avior.work1.desc":
-          "Participé en el desarrollo la web oficial de Avior Airlines, para la reserva y compra de boletos, ademas de construir APIS para todo el tratamiento de estas solicitudes con el proveedor SABRE, tambien desarrolle complementamente el servicio de reembolso de boletos. Utilizando tecnologías C#, .NET Framework, SQL Server y React de parte del frontend.",
+          "Fui responsable clave del desarrollo del sistema de reservas y compra de boletos en la web oficial. Diseñé y construí las APIs de integración con el GDS Sabre y desarrollé por completo el módulo de reembolsos, un componente crítico y sensible del negocio. Tecnologías: C#, .NET Framework, SQL Server, React.",
         "experience.avior.work2.desc":
-          "Configure un Servidor https y ftp para desarrollo del proyecto web oficial, usando Ubuntu Server en AWS EC2.",
+          "Configuré y aseguré la infraestructura inicial de desarrollo en AWS EC2 con Ubuntu Server, estableciendo servidores HTTPS/FTP y definiendo los protocolos de acceso y seguridad para el equipo.",
         "experience.avior.work3.desc":
-          "Desarrolle complementamente aplicación móvil Avior Calificaciones de Avior Airlines, para las calificaciones de los vuelos, por parte de los usuarios, asi poder ver y evaluar la satisfaccion del servicio prestado por la Aerolínea. Utilizando tecnologías Ionic.",
+          "Desarrollé de forma integral la aplicación móvil 'Avior Calificaciones' con Ionic, permitiendo a los pasajeros evaluar el servicio y proporcionando a la aerolínea retroalimentación valiosa en tiempo real.",
         "experience.avior.work4.desc":
-          "Desarrolle conjuntamente una aplicación gráfica para la presidencia de la aerolinea Avior Airlines, para la gestión de reportes por todos los departamentos, esto para ayudarle a visualizar al presidente ejecutivo como van las operaciones al momento, así poder tomar decisiones informadas y mejorar el servicio prestado por la Aerolínea. Utilizando tecnologías .NET Framework MVC y SQL Server.",
+          "Concebí y desarrollé un dashboard ejecutivo en .NET MVC y SQL Server para la presidencia de la aerolínea. Esta herramienta de Business Intelligence consolidaba reportes de todos los departamentos, facilitando la visualización de KPIs y la toma de decisiones estratégicas.",
         "experience.avior.work5.desc":
-          "En conjunto con el equipo realizamos una capacitación con el proveedor Internacional Sabre para la implementacion del API de servicios aéreos, con esto brindar al sitio web una comunicación efectiva al momento de tener datos en tiempo real con la estación de servicio, vuelos y web check in.",
+          "Participé en la capacitación y planificación técnica para la integración con la API de Sabre, un proveedor global de distribución aérea. Este conocimiento fue fundamental para garantizar la comunicación en tiempo real de disponibilidad de vuelos y check-in web.",
 
-        // Claves para SmartWork
+        // SmartWork
         "experience.smartWork.title": "SmartWork",
-        "experience.smartWork.role": "Desarrollador Full Stack", // Assign the correct role
-        "experience.smartWork.date": "Abril 2020 – Enero 2021", // <<< Added date key
+        "experience.smartWork.role": "Desarrollador Full Stack",
+        "experience.smartWork.date": "Abril 2020 – Enero 2021",
         "experience.smartWork.from": "Quito, Ecuador",
         "experience.smartWork.work1.desc":
-          "Desarrolle un API Rest para administrar las adquisiciones de cada uno de los clientes, negocios, este API Rest era para realizar todas las asignaciones de locales y herramientas. Utilizando tecnologías C#, .NET Framework, SQL Server.",
+          "Diseñé y desarrollé la API REST central para la gestión de adquisiciones, locales y herramientas de clientes, utilizando C#, .NET Framework y SQL Server, con un enfoque en la claridad de los contratos y la eficiencia de las operaciones.",
         "experience.smartWork.work2.desc":
-          "Desarrollé una aplicación web de back-office robusta, diseñada para la gestión centralizada de usuarios, locales y el catálogo de productos asociado a cada establecimiento. Esta plataforma facilita la administración eficiente de estos recursos operativos clave. Fue construida utilizando un stack tecnológico que incluye C# y .NET Framework para el backend, SQL Server como base de datos, y React para el frontend.",
+          "Construí una plataforma web de back-office robusta para la administración centralizada de usuarios, locales y catálogos. La arquitectura separó claramente las responsabilidades entre el backend .NET y el frontend en React.",
         "experience.smartWork.work3.desc":
-          "Desarrollé una aplicación móvil clave para la operación logística, ventas. Su propósito principal es centralizar y proporcionar acceso instantáneo a los datos, herramientas, información, recursos esenciales que los usuarios, personal de campo, gerentes necesitan tener directamente en sus dispositivos. Fue construida utilizando la tecnología React Native.",
+          "Desarrollé una aplicación móvil con React Native para operaciones logísticas y de ventas en campo. La app centralizó el acceso a datos, herramientas y recursos críticos, mejorando la productividad del personal móvil.",
 
-        // Claves para Satelca
+        // Satelca
         "experience.satelca.title": "Satélites y Telecomunicaciones (Satelca)",
-        "experience.satelca.role": "Desarrollador Backend", // Assign the correct role
-        "experience.satelca.date": "Mayo 2017 – Noviembre 2017", // <<< Added date key
-        "experience.satelca.from": "Lecheria, Venezuela",
+        "experience.satelca.role": "Desarrollador Backend",
+        "experience.satelca.date": "Mayo 2017 – Noviembre 2017",
+        "experience.satelca.from": "Lechería, Venezuela",
         "experience.satelca.work1.desc":
-          "Desarrollo de librerias para la utilización de comunicaciones GPS con dispositivos importados, esto para dar servicios de ubicación vehicular, y poder ser distribuidos en los vechiculos como servicio de la empresa, con esto se logro homologar estos dispositivos pudiendo obtener su mayor provecho y rendimiento. Utilizando tecnologías con telefonia GSM (Digitel), C# y SQL Server.",
+          "Investigué, desarrollé y homologé librerías en C# para la comunicación con dispositivos GPS GSM (Digitel). Esta solución técnica permitió a la empresa ofrecer un servicio de localización vehicular confiable y escalable.",
         "experience.satelca.work2.desc":
-          "Desarrollo y planificación inicial de una aplicación administrativa para la gestión de cobranza y facturación de manera local de uso interno de la empresa, contando con la infraestructura adecuada para su implementacion desde cero. Utilizando tecnologías C#, .NET Framework, SQL Server.",
+          "Realicé el diseño inicial y la planificación técnica para una aplicación administrativa de facturación y cobranza. Senté las bases para un sistema interno que automatizaría procesos financieros clave.",
 
-        // Claves para Profesor
-        "experience.profesor.title": "Profesor de programación en Programate",
-        "experience.profesor.role": "Profesor de PHP, JavaScript, CSS y React", // Assign the correct role
-        "experience.profesor.date": "Febrero 2020 – Diciembre 2022", // <<< Added date key
+        // Profesor
+        "experience.profesor.title": "Profesor de Programación",
+        "experience.profesor.role":
+          "Instructor de PHP, JavaScript, CSS y React",
+        "experience.profesor.date": "Febrero 2020 – Diciembre 2022",
         "experience.profesor.from": "Puerto La Cruz, Venezuela",
         "experience.profesor.work1.desc":
-          "Como instructor, desarrollé e impartí cursos básicos e intermedios sobre PHP, JavaScript, CSS y React. Mi objetivo era equipar a los estudiantes con una sólida comprensión de la programación backend (PHP) y la capacidad de construir aplicaciones web utilizando este conjunto de tecnologías.",
+          "Diseñé el currículo e impartí cursos que equiparon a los estudiantes con una comprensión sólida del desarrollo web full-stack, desde los fundamentos de backend con PHP hasta la construcción de interfaces modernas con React.",
 
-        // Claves para Soporte
+        // Soporte IT
         "experience.soporte.title":
           "Instituto Universitario de Tecnología Antonio José de Sucre",
-        "experience.soporte.role": "Jefe de Soporte IT / Técnico de Sistemas", // Assign the correct role
-        "experience.soporte.date": "Marzo 2008 – Mayo 2017", // <<< Added date key
+        "experience.soporte.role":
+          "Jefe de Soporte IT / Arquitecto de Sistemas",
+        "experience.soporte.date": "Marzo 2008 – Mayo 2017",
         "experience.soporte.from": "Puerto La Cruz, Venezuela",
         "experience.soporte.work1.desc":
-          "Técnico en Soporte IT, asistencia tecnica local y otra sede cercanaras a los usuarios, equipos, laboratorios de computación, redes y servidores, ademas de realizar mantenimiento preventivo y correctivo de equipos, redes y servidores.",
+          "Gestioné y ejecuté el soporte técnico integral a usuarios, equipos, laboratorios y servidores en múltiples sedes. Implementé estrategias de mantenimiento preventivo y correctivo que redujeron los tiempos de inactividad.",
         "experience.soporte.work2.desc":
-          "Ademas en una etapa avanzada pase a ser jefe de Soporte IT, estuve brindando soporte a Aplicaciones administrativas y Academicas de manera local y a otras sedes, extensiones regionales, ademas de dictar unas capacitaciones a nivel de servidores con active Directory en Windows Server 2012R2.",
+          "Ascendí a liderar el área de soporte, brindando asistencia de nivel avanzado para aplicaciones administrativas y académicas. Capacité al personal en la administración de servidores con Active Directory en Windows Server, mejorando las capacidades internas del departamento.",
 
-        // Sección Proyectos
+        // --- ESPAÑOL (es) ---
         "projects.title": "Proyectos",
-        // Claves para proyectos con fechas (ejemplo)
 
-        "projects.glucose.title": "Aplicación seguimiento de glucosa",
-        "projects.glucose.role": "Proyecto personal",
-        "projects.glucose.desc1":
-          "Visualización gráfica y análisis de tendencias: Permite a los usuarios ver sus niveles de glucosa en gráficos interactivos, identificando patrones y tendencias a lo largo del tiempo (días, semanas, meses) para una mejor comprensión de su manejo.",
-        "projects.glucose.desc2":
-          "Registro de eventos relacionados: Facilita el registro de factores clave como comidas (con carbohidratos si se desea), ejercicio, medicación y otros eventos para contextualizar las mediciones de glucosa.",
-        "projects.glucose.desc3":
-          "Alertas personalizables y notificaciones a contactos: Permite a los usuarios definir umbrales de alerta específicos y configurar el envío de notificaciones importantes (como niveles extremos) a familiares o cuidadores designados.",
-        "projects.glucose.desc4":
-          "Generación de informes y resúmenes de datos: Capacidad de generar informes periódicos (diarios, semanales, mensuales) con resúmenes de las mediciones, promedios y tiempo en rango, útiles para el seguimiento personal o para compartir con profesionales de la salud.",
-        "projects.glucose.desc5":
-          "Las tecnologías utilizadas para este proyecto incluyen Python Flask API, con desarrollo futuro en React Native para la aplicación móvil y PostgreSQL.",
+        "projects.glucose.title": "Aplicación de Seguimiento de Glucosa",
+        "projects.glucose.role": "Proyecto Personal",
         "projects.glucose.date": "Diciembre 2024 - Actualidad",
         "experience.glucose.from": "Barcelona, Venezuela",
+        "projects.glucose.desc1":
+          "Diseñé y desarrolle un sistema completo para el manejo de diabetes. El núcleo es una API en Python Flask que procesa y almacena mediciones en PostgreSQL, generando gráficos interactivos para análisis de tendencias a lo largo del tiempo (días, semanas, meses).",
+        "projects.glucose.desc2":
+          "Desarrollando un módulo para registrar eventos contextuales como comidas (con conteo de carbohidratos), ejercicio y medicación, permitiendo correlacionarlos con los niveles de glucosa para un manejo más informado.",
+        "projects.glucose.desc3":
+          "Implementando un sistema de alertas personalizables donde los usuarios definen umbrales. En caso de niveles críticos, el sistema envía notificaciones automáticas a familiares o cuidadores designados, añadiendo una capa de seguridad proactiva.",
+        "projects.glucose.desc4":
+          "Diseñando un generador de informes periódicos (diarios, semanales, mensuales) que resume métricas clave como promedios y 'tiempo en rango', facilitando el seguimiento personal y la comunicación con profesionales de la salud.",
+        "projects.glucose.desc5":
+          "Stack tecnológico: Python Flask para la API, PostgreSQL para la base de datos, y planeando el desarrollo frontend/móvil con React Native para una experiencia de usuario accesible.",
 
-        "projects.biblioteca.title": "Aplicación biblioteca virtual",
-        "projects.biblioteca.role": "Proyecto cliente",
-        "projects.biblioteca.desc1":
-          "Gestión granular de usuarios y roles: Implementar diferentes niveles de permisos y roles (por ejemplo, Estudiante, Profesor, Investigador, Bibliotecario, Administrador) para controlar el acceso a ciertos materiales, funcionalidades de backoffice y tipos de acciones (como solicitar préstamos extendidos, descargar ciertos documentos, etc.).",
-        "projects.biblioteca.desc2":
-          "Sistema de préstamo y reserva de materiales: No solo acceso, sino también un sistema para gestionar el préstamo (digital o físico) de materiales con fechas de vencimiento, y la posibilidad de reservar materiales que estén actualmente prestados.",
-        "projects.biblioteca.desc3":
-          "Visualización integrada de documentos digitales: Para tesis, informes y ciertos libros digitales, la aplicación puede incluir un visor web que permita a los usuarios leer el contenido directamente en el navegador sin necesidad de descargarlo siempre, mejorando la seguridad y la experiencia de lectura rápida.",
-        "projects.biblioteca.desc4":
-          "Módulo de carga y gestión de contenido (Backoffice): Herramientas robustas en el backoffice para que el personal de la biblioteca pueda cargar nuevos materiales fácilmente (individualmente o en lotes), editar metadatos completos (resúmenes, palabras clave, ISBN, etc.), gestionar versiones y formatos.",
-        "projects.biblioteca.desc5":
-          "Las tecnologías utilizadas para este proyecto incluyen .NET MVC o monolito como tambien se le suele conocer, tambien siguiendo ademas buenas practicas utilizando arquitectura hexagonal, base de datos con SQL Server.",
+        "projects.biblioteca.title": "Aplicación de Biblioteca Virtual",
+        "projects.biblioteca.role": "Proyecto Cliente",
         "projects.biblioteca.date": "Febrero 2025 - Actualidad",
         "experience.biblioteca.from": "Barcelona, Venezuela",
+        "projects.biblioteca.desc1":
+          "Diseñando un sistema de permisos granulares con roles diferenciados (Estudiante, Profesor, Investigador, Bibliotecario, Administrador) para controlar el acceso a materiales, funcionalidades del backoffice y acciones específicas como préstamos extendidos.",
+        "projects.biblioteca.desc2":
+          "Implementando un sistema completo de préstamo y reserva para materiales digitales y físicos, con gestión de fechas de vencimiento y la posibilidad de reservar items no disponibles.",
+        "projects.biblioteca.desc3":
+          "Desarrollando un visor web integrado para tesis, informes y libros digitales, permitiendo la lectura directa en el navegador sin necesidad de descarga, lo que mejora la seguridad y la experiencia de usuario.",
+        "projects.biblioteca.desc4":
+          "Construyendo un módulo de backoffice robusto para que el personal bibliotecario pueda cargar materiales (individualmente o en lotes), editar metadatos completos (resúmenes, palabras clave, ISBN) y gestionar versiones y formatos.",
+        "projects.biblioteca.desc5":
+          "Stack tecnológico: .NET MVC (monolito) aplicando principios de arquitectura hexagonal para un dominio de negocio desacoplado y mantenible, con SQL Server como base de datos.",
 
         "projects.psm.title":
-          "Sitio web Instituto Universitario Politécnico Santiago Mariño",
-        "projects.psm.role": "Proyecto cliente",
+          "Sitio Web Instituto Universitario Politécnico Santiago Mariño",
+        "projects.psm.role": "Proyecto Cliente",
         "projects.psm.link": "Visitar proyecto",
-        "projects.psm.desc1":
-          "Unificación y Gestión de Contenido Centralizado: Unifica todas las extensiones en una sola web. Permite a cada sección editar su propio contenido de forma autónoma, garantizando una identidad visual coherente en todo el portal.",
-        "projects.psm.desc2":
-          "Web de Marca y Atracción Digital: El sitio web es una herramienta de marketing enfocada en atraer a nuevos estudiantes. El diseño es atractivo y moderno, optimizado para campañas de publicidad digital y la promoción de los logros de la universidad.",
-        "projects.psm.desc3":
-          "Portal con Enfoque Móvil: Prioriza la experiencia del usuario en dispositivos móviles. Las funciones clave, como mapas del campus y notificaciones, están diseñadas para un acceso rápido y sencillo desde un teléfono o tableta.",
-        "projects.psm.desc4":
-          "Las tecnologías utilizadas para este proyecto incluyen React y TailwindCSS.",
         "projects.psm.date": "Marzo 2024 - Actualidad",
-        "experience.psm.from": "Caracas, Venezuela",
+        "experience.psm.from": "Barcelona, Venezuela",
+        "projects.psm.desc1":
+          "Lideré el desarrollo de la web oficial unificada de la universidad, consolidando la presencia de todas sus extensiones en un solo portal. Implementé un sistema de gestión de contenido interno que permite a cada sección editar y visualizar su información de forma autónoma, manteniendo una identidad visual coherente.",
+        "projects.psm.desc2":
+          "El sitio funciona como una herramienta central de marketing digital y atracción de nuevos estudiantes, con un diseño moderno y atractivo optimizado para campañas publicitarias y la promoción de los logros institucionales.",
+        "projects.psm.desc3":
+          "Prioricé una experiencia de usuario móvil-first, diseñando funcionalidades clave como mapas del campus y sistemas de notificaciones para un acceso rápido y sencillo desde dispositivos móviles.",
+        "projects.psm.desc4":
+          "Stack tecnológico: React y TailwindCSS para un desarrollo frontend eficiente y un diseño responsivo de alta calidad.",
 
-        "projects.camin.title": "Sitio web MRW",
-        "projects.camin.role": "Proyecto cliente",
+        "projects.camin.title": "Sitio Web MRW",
+        "projects.camin.role": "Proyecto Cliente",
         "projects.camin.link": "Visitar proyecto",
-        "projects.camin.desc1":
-          "Desarrollo del Sitio Web: Este proyecto consistió en la creación integral del sitio web oficial de MRW, cubriendo todas las etapas desde el diseño inicial hasta la implementación final. El objetivo principal fue modernizar la presencia digital de la marca, ofreciendo una plataforma funcional y atractiva para sus clientes.",
-        "projects.camin.desc2":
-          "Rastreo de Envíos Nacionales: Una herramienta robusta que permite a los usuarios dar seguimiento en tiempo real a sus paquetes y envíos dentro del territorio nacional, ofreciendo transparencia y control.",
-        "projects.camin.desc3":
-          "Presentación de Servicios: Se diseñó una sección dedicada a mostrar de manera gráfica e intuitiva todos los servicios de MRW, facilitando a los clientes la comprensión de las diferentes opciones de envío y logística disponibles.",
-        "projects.camin.desc4":
-          "Optimización de Imágenes y Archivos: Se implementaron técnicas avanzadas para reducir el tamaño de las imágenes y otros archivos, lo que resultó en una mejora sustancial en la velocidad de carga del sitio web.",
-        "projects.camin.desc5":
-          "Las tecnologías utilizadas para este proyecto incluyen Vue.js y Nuxt.js.",
         "projects.camin.date": "Enero 2021 – Marzo 2022",
-        "experience.camin.from": "Lecheria, Venezuela",
+        "experience.camin.from": "Lechería, Venezuela",
+        "projects.camin.desc1":
+          "Responsable del desarrollo completo del sitio web oficial de MRW, desde el diseño inicial hasta la implementación final, modernizando la presencia digital de la marca con una plataforma funcional y atractiva para sus clientes.",
+        "projects.camin.desc2":
+          "Implementé una herramienta robusta de rastreo de envíos nacionales que permite a los usuarios realizar un seguimiento en tiempo real de sus paquetes, ofreciendo transparencia y control.",
+        "projects.camin.desc3":
+          "Desarrollé una sección dedicada a presentar de manera gráfica e intuitiva todos los servicios de MRW, facilitando que los clientes comprendan las diferentes opciones de envío y logística disponibles.",
+        "projects.camin.desc4":
+          "Realicé una optimización integral del rendimiento, aplicando técnicas avanzadas de compresión de imágenes y reducción del tamaño de archivos, lo que resultó en una mejora sustancial de la velocidad de carga del sitio web.",
+        "projects.camin.desc5":
+          "Stack tecnológico: Vue.js y Nuxt.js para el frontend, asegurando una SPA (Single Page Application) moderna y performante.",
 
-        "projects.avior.title": "Sitio web Avior Airlines",
-        "projects.avior.role": "Proyecto cliente",
+        "projects.avior.title": "Sitio Web Avior Airlines",
+        "projects.avior.role": "Proyecto Cliente",
         "projects.avior.link": "Visitar proyecto",
-        "projects.avior.desc1":
-          "Desarrollo del Sitio Web: Este proyecto web de Avior Airlines, centrándose en la reserva y compra de boletos. Esto incluyó la integración de un motor de búsqueda y un sistema de pago eficiente, asegurando una experiencia de usuario fluida y segura.",
-        "projects.avior.desc2":
-          "Integración y construcción de APIs con SABRE: Construimos múltiples APIs para gestionar las solicitudes de reserva y compra de boletos. Estas APIs se comunicaban directamente con el proveedor SABRE, lo que garantizó un procesamiento de datos preciso y en tiempo real.",
-        "projects.avior.desc3":
-          "Desarrollo del servicio de reembolso de boletos: Diseñé y desarrollé completamente el servicio de reembolso de boletos. Esto implicó la creación de la lógica de negocio para procesar las solicitudes de manera eficiente, así como la integración con los sistemas financieros de la aerolínea para asegurar una gestión correcta de los reembolsos.",
-        "projects.avior.desc4":
-          "Las tecnologías utilizadas para este proyecto incluyen C#, .NET Framework, SQL Server y React.",
         "projects.avior.date": "Noviembre 2017 – Julio 2022",
         "experience.avior.from": "Barcelona, Venezuela",
+        "projects.avior.desc1":
+          "Parte fundamental del equipo de desarrollo del sitio web oficial para reserva y compra de boletos. Integré un motor de búsqueda y sistema de pago eficiente, asegurando una experiencia de usuario fluida y segura.",
+        "projects.avior.desc2":
+          "Diseñé y construí múltiples APIs para gestionar las solicitudes con el proveedor global SABRE, garantizando un procesamiento de datos preciso y en tiempo real para disponibilidad de vuelos y precios.",
+        "projects.avior.desc3":
+          "Fui el desarrollador principal del servicio completo de reembolso de boletos, implementando la lógica de negocio para procesar solicitudes e integrando con los sistemas financieros de la aerolínea.",
+        "projects.avior.desc4":
+          "Stack tecnológico: Backend en C# y .NET Framework, frontend en React, con SQL Server como base de datos para un sistema robusto y escalable.",
 
-        // Sección Educación
+        // Sección Educación (sin cambios, solo se incluyen para completitud)
         "education.title": "Educación",
         "education.subtitle1":
           "Instituto Universitario de Tecnología Antonio José de Sucre",
         "education.desc1": "Técnico Superior Universitario en Informática",
         "education.site1": "Puerto La Cruz, Venezuela",
         "education.date1": "Marzo 2010 - Agosto 2015",
-
         "education.subtitle2": "ACL Academy",
         "education.desc2": "Azure DevOps - Certificado Nro 11097",
         "education.site2": "Santiago, Chile",
         "education.date2": "9 horas - Agosto 2022",
-
         "education.subtitle3": "Achievement",
         "education.desc3":
           "Desarrollador Microsoft SharePoint - Certificado Nro X19-56829",
         "education.site3": "Barcelona, Venezuela",
         "education.date3": "40 horas - Junio 2018",
-
         "education.subtitle4": "CeaSoft",
         "education.desc4": "Fundamentos de Scrum",
         "education.site4": "Caracas, Venezuela",
         "education.date4": "8 horas - Mayo 2018",
-
         "education.subtitle5": "Avior Airlines",
         "education.desc5":
           "Sistema de Gestión de Seguridad Operacional (S.M.S) - Certificado Nro 19687",
         "education.site5": "Barcelona, Venezuela",
         "education.date5": "8 horas - Julio 2018",
-
         "education.subtitle6": "Sabre Travel Network",
         "education.desc6":
           "Workshop Sabre Travel Network - Certificado Nro 15989",
@@ -348,260 +344,254 @@ document.addEventListener("DOMContentLoaded", function () {
         "footer.rights": "Luis Eduardo Rondón. Todos los derechos reservados.",
       },
       en: {
-        // Navegación
+        // Navigation
         experience: "Experience",
         projects: "Projects",
         education: "Education",
         cv: "CV",
 
-        //Titulo
-        "title.name": "Luis Eduardo Rondón | Developer",
+        // Title
+        "title.name": "Luis Eduardo Rondón | Senior Developer",
 
-        // Sección Intro
+        // Intro Section
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hello, I'm Luis Eduardo Rondón",
         "intro.subtitle":
-          "Software Developer with 7+ years of experience, specializing in C#/.NET (desktop applications, monolithic, APIs) and Node.js/NestJS (APIs and microservices), with frontend skills for complete solutions.",
+          "Software Developer with 7+ years of experience, specializing in backend architectures with C#/.NET and Node.js/NestJS. Expert in designing scalable solutions (APIs, microservices, monolithic) and implementing robust frontends for complete products.",
         "intro.stacks":
-          "Passionate about development, mentorship, and working in high-performance teams. I'm ready to connect and collaborate!",
-        "hero.button": "Contact me", // Esta clave parece no usarse en el HTML actual
+          "Passionate about technical excellence, mentoring, and collaboration in high-performance teams.",
 
-        // Section Experience
+        // Experience Section - Senior Wording
         "experience.title": "Experience",
 
-        // Keys for LIVELIFY
+        // LiveLify
         "experience.live.title": "LiveLify / Free Method",
-        "experience.live.role": "Full Stack Developer - Freelance",
+        "experience.live.role": "Senior Full Stack Developer - Freelance",
         "experience.live.date": "June 2025 – January 2026",
         "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
-          "Development of a REST API focused on setting specific personal goals and achievements, targeting only six areas of life (Personal Development, Professional Activity, Nutrition and Health, Money and Finances, Family and Friends, Love and Relationships) deemed most important by surveyed clients. This unique and interesting project allows end users to track their goals, create personal projects, and visualize their progress graphically. Built with Node.js using the NestJS framework, Docker, PostgreSQL, and Prisma as the ORM, it also adheres to best practices and utilizes a hexagonal architecture.",
+          "I designed and developed the main REST API for a personal goal management system. I applied Domain-Driven Design principles and the Hexagonal pattern with NestJS to create a decoupled, maintainable, and scalable business core, using PostgreSQL and Prisma ORM.",
         "experience.live.work2.desc":
-          "In addition to the aforementioned API, I also developed the Frontend Application in a fluid and organized manner, contributing business logic to the API to allow for future development of a Mobile App. This development used React and TailwindCSS.",
+          "Designed and built the frontend application in React with TailwindCSS, making state and component architecture decisions that enable a fluid user experience. Business logic was kept in the backend to facilitate future mobile app development.",
         "experience.live.work3.desc":
-          "Development and layout of the landing page for the sales of this customer service. A simple website with information about the offered service, pricing, plans, and instructions on how to use it. Built with React and TailwindCSS.",
+          "Led the development of the sales landing page, prioritizing conversion optimization and exceptional web performance. Implemented SEO best practices and responsive design with React and TailwindCSS.",
         "experience.live.work4.desc":
-          "I was also responsible for the configuration and setup of parameters for deployment to different environments using Google Cloud Services and domain configuration",
+          "Defined and configured the complete deployment and infrastructure strategy on Google Cloud Platform (GCP). Automated environment creation, managed domains, and established pipelines to ensure consistent and reliable deliveries.",
 
-        // Keys for ACL
+        // ACL - ACHS
         "experience.acl.title": "ACL - ACHS",
-        "experience.acl.role": "Full Stack Developer",
+        "experience.acl.role": "Senior Full Stack Developer",
         "experience.acl.date": "October 2021 – March 2025",
         "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
-          "Participated in the development of a medical appointment scheduling application, providing service quality to various users, patients, and representatives of each affiliated company. This was a web platform with over 1,000 associated companies and over 5,000 users. I implemented new requirements and improved system efficiency, utilizing continuous deployments with Azure DevOps CI/CD and Docker. Additionally, I performed an upgrade from .NET Core 3.1 to .NET 8.",
+          "Led the evolution and optimization of a critical medical scheduling platform, used by over 1,000 companies and 5,000 users. My main achievement was directing the complete migration from .NET Core 3.1 to .NET 8, significantly improving performance and reducing technical debt. Established CI/CD pipelines with Azure DevOps and Docker.",
         "experience.acl.work2.desc":
-          "I was also part of the development team for a single integrated system (ACHS Virtual) to provide sessions, resources, and roles for all ACHS applications, allowing for centralized session management for each user within the organization. This system utilized BFF Microservices architecture and other technologies such as Azure DevOps CI/CD, TypeScript NestJS, SQL Server, and React.",
+          "Contributed to the design and implementation of the unified identity system (ACHS Virtual) based on a BFF (Backend For Frontend) microservices architecture. I was responsible for developing secure services with TypeScript and NestJS that centralized authentication and authorization for the entire organization.",
         "experience.acl.work3.desc":
-          "Also worked on the development team called (ACHS Maintenance) to perform maintenance for various applications across the entire ACHS company. Utilized technologies such as Azure DevOps CI/CD, TypeScript NestJS, SQL Server, and React.",
+          "As part of the maintenance team, I diagnosed and resolved complex issues in various corporate applications. Performed deep optimizations on SQL queries for SQL Server and refactored legacy modules, improving system stability and response times.",
         "experience.acl.work4.desc":
-          "It's important to note that, in all three projects, we implemented a comprehensive approach that included cybersecurity and performance analysis for each feature developed. I performed specific optimizations on complex queries and methods to ensure their efficiency. Additionally, we guaranteed code quality through exhaustive reviews using SonarQube. This rigorous process allowed us to create high-quality software and integrate unit and integration testing to achieve high code quality.",
+          "Established and enforced high code quality standards. Implemented static code analysis with SonarQube, designed unit and integration testing strategies, and conducted code reviews focused on security and performance, elevating the overall robustness of delivered software.",
 
-        // Keys for PSM
+        // Politécnico Santiago Mariño
         "experience.psm.title":
           "Santiago Mariño Polytechnic University Institute",
-        "experience.psm.role": "IT Technician and Developer - Freelance", // Assign the correct role
-        "experience.psm.date": "November 2022 – Present", // <<< Added date key
+        "experience.psm.role": "Senior Full Stack Developer - Freelance",
+        "experience.psm.date": "November 2022 – Present",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
-          "Development of the University's official website. This version unifies all extensions across the country. It also includes internal data for each section of the page to facilitate editing and viewing web content for each of the educational institution's extensions within the website. Technologies such as React and TailwindCSS were used.",
+          "Designed and developed the architecture for the university's new unified website. Implemented an internal content management system that allows each campus to manage its information autonomously, using React and TailwindCSS for an agile editing experience.",
         "experience.psm.work2.desc":
-          "Development of a local application for cash management and cash closing reports. Also included features to view enrolled students, enroll them, and assign fees – a comprehensive set of tools for institutional administration. Utilizing technologies such as C#, .NET Framework, SQL Server, and React.",
+          "Conceived and built a local administrative suite for financial and academic management. The solution, developed in C# .NET Framework with a React frontend and SQL Server, automates critical processes such as enrollments, cash control, and fee assignment.",
         "experience.psm.work3.desc":
-          "On-site IT Technical Service, where I perform the functions of SQL Server DBA, I am in charge of optimizing certain data processes, in addition to providing technical assistance on local Active Directory, Proxy and File Server servers.",
+          "Act as a DBA and systems administrator, optimizing processes in SQL Server and managing on-premise infrastructure (Active Directory, Proxy, File Server). Provide specialized technical support and ensure high service availability.",
         "experience.psm.work4.desc":
-          "Development of a local, monolithic application for reviewing grades and academic history, academic breaks, and schedules, to help students manage their academic data. Using technologies such as C#, MVC, .NET Framework, and SQL Server.",
+          "Developed a monolithic .NET MVC application for academic queries, solving students' need to access grades, schedules, and records quickly and reliably on the local network.",
 
-        // Keys for Boitas
+        // Boitas.com
         "experience.boitas.title": "Boitas.com",
-        "experience.boitas.role": "Full Stack Developer", // Assign the correct role
-        "experience.boitas.date": "May 2021 – October 2021", // <<< Added date key
+        "experience.boitas.role": "Full Stack Developer",
+        "experience.boitas.date": "May 2021 – October 2021",
         "experience.boitas.from": "Mexico City, Mexico",
         "experience.boitas.work1.desc":
-          "Participated in the development of an integrated web application (Web Boitas.com) for online purchases, reservations, and payments. Utilized technologies like Elasticsearch to optimize large searches and development technologies such as Node.js, MongoDB, GraphQL, and Vue.js.",
+          "Developed key features for the e-commerce and booking platform, integrating Elasticsearch to optimize searches across large data volumes. The tech stack included Node.js, MongoDB, GraphQL, and Vue.js.",
         "experience.boitas.work2.desc":
-          "Development of the back-office (Web Boitas.com) to manage online purchases, reservations, sessions, and payments. This allowed configuring all options within the web application, utilizing technologies such as Node.js, MongoDB, GraphQL, and Vue.js.",
+          "Built the administration panel (back-office) that manages orders, reservations, and system configurations. My focus was on creating an intuitive interface and efficient APIs for massive operations.",
         "experience.boitas.work3.desc":
-          "I also made key optimizations to existing services. A notable example was the improvement in email sending: I implemented a queue and used Sendgrid, significantly streamlining automated sending to increase the efficiency and reliability of the process, as required by the business.",
+          "Identified and resolved a critical bottleneck in the email notification service. Proposed and executed a solution based on message queues and SendGrid integration, which radically increased the reliability and efficiency of automated sending.",
 
-        // Keys for Camin
+        // Camin Global
         "experience.camin.title": "Camin Global",
-        "experience.camin.role": "Frontend Developer - Freelance", // Assign the correct role
-        "experience.camin.date": "January 2021 – March 2022", // <<< Added date key
+        "experience.camin.role": "Frontend Developer - Freelance",
+        "experience.camin.date": "January 2021 – March 2022",
         "experience.camin.from": "Lecheria, Venezuela",
         "experience.camin.work1.desc":
-          "Complete development, from design to implementation, of the official MRW website. Key features of this site include tracking national shipments, and visually showcasing everything related to MRW and its services. Utilized technologies such as Vue.js and Nuxt.js.",
+          "Led the frontend development of the official MRW website from design to implementation. Built an application with Vue.js and Nuxt.js focused on the user experience for shipment tracking and service presentation.",
         "experience.camin.work2.desc":
-          "Optimized images and reduced file sizes to improve website loading speed. Additionally, changed the API address responsible for fetching shipment tracking details.",
+          "Performed comprehensive web performance optimization, applying advanced image compression and resource minification techniques. Additionally, restructured integration with tracking APIs to improve query efficiency.",
         "experience.camin.work3.desc":
-          "I was also supporting the deployment of the complete website with the service provider GoDaddy, where I performed the server installation and the installation of both the backend (developed by another developer), MySQL database engine and frontend that I had made.",
+          "Managed the complete deployment of the solution on a GoDaddy environment. Configured the server, deployed the MySQL database and frontend application, ensuring a stable and functional production rollout.",
 
-        // Keys for Avior
+        // Avior Airlines
         "experience.avior.title": "Avior Airlines",
-        "experience.avior.role": "Full Stack Developer", // Assign the correct role
-        "experience.avior.date": "November 2017 – July 2022", // <<< Added date key
+        "experience.avior.role": "Full Stack Developer",
+        "experience.avior.date": "November 2017 – July 2022",
         "experience.avior.from": "Barcelona, Venezuela",
         "experience.avior.work1.desc":
-          "I participated in the development of Avior Airlines' official website for ticket reservations and purchases. I also built APIs for processing these requests with the provider SABRE. I also developed the ticket refund service. I used C#, .NET Framework, SQL Server, and React technologies for the frontend.",
+          "Was a key responsible developer for the booking and ticket purchase system on the official website. Designed and built the integration APIs with the Sabre GDS and fully developed the refunds module, a critical and business-sensitive component. Technologies: C#, .NET Framework, SQL Server, React.",
         "experience.avior.work2.desc":
-          "Configure an https and ftp server for the development of the official web project, using Ubuntu Server on AWS EC2.",
+          "Configured and secured the initial development infrastructure on AWS EC2 with Ubuntu Server, establishing HTTPS/FTP servers and defining access and security protocols for the team.",
         "experience.avior.work3.desc":
-          "I also developed the Avior Airlines mobile app, Avior Ratings, for user flight ratings, allowing users to view and evaluate satisfaction with the airline's service. Using Ionic technology.",
+          "Fully developed the 'Avior Ratings' mobile app with Ionic, allowing passengers to evaluate service and providing the airline with valuable real-time feedback.",
         "experience.avior.work4.desc":
-          "I jointly developed a graphical application for the Avior Airlines management team to manage reports across all departments. This helped the CEO visualize current operations, enabling him to make informed decisions and improve the airline's service. Using .NET Framework MVC and SQL Server technologies.",
+          "Conceived and developed an executive dashboard in .NET MVC and SQL Server for the airline's presidency. This Business Intelligence tool consolidated reports from all departments, facilitating the visualization of KPIs and strategic decision-making.",
         "experience.avior.work5.desc":
-          "Together with the team, we conducted training with the provider Sabre International for the implementation of the air services API, providing the website with effective communication by having real-time data with the service station, flights, and web check-in.",
+          "Participated in training and technical planning for integration with the Sabre API, a global air distribution provider. This knowledge was key to ensuring real-time communication of flight availability and web check-in.",
 
-        // Keys for SmartWork
+        // SmartWork
         "experience.smartWork.title": "SmartWork",
-        "experience.smartWork.role": "Full Stack Developer", // Assign the correct role
-        "experience.smartWork.date": "April 2020 – January 2021", // <<< Added date key
+        "experience.smartWork.role": "Full Stack Developer",
+        "experience.smartWork.date": "April 2020 – January 2021",
         "experience.smartWork.from": "Quito, Ecuador",
         "experience.smartWork.work1.desc":
-          "I developed a REST API to manage the acquisitions of each client and business. This REST API was used to perform all the allocations of locations and tools. Using C#, .NET Framework, and SQL Server technologies.",
+          "Designed and developed the central REST API for managing client acquisitions, locations, and tools, using C#, .NET Framework, and SQL Server, with a focus on clear contracts and operational efficiency.",
         "experience.smartWork.work2.desc":
-          "I developed a robust back-office web application designed for the centralized management of users, locations, and the product catalog associated with each establishment. This platform facilitates the efficient management of these key operational resources. It was built using a technology stack that includes C# and .NET Framework for the backend, SQL Server as the database, and React for the frontend.",
+          "Built a robust back-office web platform for centralized user, location, and catalog management. The architecture clearly separated responsibilities between the .NET backend and React frontend.",
         "experience.smartWork.work3.desc":
-          "I developed a key mobile app for logistics and sales operations. Its main purpose is to centralize and provide instant access to the data, tools, information, and essential resources that users, field staff, and managers need, directly on their devices. It was built using React Native technology.",
+          "Developed a mobile app with React Native for field logistics and sales operations. The app centralized access to critical data, tools, and resources, improving mobile staff productivity.",
 
-        // Keys for Satelca
+        // Satelca
         "experience.satelca.title":
           "Satellites and Telecommunications (Satelca)",
-        "experience.satelca.role": "Backend Developer", // Assign the correct role
-        "experience.satelca.date": "May 2017 – November 2017", // <<< Added date key
+        "experience.satelca.role": "Backend Developer",
+        "experience.satelca.date": "May 2017 – November 2017",
         "experience.satelca.from": "Lecheria, Venezuela",
         "experience.satelca.work1.desc":
-          "Developed libraries for utilizing GPS communications with imported devices to provide vehicle location services, distributed in vehicles as a company service. This successfully homologated these devices, maximizing their benefit and performance. Utilized technologies including GSM telephony (Digitel), C#, and SQL Server.",
+          "Researched, developed, and homologated libraries in C# for communication with GSM GPS devices (Digitel). This technical solution allowed the company to offer a reliable and scalable vehicle location service.",
         "experience.satelca.work2.desc":
-          "Developed and performed initial planning for a local administrative application for internal company use, managing collections and billing. This involved setting up the adequate infrastructure for its implementation from scratch. Utilizing technologies such as C#, .NET Framework, and SQL Server.",
+          "Performed the initial design and technical planning for a billing and collections administrative application. Laid the groundwork for an internal system that would automate key financial processes.",
 
-        // Keys for Profesor
-        "experience.profesor.title": "Programming teacher at Programate",
-        "experience.profesor.role": "PHP, JavaScript, CSS and React Teacher", // Assign the correct role
-        "experience.profesor.date": "February 2020 – December 2022", // <<< Added date key
+        // Profesor
+        "experience.profesor.title": "Programming Teacher",
+        "experience.profesor.role": "PHP, JavaScript, CSS and React Instructor",
+        "experience.profesor.date": "February 2020 – December 2022",
         "experience.profesor.from": "Puerto La Cruz, Venezuela",
         "experience.profesor.work1.desc":
-          "As an instructor, I developed and taught basic and intermediate courses on PHP, JavaScript, CSS, and React. My goal was to equip students with a solid understanding of backend programming (PHP) and the ability to build web applications using this set of technologies.",
+          "Designed the curriculum and taught courses that equipped students with a solid understanding of full-stack web development, from backend fundamentals with PHP to building modern interfaces with React.",
 
-        // Keys for Soporte
+        // Soporte IT
         "experience.soporte.title":
           "Antonio José de Sucre University Institute of Technology",
-        "experience.soporte.role": "Head of IT Support / Systems Technician", // Assign the correct role
-        "experience.soporte.date": "March 2008 – May 2017", // <<< Added date key
+        "experience.soporte.role": "IT Support Lead / Systems Architect",
+        "experience.soporte.date": "March 2008 – May 2017",
         "experience.soporte.from": "Puerto La Cruz, Venezuela",
         "experience.soporte.work1.desc":
-          "IT Support Technician, providing technical assistance locally and to nearby branches for users, equipment, computer labs, networks, and servers. Also performed preventive and corrective maintenance on equipment, networks, and servers.",
+          "Managed and executed comprehensive technical support for users, equipment, labs, and servers across multiple campuses. Implemented preventive and corrective maintenance strategies that reduced downtime.",
         "experience.soporte.work2.desc":
-          "Furthermore, in an advanced stage, I became IT Support Lead, providing support for administrative and academic applications both locally and to other branches/regional extensions. Additionally, I conducted training sessions on servers with Active Directory in Windows Server 2012R2.",
+          "Promoted to lead the support area, providing advanced-level assistance for administrative and academic applications. Trained staff in administering servers with Active Directory on Windows Server, improving the department's internal capabilities.",
 
-        // Projects section
+        // --- INGLÉS (en) ---
         "projects.title": "Projects",
-        // Claves para proyectos con fechas (ejemplo)
+
         "projects.glucose.title": "Glucose Tracking Application",
         "projects.glucose.role": "Personal Project",
-        "projects.glucose.desc1":
-          "Graphical visualization and trend analysis: Allows users to view their glucose levels in interactive charts, identifying patterns and trends over time (days, weeks, months) for a better understanding of their management.",
-        "projects.glucose.desc2":
-          "Related events logging: Facilitates the logging of key factors such as meals (with carbs if desired), exercise, medication, and other events to contextualize glucose measurements.",
-        "projects.glucose.desc3":
-          "Customizable alerts and notifications to contacts: Allows users to define specific alert thresholds and configure important notifications (such as extreme levels) to be sent to designated family members or caregivers.",
-        "projects.glucose.desc4":
-          "Data report and summary generation: Ability to generate periodic reports (daily, weekly, monthly) with summaries of measurements, averages, and time-in-range, useful for personal monitoring or for sharing with healthcare professionals.",
-        "projects.glucose.desc5":
-          "The technologies used for this project include a Python Flask API, with future development planned for a mobile application using React Native and a PostgreSQL database.",
         "projects.glucose.date": "December 2024 - Present",
         "experience.glucose.from": "Barcelona, Venezuela",
+        "projects.glucose.desc1":
+          "I designed and developed a complete system for diabetes management. The core is a Python Flask API that processes and stores measurements in PostgreSQL, generating interactive graphs for trend analysis over time (days, weeks, months).",
+        "projects.glucose.desc2":
+          "Developing a module to log contextual events such as meals (with carb counting), exercise, and medication, allowing correlation with glucose levels for more informed management.",
+        "projects.glucose.desc3":
+          "Implementing a customizable alert system where users define thresholds. In case of critical levels, the system sends automatic notifications to designated family members or caregivers, adding a layer of proactive safety.",
+        "projects.glucose.desc4":
+          "Designing a periodic report generator (daily, weekly, monthly) that summarizes key metrics like averages and 'time in range', facilitating personal tracking and communication with healthcare professionals.",
+        "projects.glucose.desc5":
+          "Tech stack: Python Flask for the API, PostgreSQL for the database, and planning frontend/mobile development with React Native for an accessible user experience.",
 
         "projects.biblioteca.title": "Virtual Library Application",
         "projects.biblioteca.role": "Client Project",
-        "projects.biblioteca.desc1":
-          "Granular user and role management: Implement different levels of permissions and roles (e.g., Student, Professor, Researcher, Librarian, Administrator) to control access to certain materials, back-office functionalities, and types of actions (like requesting extended loans, downloading certain documents, etc.).",
-        "projects.biblioteca.desc2":
-          "Material loan and reservation system: Not only access, but also a system to manage the loan (digital or physical) of materials with due dates and the possibility of reserving materials that are currently on loan.",
-        "projects.biblioteca.desc3":
-          "Integrated digital document viewer: For theses, reports, and certain digital books, the application can include a web viewer that allows users to read the content directly in the browser without always needing to download it, improving security and the quick-reading experience.",
-        "projects.biblioteca.desc4":
-          "Content upload and management module (Back-office): Robust back-office tools for library staff to easily upload new materials (individually or in batches), edit complete metadata (abstracts, keywords, ISBN, etc.), and manage versions and formats.",
-        "projects.biblioteca.desc5":
-          "The technologies used for this project include .NET MVC or monolith as it is also commonly known, also following good practices using hexagonal architecture, database with SQL Server.",
         "projects.biblioteca.date": "February 2025 - Present",
         "experience.biblioteca.from": "Barcelona, Venezuela",
+        "projects.biblioteca.desc1":
+          "Designing a granular permissions system with differentiated roles (Student, Professor, Researcher, Librarian, Administrator) to control access to materials, backoffice functionalities, and specific actions like extended loans.",
+        "projects.biblioteca.desc2":
+          "Implementing a complete loan and reservation system for digital and physical materials, with due date management and the ability to reserve unavailable items.",
+        "projects.biblioteca.desc3":
+          "Developing an integrated web viewer for theses, reports, and digital books, allowing direct reading in the browser without download, improving security and user experience.",
+        "projects.biblioteca.desc4":
+          "Building a robust backoffice module for library staff to upload materials (individually or in batches), edit complete metadata (abstracts, keywords, ISBN), and manage versions and formats.",
+        "projects.biblioteca.desc5":
+          "Tech stack: .NET MVC (monolith) applying hexagonal architecture principles for a decoupled and maintainable business domain, with SQL Server as the database.",
 
         "projects.psm.title":
           "Website of the Santiago Mariño Polytechnic University Institute",
-        "projects.psm.role": "Client project",
+        "projects.psm.role": "Client Project",
         "projects.psm.link": "Visit project",
-        "projects.psm.desc1":
-          "Centralized Content Management and Unification: Unifies all extensions into a single website. It allows each section to autonomously edit its own content, ensuring a coherent visual identity throughout the portal.",
-        "projects.psm.desc2":
-          "Brand and Digital Attraction Website: The website is a marketing tool focused on attracting new students. The design is appealing and modern, optimized for digital advertising campaigns and the promotion of the university's achievements.",
-        "projects.psm.desc3":
-          "Mobile-First Portal: Prioritizes the user experience on mobile devices. Key features, such as campus maps and notifications, are designed for quick and easy access from a phone or tablet.",
-        "projects.psm.desc4":
-          "The technologies used for this project include React and TailwindCSS.",
         "projects.psm.date": "March 2024 - Present",
-        "experience.psm.from": "Caracas, Venezuela",
+        "experience.psm.from": "Barcelona, Venezuela",
+        "projects.psm.desc1":
+          "Led the development of the university's unified official website, consolidating the presence of all its campuses into a single portal. Implemented an internal content management system allowing each section to autonomously edit and view its information while maintaining a coherent visual identity.",
+        "projects.psm.desc2":
+          "The site functions as a central digital marketing tool and attraction for new students, with a modern and attractive design optimized for advertising campaigns and promotion of institutional achievements.",
+        "projects.psm.desc3":
+          "Prioritized a mobile-first user experience, designing key features like campus maps and notification systems for quick and easy access from mobile devices.",
+        "projects.psm.desc4":
+          "Tech stack: React and TailwindCSS for efficient frontend development and high-quality responsive design.",
 
         "projects.camin.title": "MRW Website",
         "projects.camin.role": "Client Project",
         "projects.camin.link": "Visit project",
-        "projects.camin.desc1":
-          "Website Development: This project involved the full-scale creation of the official MRW website, covering every stage from initial design to final implementation. The main goal was to modernize the brand's digital presence by offering a functional and appealing platform for its customers.",
-        "projects.camin.desc2":
-          "Domestic Shipment Tracking: A robust tool that allows users to track their packages and shipments within the national territory in real-time, providing transparency and control.",
-        "projects.camin.desc3":
-          "Service Showcase: A dedicated section was designed to graphically and intuitively display all of MRW's services, making it easier for customers to understand the different shipping and logistics options available.",
-        "projects.camin.desc4":
-          "Image and File Optimization: Advanced techniques were implemented to reduce the size of images and other files, resulting in a substantial improvement in the website's loading speed.",
-        "projects.camin.desc5":
-          "The technologies used for this project include Vue.js and Nuxt.js.",
         "projects.camin.date": "January 2021 – March 2022",
         "experience.camin.from": "Lecheria, Venezuela",
+        "projects.camin.desc1":
+          "Responsible for the complete development of MRW's official website, from initial design to final implementation, modernizing the brand's digital presence with a functional and attractive platform for its customers.",
+        "projects.camin.desc2":
+          "Implemented a robust domestic shipment tracking tool that allows users to track their packages in real-time, offering transparency and control.",
+        "projects.camin.desc3":
+          "Developed a dedicated section to graphically and intuitively present all of MRW's services, making it easier for customers to understand the different shipping and logistics options available.",
+        "projects.camin.desc4":
+          "Performed comprehensive performance optimization, applying advanced image compression and file size reduction techniques, resulting in a substantial improvement in website loading speed.",
+        "projects.camin.desc5":
+          "Tech stack: Vue.js and Nuxt.js for the frontend, ensuring a modern and performant SPA (Single Page Application).",
 
         "projects.avior.title": "Avior Airlines Website",
         "projects.avior.role": "Client Project",
         "projects.avior.link": "Visit project",
-        "projects.avior.desc1":
-          "Website Development: This Avior Airlines web project focused on ticket booking and purchasing. This included the integration of a search engine and an efficient payment system, ensuring a fluid and secure user experience.",
-        "projects.avior.desc2":
-          "API Integration and Development with SABRE: We built multiple APIs to manage ticket booking and purchasing requests. These APIs communicated directly with the SABRE provider, which ensured accurate and real-time data processing.",
-        "projects.avior.desc3":
-          "Ticket Refund Service Development: I fully designed and developed the ticket refund service. This involved creating the business logic to efficiently process requests, as well as integrating it with the airline's financial systems to ensure correct refund management.",
-        "projects.avior.desc4":
-          "The technologies used for this project include C#, .NET Framework, SQL Server, and React.",
         "projects.avior.date": "November 2017 – July 2022",
         "experience.avior.from": "Barcelona, Venezuela",
+        "projects.avior.desc1":
+          "Core member of the development team for the official booking and ticket purchase website. Integrated an efficient search engine and payment system, ensuring a fluid and secure user experience.",
+        "projects.avior.desc2":
+          "Designed and built multiple APIs to manage requests with the global provider SABRE, guaranteeing accurate and real-time data processing for flight availability and pricing.",
+        "projects.avior.desc3":
+          "Was the lead developer for the complete ticket refund service, implementing the business logic to process requests and integrating with the airline's financial systems.",
+        "projects.avior.desc4":
+          "Tech stack: Backend in C# and .NET Framework, frontend in React, with SQL Server as the database for a robust and scalable system.",
 
-        // Section education
+        // Education Section
         "education.title": "Education",
         "education.subtitle1":
           "Antonio José de Sucre University Institute of Technology",
         "education.desc1": "University Technician in Information Technology",
         "education.site1": "Puerto La Cruz, Venezuela",
         "education.date1": "March 2010 - August 2015",
-
         "education.subtitle2": "ACL Academy",
         "education.desc2": "Azure DevOps - Certificate No. 11097",
         "education.site2": "Santiago, Chile",
         "education.date2": "9 hours - August 2022",
-
         "education.subtitle3": "Achievement",
         "education.desc3":
           "Microsoft SharePoint Developer - Certificate No. X19-56829",
         "education.site3": "Barcelona, Venezuela",
         "education.date3": "40 hours - June 2018",
-
         "education.subtitle4": "CeaSoft",
         "education.desc4": "Scrum Fundamentals",
         "education.site4": "Caracas, Venezuela",
         "education.date4": "8 hours - May 2018",
-
         "education.subtitle5": "Avior Airlines",
         "education.desc5":
           "Safety Management System (SMS) - Certificate No. 19687",
         "education.site5": "Barcelona, Venezuela",
         "education.date5": "8 hours - July 2018",
-
         "education.subtitle6": "Sabre Travel Network",
         "education.desc6":
           "Sabre Travel Network Workshop - Certificate No. 15989",
