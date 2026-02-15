@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // LiveLify
         "experience.live.title": "LiveLify / Método Libre",
-        "experience.live.role": "Desarrollador Full Stack Senior - Freelance",
+        "experience.live.role": "Desarrollador Full Stack - Freelance",
         "experience.live.date": "Junio 2025 – Enero 2026",
         "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // ACL - ACHS
         "experience.acl.title": "ACL - ACHS",
-        "experience.acl.role": "Desarrollador Full Stack Senior",
+        "experience.acl.role": "Desarrollador Full Stack",
         "experience.acl.date": "Octubre 2021 – Marzo 2025",
         "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Politécnico Santiago Mariño
         "experience.psm.title":
           "Instituto Universitario Politécnico Santiago Mariño",
-        "experience.psm.role": "Desarrollador Full Stack Senior - Freelance",
+        "experience.psm.role": "Desarrollador Full Stack - Freelance",
         "experience.psm.date": "Noviembre 2022 – Actualidad",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
@@ -366,7 +366,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // LiveLify
         "experience.live.title": "LiveLify / Free Method",
-        "experience.live.role": "Senior Full Stack Developer - Freelance",
+        "experience.live.role": "Full Stack Developer - Freelance",
         "experience.live.date": "June 2025 – January 2026",
         "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
@@ -380,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // ACL - ACHS
         "experience.acl.title": "ACL - ACHS",
-        "experience.acl.role": "Senior Full Stack Developer",
+        "experience.acl.role": "Full Stack Developer",
         "experience.acl.date": "October 2021 – March 2025",
         "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Politécnico Santiago Mariño
         "experience.psm.title":
           "Santiago Mariño Polytechnic University Institute",
-        "experience.psm.role": "Senior Full Stack Developer - Freelance",
+        "experience.psm.role": "Full Stack Developer - Freelance",
         "experience.psm.date": "November 2022 – Present",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
