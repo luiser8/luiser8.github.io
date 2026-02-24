@@ -136,7 +136,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // Politécnico Santiago Mariño
         "experience.psm.title":
           "Instituto Universitario Politécnico Santiago Mariño",
-        "experience.psm.role": "Desarrollador Full Stack - Freelance",
+        "experience.psm.role":
+          "Técnico IT & Desarrollador Full Stack - Freelance",
         "experience.psm.date": "Noviembre 2022 – Octubre 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
@@ -395,7 +396,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // Politécnico Santiago Mariño
         "experience.psm.title":
           "Santiago Mariño Polytechnic University Institute",
-        "experience.psm.role": "Full Stack Developer - Freelance",
+        "experience.psm.role":
+          "IT Technician & Full Stack Developer - Freelance",
         "experience.psm.date": "November 2022 – October 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
