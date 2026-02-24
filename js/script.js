@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.psm.title":
           "Instituto Universitario Politécnico Santiago Mariño",
         "experience.psm.role": "Desarrollador Full Stack - Freelance",
-        "experience.psm.date": "Noviembre 2022 – Actualidad",
+        "experience.psm.date": "Noviembre 2022 – Octubre 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
           "Diseñé y desarrollé la arquitectura de la nueva web unificada de la universidad. Implementé un sistema de gestión de contenido interno que permite a cada extensión administrar su información de forma autónoma, utilizando React y TailwindCSS para una experiencia de edición ágil.",
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         "projects.biblioteca.title": "Aplicación de Biblioteca Virtual",
         "projects.biblioteca.role": "Proyecto Cliente",
-        "projects.biblioteca.date": "Febrero 2025 - Actualidad",
+        "projects.biblioteca.date": "Octubre 2024 - Septiembre 2025",
         "experience.biblioteca.from": "Barcelona, Venezuela",
         "projects.biblioteca.desc1":
           "Diseñando un sistema de permisos granulares con roles diferenciados (Estudiante, Profesor, Investigador, Bibliotecario, Administrador) para controlar el acceso a materiales, funcionalidades del backoffice y acciones específicas como préstamos extendidos.",
@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Sitio Web Instituto Universitario Politécnico Santiago Mariño",
         "projects.psm.role": "Proyecto Cliente",
         "projects.psm.link": "Visitar proyecto",
-        "projects.psm.date": "Marzo 2024 - Actualidad",
+        "projects.psm.date": "Marzo 2024 - Octubre 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "projects.psm.desc1":
           "Lideré el desarrollo de la web oficial unificada de la universidad, consolidando la presencia de todas sus extensiones en un solo portal. Implementé un sistema de gestión de contenido interno que permite a cada sección editar y visualizar su información de forma autónoma, manteniendo una identidad visual coherente.",
@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "experience.psm.title":
           "Santiago Mariño Polytechnic University Institute",
         "experience.psm.role": "Full Stack Developer - Freelance",
-        "experience.psm.date": "November 2022 – Present",
+        "experience.psm.date": "November 2022 – October 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
           "Designed and developed the architecture for the university's new unified website. Implemented an internal content management system that allows each campus to manage its information autonomously, using React and TailwindCSS for an agile editing experience.",
@@ -509,7 +509,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         "projects.biblioteca.title": "Virtual Library Application",
         "projects.biblioteca.role": "Client Project",
-        "projects.biblioteca.date": "February 2025 - Present",
+        "projects.biblioteca.date": "October 2024 - September 2025",
         "experience.biblioteca.from": "Barcelona, Venezuela",
         "projects.biblioteca.desc1":
           "Designing a granular permissions system with differentiated roles (Student, Professor, Researcher, Librarian, Administrator) to control access to materials, backoffice functionalities, and specific actions like extended loans.",
@@ -526,7 +526,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Website of the Santiago Mariño Polytechnic University Institute",
         "projects.psm.role": "Client Project",
         "projects.psm.link": "Visit project",
-        "projects.psm.date": "March 2024 - Present",
+        "projects.psm.date": "March 2024 - October 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "projects.psm.desc1":
           "Led the development of the university's unified official website, consolidating the presence of all its campuses into a single portal. Implemented an internal content management system allowing each section to autonomously edit and view its information while maintaining a coherent visual identity.",
