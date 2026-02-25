@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Instituto Universitario Politécnico Santiago Mariño",
         "experience.psm.role":
           "Técnico IT & Desarrollador Full Stack - Freelance",
-        "experience.psm.date": "Noviembre 2022 – Octubre 2025",
+        "experience.psm.date": "Noviembre 2022 – Abril 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
           "Diseñé y desarrollé la arquitectura de la nueva web unificada de la universidad. Implementé un sistema de gestión de contenido interno que permite a cada extensión administrar su información de forma autónoma, utilizando React y TailwindCSS para una experiencia de edición ágil.",
@@ -398,7 +398,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Santiago Mariño Polytechnic University Institute",
         "experience.psm.role":
           "IT Technician & Full Stack Developer - Freelance",
-        "experience.psm.date": "November 2022 – October 2025",
+        "experience.psm.date": "November 2022 – April 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
           "Designed and developed the architecture for the university's new unified website. Implemented an internal content management system that allows each campus to manage its information autonomously, using React and TailwindCSS for an agile editing experience.",
