@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador de Software con 7+ años de experiencia, especializado en arquitecturas backend con C#/.NET y Node.js/NestJS. Experto en diseñar soluciones escalables (APIs, microservicios) y en implementar frontends robustos con React y TypeScript para la entrega de productos completos.",
+          "Desarrollador de Software con 7+ años de experiencia, especializado en arquitecturas backend con C#/.NET y Node.js/NestJS. Experto en diseñar soluciones escalables (monolitos, escritorio, APIs, microservicios) y en implementar frontends robustos con React y TypeScript para la entrega de productos completos.",
         "intro.stacks":
           "Apasionado por la excelencia técnica, la mentoría y la colaboración en equipos de alto rendimiento.",
 
@@ -358,9 +358,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hello, I'm Luis Eduardo Rondón",
         "intro.subtitle":
-          "Software Developer with 7+ years of experience, specializing in backend architectures with C#/.NET and Node.js/NestJS. Expert in designing scalable solutions (APIs, microservices) and implementing robust frontends with React and TypeScript for the delivery of complete products.",
+          "Software Developer with 7+ years of experience, specializing in backend architectures with C#/.NET and Node.js/NestJS. Expert in designing scalable solutions (monoliths, desktop, APIs, microservices) and implementing robust frontends with React and TypeScript for delivering complete products.",
         "intro.stacks":
-          "Passionate about technical excellence, mentoring, and collaboration in high-performance teams.",
+          "Passionate about technical excellence, mentoring, and collaborating in high-performing teams.",
 
         // Experience Section - Senior Wording
         "experience.title": "Experience",
