@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
         experience: "Experiencia",
         projects: "Proyectos",
         education: "Educación",
+        skills: "Habilidades",
         cv: "Currículum",
 
         // Titulo
@@ -107,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // LiveLify
         "experience.live.title": "LiveLify / Método Libre",
-        "experience.live.role": "Desarrollador Full Stack - Freelance",
+        "experience.live.role": "Desarrollador Full Stack - Freelance (Remoto)",
         "experience.live.date": "Junio 2025 – Enero 2026",
         "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
@@ -121,23 +122,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // ACL - ACHS
         "experience.acl.title": "ACL - ACHS",
-        "experience.acl.role": "Desarrollador Full Stack",
+        "experience.acl.role":
+          "Desarrollador Full Stack - Tiempo completo (Remoto)",
         "experience.acl.date": "Octubre 2021 – Marzo 2025",
         "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
           "Lideré la evolución y optimización de una plataforma crítica de agendamiento médico, utilizada por más de 1,000 empresas y 5,000 usuarios. Mi principal logro fue dirigir la migración completa de .NET Core 3.1 a .NET 8, mejorando significativamente el rendimiento y reduciendo la deuda técnica. Establecí pipelines de CI/CD con Azure DevOps y Docker.",
         "experience.acl.work2.desc":
-          "Contribuí al diseño e implementación del sistema unificado de identidad (ACHS Virtual) basado en una arquitectura de microservicios BFF (Backend For Frontend). Fui responsable de desarrollar servicios seguros con TypeScript y NestJS que centralizaron la autenticación y autorización para toda la organización.",
+          "Optimicé el consumo del API externo de Salesforce para la búsqueda de datos de pacientes, mejorando la gestión de respuestas y el control de excepciones, lo que redujo errores no controlados y aumentó la robustez de la integración.",
         "experience.acl.work3.desc":
-          "Como parte del equipo de mantención, diagnosticé y resolví problemas complejos en diversas aplicaciones corporativas. Realicé optimizaciones profundas en consultas SQL para SQL Server y refactoricé módulos legacy, mejorando la estabilidad y tiempo de respuesta de los sistemas.",
+          "Desarrollé componentes en React para la gestión de citas médicas y reservas, y adicionalmente resolví múltiples code smells en el proyecto general, mejorando la mantenibilidad y la calidad del código base.",
         "experience.acl.work4.desc":
+          "Solucioné problemas relacionados con pruebas en Jest, específicamente en la duración de la ejecución de los pipelines en diferentes entornos, logrando una reducción en los tiempos de espera y una mayor estabilidad en los procesos de integración continua.",
+        "experience.acl.work5.desc":
+          "Contribuí al diseño e implementación del sistema unificado de identidad (ACHS Virtual) basado en una arquitectura de microservicios BFF (Backend For Frontend). Fui responsable de desarrollar servicios seguros con TypeScript y NestJS que centralizaron la autenticación y autorización para toda la organización.",
+        "experience.acl.work6.desc":
+          "Como parte del equipo de mantención, diagnosticé y resolví problemas complejos en diversas aplicaciones corporativas. Realicé optimizaciones profundas en consultas SQL para SQL Server y refactoricé módulos legacy, mejorando la estabilidad y tiempo de respuesta de los sistemas.",
+        "experience.acl.work7.desc":
           "Establecí y hice cumplir altos estándares de calidad. Implementé análisis de código estático con SonarQube, diseñé estrategias de pruebas unitarias e integración, y realicé revisiones de código enfocadas en seguridad y rendimiento, elevando la robustez general del software entregado.",
 
         // Politécnico Santiago Mariño
         "experience.psm.title":
           "Instituto Universitario Politécnico Santiago Mariño",
         "experience.psm.role":
-          "Técnico IT & Desarrollador Full Stack - Freelance",
+          "Técnico IT & Desarrollador Full Stack - Freelance (Híbrido)",
         "experience.psm.date": "Noviembre 2022 – Abril 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
@@ -148,22 +156,25 @@ document.addEventListener("DOMContentLoaded", function () {
           "Actúo como DBA y administrador de sistemas, optimizando procesos en SQL Server y gestionando la infraestructura local (Active Directory, Proxy, File Server). Proporciono soporte técnico especializado y garantizo la alta disponibilidad de los servicios.",
         "experience.psm.work4.desc":
           "Desarrollé una aplicación monolítica en .NET MVC para consulta académica, resolviendo la necesidad de los estudiantes de acceder a notas, horarios e historiales de manera rápida y confiable en la red local.",
+        "experience.psm.work5.desc":
+          "Ejecuté funciones de Soporte Técnico IT y DBA, optimizando procesos en SQL Server y brindando asistencia enla administración de servidores locales (Active Directory, Proxy, File Server).",
 
         // Boitas.com
         "experience.boitas.title": "Boitas.com",
-        "experience.boitas.role": "Desarrollador Full Stack",
+        "experience.boitas.role":
+          "Desarrollador Full Stack - Tiempo completo (Remoto)",
         "experience.boitas.date": "Mayo 2021 – Octubre 2021",
         "experience.boitas.from": "Ciudad de México, México",
         "experience.boitas.work1.desc":
-          "Desarrollé funcionalidades clave para la plataforma de e-commerce y reservas, integrando Elasticsearch para optimizar las búsquedas en grandes volúmenes de datos. La stack tecnológica incluyó Node.js, MongoDB, GraphQL y Vue.js.",
+          "Desarrollé funcionalidades clave para la plataforma de e-commerce y reservas, integrando Elasticsearch para optimizar las búsquedas en grandes volúmenes de datos, usando Node.js, MongoDB y GraphQL.",
         "experience.boitas.work2.desc":
-          "Construí el panel de administración (back-office) que permite gestionar órdenes, reservas y configuraciones del sistema. Mi enfoque estuvo en crear una interfaz intuitiva y APIs eficientes para operaciones masivas.",
+          "Construí el panel de administración (back-office) usando Vue.js, donde puede gestionar órdenes, reservas y configuraciones del sistema. Mi enfoque estuvo en crear una interfaz intuitiva y APIs eficientes para operaciones masivas.",
         "experience.boitas.work3.desc":
           "Identifiqué y resolví un cuello de botella crítico en el servicio de notificaciones por email. Propuse y ejecuté una solución basada en colas de mensajería e integración con SendGrid, lo que incrementó radicalmente la confiabilidad y eficiencia de los envíos automatizados.",
 
         // Camin Global
         "experience.camin.title": "Camin Global",
-        "experience.camin.role": "Desarrollador Frontend - Freelance",
+        "experience.camin.role": "Desarrollador Frontend – Freelance (Híbrido)",
         "experience.camin.date": "Enero 2021 – Marzo 2022",
         "experience.camin.from": "Lechería, Venezuela",
         "experience.camin.work1.desc":
@@ -175,11 +186,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Avior Airlines
         "experience.avior.title": "Avior Airlines",
-        "experience.avior.role": "Desarrollador Full Stack",
+        "experience.avior.role":
+          "Desarrollador Full Stack - Tiempo completo (Presencial)",
         "experience.avior.date": "Noviembre 2017 – Julio 2022",
         "experience.avior.from": "Barcelona, Venezuela",
         "experience.avior.work1.desc":
-          "Fui responsable clave del desarrollo del sistema de reservas y compra de boletos en la web oficial. Diseñé y construí las APIs de integración con el GDS Sabre y desarrollé por completo el módulo de reembolsos, un componente crítico y sensible del negocio. Tecnologías: C#, .NET Framework, SQL Server, React.",
+          "Fui responsable clave del desarrollo del sistema de reservas y compra de boletos en la web oficial. Diseñé y construí las APIs de integración con el GDS Sabre y desarrollé por completo el módulo de reembolsos, un componente crítico y sensible del negocio.",
         "experience.avior.work2.desc":
           "Configuré y aseguré la infraestructura inicial de desarrollo en AWS EC2 con Ubuntu Server, estableciendo servidores HTTPS/FTP y definiendo los protocolos de acceso y seguridad para el equipo.",
         "experience.avior.work3.desc":
@@ -191,7 +203,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // SmartWork
         "experience.smartWork.title": "SmartWork",
-        "experience.smartWork.role": "Desarrollador Full Stack",
+        "experience.smartWork.role":
+          "Desarrollador Full Stack - Tiempo completo (Remoto)",
         "experience.smartWork.date": "Abril 2020 – Enero 2021",
         "experience.smartWork.from": "Quito, Ecuador",
         "experience.smartWork.work1.desc":
@@ -203,28 +216,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Satelca
         "experience.satelca.title": "Satélites y Telecomunicaciones (Satelca)",
-        "experience.satelca.role": "Desarrollador Backend",
+        "experience.satelca.role":
+          "Desarrollador Backend - Tiempo completo (Presencial)",
         "experience.satelca.date": "Mayo 2017 – Noviembre 2017",
         "experience.satelca.from": "Lechería, Venezuela",
         "experience.satelca.work1.desc":
-          "Investigué, desarrollé y homologé librerías en C# para la comunicación con dispositivos GPS GSM (Digitel). Esta solución técnica permitió a la empresa ofrecer un servicio de localización vehicular confiable y escalable.",
+          "Investigué, desarrollé y homologué librerías en C# para la comunicación con dispositivos GPS GSM (Digitel). Esta solución técnica permitió a la empresa ofrecer un servicio de localización vehicular confiable y escalable.",
         "experience.satelca.work2.desc":
           "Realicé el diseño inicial y la planificación técnica para una aplicación administrativa de facturación y cobranza. Senté las bases para un sistema interno que automatizaría procesos financieros clave.",
 
         // Profesor
         "experience.profesor.title": "Profesor de Programación",
         "experience.profesor.role":
-          "Instructor de PHP, JavaScript, CSS y React",
+          "Instructor de PHP, JavaScript, CSS y React - Freelance (Presencial)",
         "experience.profesor.date": "Febrero 2020 – Diciembre 2022",
         "experience.profesor.from": "Puerto La Cruz, Venezuela",
         "experience.profesor.work1.desc":
-          "Diseñé el currículo e impartí cursos que equiparon a los estudiantes con una comprensión sólida del desarrollo web full-stack, desde los fundamentos de backend con PHP hasta la construcción de interfaces modernas con React.",
+          "Diseñé e impartí cursos de nivel básico e intermedio en PHP, JavaScript, CSS y React.",
+        "experience.profesor.work2.desc":
+          "Enfoqué la formación en proporcionar a los estudiantes una comprensión sólida de la programación backend con PHP y la capacidad de construir aplicaciones web completas utilizando este stack tecnológico.",
 
         // Soporte IT
         "experience.soporte.title":
           "Instituto Universitario de Tecnología Antonio José de Sucre",
         "experience.soporte.role":
-          "Jefe de Soporte IT / Arquitecto de Sistemas",
+          "Jefe de Soporte IT / Arquitecto de Sistemas - Tiempo completo (Presencial)",
         "experience.soporte.date": "Marzo 2008 – Mayo 2017",
         "experience.soporte.from": "Puerto La Cruz, Venezuela",
         "experience.soporte.work1.desc":
@@ -247,8 +263,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "Implementando un sistema de alertas personalizables donde los usuarios definen umbrales. En caso de niveles críticos, el sistema envía notificaciones automáticas a familiares o cuidadores designados, añadiendo una capa de seguridad proactiva.",
         "projects.glucose.desc4":
           "Diseñando un generador de informes periódicos (diarios, semanales, mensuales) que resume métricas clave como promedios y 'tiempo en rango', facilitando el seguimiento personal y la comunicación con profesionales de la salud.",
-        "projects.glucose.desc5":
-          "Stack tecnológico: Python Flask para la API, PostgreSQL para la base de datos, y planeando el desarrollo frontend/móvil con React Native para una experiencia de usuario accesible.",
 
         "projects.biblioteca.title": "Aplicación de Biblioteca Virtual",
         "projects.biblioteca.role": "Proyecto Cliente",
@@ -262,8 +276,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "Desarrollando un visor web integrado para tesis, informes y libros digitales, permitiendo la lectura directa en el navegador sin necesidad de descarga, lo que mejora la seguridad y la experiencia de usuario.",
         "projects.biblioteca.desc4":
           "Construyendo un módulo de backoffice robusto para que el personal bibliotecario pueda cargar materiales (individualmente o en lotes), editar metadatos completos (resúmenes, palabras clave, ISBN) y gestionar versiones y formatos.",
-        "projects.biblioteca.desc5":
-          "Stack tecnológico: .NET MVC (monolito) aplicando principios de arquitectura hexagonal para un dominio de negocio desacoplado y mantenible, con SQL Server como base de datos.",
 
         "projects.psm.title":
           "Sitio Web Instituto Universitario Politécnico Santiago Mariño",
@@ -277,8 +289,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "El sitio funciona como una herramienta central de marketing digital y atracción de nuevos estudiantes, con un diseño moderno y atractivo optimizado para campañas publicitarias y la promoción de los logros institucionales.",
         "projects.psm.desc3":
           "Prioricé una experiencia de usuario móvil-first, diseñando funcionalidades clave como mapas del campus y sistemas de notificaciones para un acceso rápido y sencillo desde dispositivos móviles.",
-        "projects.psm.desc4":
-          "Stack tecnológico: React y TailwindCSS para un desarrollo frontend eficiente y un diseño responsivo de alta calidad.",
 
         "projects.camin.title": "Sitio Web MRW",
         "projects.camin.role": "Proyecto Cliente",
@@ -293,8 +303,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "Desarrollé una sección dedicada a presentar de manera gráfica e intuitiva todos los servicios de MRW, facilitando que los clientes comprendan las diferentes opciones de envío y logística disponibles.",
         "projects.camin.desc4":
           "Realicé una optimización integral del rendimiento, aplicando técnicas avanzadas de compresión de imágenes y reducción del tamaño de archivos, lo que resultó en una mejora sustancial de la velocidad de carga del sitio web.",
-        "projects.camin.desc5":
-          "Stack tecnológico: Vue.js y Nuxt.js para el frontend, asegurando una SPA (Single Page Application) moderna y performante.",
 
         "projects.avior.title": "Sitio Web Avior Airlines",
         "projects.avior.role": "Proyecto Cliente",
@@ -307,8 +315,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "Diseñé y construí múltiples APIs para gestionar las solicitudes con el proveedor global SABRE, garantizando un procesamiento de datos preciso y en tiempo real para disponibilidad de vuelos y precios.",
         "projects.avior.desc3":
           "Fui el desarrollador principal del servicio completo de reembolso de boletos, implementando la lógica de negocio para procesar solicitudes e integrando con los sistemas financieros de la aerolínea.",
-        "projects.avior.desc4":
-          "Stack tecnológico: Backend en C# y .NET Framework, frontend en React, con SQL Server como base de datos para un sistema robusto y escalable.",
 
         // Sección Educación (sin cambios, solo se incluyen para completitud)
         "education.title": "Educación",
@@ -341,14 +347,212 @@ document.addEventListener("DOMContentLoaded", function () {
         "education.site6": "Bogotá, Colombia",
         "education.date6": "48 horas - Septiembre 2019",
 
+        // Skills
+        "skills.title": "Habilidades",
+
+        "skills.cat1.title": "Tecnologías Principales",
+        "skills.cat1.row1.label": "Lenguajes & Backend Principal",
+        "skills.cat1.row1.badges": [
+          "C#",
+          ".NET Framework",
+          ".NET Core",
+          ".NET",
+        ],
+        "skills.cat1.row2.label": "Stack Secundario (JavaScript/TypeScript)",
+        "skills.cat1.row2.badges": [
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+        ],
+
+        "skills.cat2.title": "Frontend & Fullstack",
+        "skills.cat2.row1.label": "Frameworks/Librerías",
+        "skills.cat2.row1.badges": ["React", "Vue.js"],
+        "skills.cat2.row2.label": "UI & Estilos",
+        "skills.cat2.row2.badges": [
+          "TailwindCSS",
+          "Bootstrap",
+          "Chakra UI",
+          "MUI (Material UI)",
+        ],
+
+        "skills.cat3.title": "Bases de Datos & ORM",
+        "skills.cat3.row1.label": "SQL",
+        "skills.cat3.row1.badges": [
+          "SQL Server",
+          "MySQL",
+          "PostgreSQL",
+          "SQLite",
+        ],
+        "skills.cat3.row2.label": "NoSQL & Caché",
+        "skills.cat3.row2.badges": ["MongoDB", "Redis"],
+        "skills.cat3.row3.label": "ORM/Herramientas",
+        "skills.cat3.row3.badges": [
+          "Entity Framework",
+          "Dapper (C#/.NET)",
+          "Prisma",
+          "GraphQL",
+          "TypeORM (JS/TS)",
+          "SQLAlchemy (Python)",
+        ],
+
+        "skills.cat4.title": "Ecosistemas Adicionales",
+        "skills.cat4.row1.label": "Python",
+        "skills.cat4.row1.badges": ["Flask", "FastAPI"],
+
+        "skills.cat5.title": "Cloud, DevOps & Infraestructura",
+        "skills.cat5.row1.label": "Cloud Platforms",
+        "skills.cat5.row1.badges": [
+          "Google Cloud Platform (GCP)",
+          "Azure DevOps",
+          "AWS EC2",
+          "Render",
+          "Netlify",
+        ],
+        "skills.cat5.row2.label": "CI/CD & Despliegue",
+        "skills.cat5.row2.badges": ["Azure Pipelines", "Docker"],
+        "skills.cat5.row3.label": "OS",
+        "skills.cat5.row3.badges": ["Linux"],
+        "skills.cat5.row4.label": "Calidad",
+        "skills.cat5.row4.badges": ["SonarQube"],
+        "skills.cat5.row5.label": "Observabilidad & Trazabilidad",
+        "skills.cat5.row5.badges": [
+          "OpenTelemetry",
+          "Grafana",
+          "Azure Application Insights",
+          "Dynatrace",
+        ],
+
+        "skills.cat6.title": "Metodologías & Prácticas",
+        "skills.cat6.row1.label": "Arquitecturas",
+        "skills.cat6.row1.badges": ["Hexagonal", "DDD"],
+        "skills.cat6.row2.label": "Pruebas",
+        "skills.cat6.row2.badges": ["Unitarias", "Integración", "E2E"],
+        "skills.cat6.row3.label": "Buenas Prácticas",
+        "skills.cat6.row3.badges": [
+          "Revisión de Código",
+          "Optimización de Rendimiento",
+          "Análisis de Ciberseguridad",
+        ],
+
         // Footer
         "footer.rights": "Luis Eduardo Rondón. Todos los derechos reservados.",
+        "tech.label": "Tecnologías:",
+        "experience.live.badges": [
+          "Node.js",
+          "NestJS",
+          "React",
+          "TailwindCSS",
+          "PostgreSQL",
+          "Prisma",
+          "Docker",
+          "Arquitectura Hexagonal",
+          "Google Cloud Platform (GCP)",
+          "Firebase",
+        ],
+        "experience.acl.badges": [
+          "C#",
+          ".NET Core",
+          "Dapper",
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+          "Testing (Xunit, Jest)",
+          "React",
+          "Chakra UI",
+          "SQL Server",
+          "PostgreSQL",
+          "Azure DevOps (CI/CD)",
+          "Docker",
+          "SonarQube",
+          "SendGrid",
+          "SalesForce",
+        ],
+        "experience.psm.badges": [
+          "C#",
+          ".NET Framework",
+          "ADO NET",
+          "React",
+          "SQL Server",
+          "MVC",
+          "TailwindCSS",
+          "Active Directory",
+          "IpFire",
+          "Windows Server",
+        ],
+        "experience.boitas.badges": [
+          "Node.js",
+          "Vue.js",
+          "GraphQL",
+          "MongoDB",
+          "Elasticsearch",
+          "SendGrid",
+        ],
+        "experience.camin.badges": ["Vue.js", "Nuxt.js", "MySQL", "GoDaddy"],
+        "experience.avior.badges": [
+          "C#",
+          ".NET Framework",
+          "React",
+          "SQL Server",
+          "AWS EC2",
+          "Ubuntu Server",
+          "Ionic",
+          "Sabre API",
+        ],
+        "experience.smartWork.badges": [
+          "C#",
+          ".NET Framework",
+          "Entity Framework",
+          "SQL Server",
+          "React",
+          "React Native",
+        ],
+        "experience.satelca.badges": [
+          "C#",
+          ".NET Framework",
+          "SQL Server",
+          "Telefonía GSM (Digitel)",
+          "Dispositivos GPS.",
+        ],
+        "experience.profesor.badges": ["PHP", "JavaScript", "CSS", "React"],
+        "experience.soporte.badges": [
+          "Windows Server",
+          "Active Directory",
+          "SQL Server",
+          "Redes",
+        ],
+        "projects.glucose.badges": ["Python", "Flask", "PostgreSQL"],
+        "projects.biblioteca.badges": [
+          "C#",
+          ".NET Core",
+          "SQL Server",
+          "ADO NET",
+          "MVC",
+          "Razor Pages",
+        ],
+        "projects.psm.badges": [
+          "JavaScript",
+          "Vite",
+          "React",
+          "React Router",
+          "TailwindCSS",
+        ],
+        "projects.camin.badges": ["JavaScript", "Vue.js", "Nuxt.js"],
+        "projects.avior.badges": [
+          "JavaScript",
+          "React",
+          "React Router",
+          "AWS EC2",
+          "Ubuntu Server",
+        ],
       },
       en: {
         // Navigation
         experience: "Experience",
         projects: "Projects",
         education: "Education",
+        skills: "Skills",
         cv: "Resume",
 
         // Title
@@ -367,7 +571,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // LiveLify
         "experience.live.title": "LiveLify / Free Method",
-        "experience.live.role": "Full Stack Developer - Freelance",
+        "experience.live.role": "Full Stack Developer - Freelance (Remote)",
         "experience.live.date": "June 2025 – January 2026",
         "experience.live.from": "Santiago, Chile",
         "experience.live.work1.desc":
@@ -381,23 +585,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // ACL - ACHS
         "experience.acl.title": "ACL - ACHS",
-        "experience.acl.role": "Full Stack Developer",
+        "experience.acl.role": "Full Stack Developer - Full-time (Remote)",
         "experience.acl.date": "October 2021 – March 2025",
         "experience.acl.from": "Santiago, Chile",
         "experience.acl.work1.desc":
           "Led the evolution and optimization of a critical medical scheduling platform, used by over 1,000 companies and 5,000 users. My main achievement was directing the complete migration from .NET Core 3.1 to .NET 8, significantly improving performance and reducing technical debt. Established CI/CD pipelines with Azure DevOps and Docker.",
         "experience.acl.work2.desc":
-          "Contributed to the design and implementation of the unified identity system (ACHS Virtual) based on a BFF (Backend For Frontend) microservices architecture. I was responsible for developing secure services with TypeScript and NestJS that centralized authentication and authorization for the entire organization.",
+          "I optimized the use of the Salesforce external API for patient data retrieval, improving response management and exception handling, which reduced unhandled errors and increased the robustness of the integration.",
         "experience.acl.work3.desc":
-          "As part of the maintenance team, I diagnosed and resolved complex issues in various corporate applications. Performed deep optimizations on SQL queries for SQL Server and refactored legacy modules, improving system stability and response times.",
+          "I developed React components for managing medical appointments and bookings, and also resolved multiple code smells in the overall project, improving the maintainability and quality of the codebase.",
         "experience.acl.work4.desc":
+          "I addressed testing issues in Jest, specifically regarding pipeline execution times in different environments, resulting in reduced wait times and greater stability in continuous integration processes.",
+        "experience.acl.work5.desc":
+          "Contributed to the design and implementation of the unified identity system (ACHS Virtual) based on a BFF (Backend For Frontend) microservices architecture. I was responsible for developing secure services with TypeScript and NestJS that centralized authentication and authorization for the entire organization.",
+        "experience.acl.work6.desc":
+          "As part of the maintenance team, I diagnosed and resolved complex issues in various corporate applications. Performed deep optimizations on SQL queries for SQL Server and refactored legacy modules, improving system stability and response times.",
+        "experience.acl.work7.desc":
           "Established and enforced high code quality standards. Implemented static code analysis with SonarQube, designed unit and integration testing strategies, and conducted code reviews focused on security and performance, elevating the overall robustness of delivered software.",
 
         // Politécnico Santiago Mariño
         "experience.psm.title":
           "Santiago Mariño Polytechnic University Institute",
         "experience.psm.role":
-          "IT Technician & Full Stack Developer - Freelance",
+          "IT Technician & Full Stack Developer - Freelance (Hybrid)",
         "experience.psm.date": "November 2022 – April 2025",
         "experience.psm.from": "Barcelona, Venezuela",
         "experience.psm.work1.desc":
@@ -408,10 +618,12 @@ document.addEventListener("DOMContentLoaded", function () {
           "Act as a DBA and systems administrator, optimizing processes in SQL Server and managing on-premise infrastructure (Active Directory, Proxy, File Server). Provide specialized technical support and ensure high service availability.",
         "experience.psm.work4.desc":
           "Developed a monolithic .NET MVC application for academic queries, solving students' need to access grades, schedules, and records quickly and reliably on the local network.",
+        "experience.psm.work5.desc":
+          "I performed IT Technical Support and DBA functions, optimizing processes in SQL Server and providing assistance in the administration of local servers (Active Directory, Proxy, File Server).",
 
         // Boitas.com
         "experience.boitas.title": "Boitas.com",
-        "experience.boitas.role": "Full Stack Developer",
+        "experience.boitas.role": "Full Stack Developer - Full-time (Remote)",
         "experience.boitas.date": "May 2021 – October 2021",
         "experience.boitas.from": "Mexico City, Mexico",
         "experience.boitas.work1.desc":
@@ -423,7 +635,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Camin Global
         "experience.camin.title": "Camin Global",
-        "experience.camin.role": "Frontend Developer - Freelance",
+        "experience.camin.role": "Frontend Developer - Freelance (Hybrid)",
         "experience.camin.date": "January 2021 – March 2022",
         "experience.camin.from": "Lecheria, Venezuela",
         "experience.camin.work1.desc":
@@ -435,11 +647,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Avior Airlines
         "experience.avior.title": "Avior Airlines",
-        "experience.avior.role": "Full Stack Developer",
+        "experience.avior.role": "Full Stack Developer - Full-time (In-person)",
         "experience.avior.date": "November 2017 – July 2022",
         "experience.avior.from": "Barcelona, Venezuela",
         "experience.avior.work1.desc":
-          "Was a key responsible developer for the booking and ticket purchase system on the official website. Designed and built the integration APIs with the Sabre GDS and fully developed the refunds module, a critical and business-sensitive component. Technologies: C#, .NET Framework, SQL Server, React.",
+          "Was a key responsible developer for the booking and ticket purchase system on the official website. Designed and built the integration APIs with the Sabre GDS and fully developed the refunds module, a critical and business-sensitive component.",
         "experience.avior.work2.desc":
           "Configured and secured the initial development infrastructure on AWS EC2 with Ubuntu Server, establishing HTTPS/FTP servers and defining access and security protocols for the team.",
         "experience.avior.work3.desc":
@@ -451,7 +663,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // SmartWork
         "experience.smartWork.title": "SmartWork",
-        "experience.smartWork.role": "Full Stack Developer",
+        "experience.smartWork.role":
+          "Full Stack Developer - Full-time (Remote)",
         "experience.smartWork.date": "April 2020 – January 2021",
         "experience.smartWork.from": "Quito, Ecuador",
         "experience.smartWork.work1.desc":
@@ -464,7 +677,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Satelca
         "experience.satelca.title":
           "Satellites and Telecommunications (Satelca)",
-        "experience.satelca.role": "Backend Developer",
+        "experience.satelca.role": "Backend Developer - Full-time (In-person)",
         "experience.satelca.date": "May 2017 – November 2017",
         "experience.satelca.from": "Lecheria, Venezuela",
         "experience.satelca.work1.desc":
@@ -474,16 +687,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Profesor
         "experience.profesor.title": "Programming Teacher",
-        "experience.profesor.role": "PHP, JavaScript, CSS and React Instructor",
+        "experience.profesor.role":
+          "PHP, JavaScript, CSS and React Instructor - Freelance (In-person)",
         "experience.profesor.date": "February 2020 – December 2022",
         "experience.profesor.from": "Puerto La Cruz, Venezuela",
         "experience.profesor.work1.desc":
-          "Designed the curriculum and taught courses that equipped students with a solid understanding of full-stack web development, from backend fundamentals with PHP to building modern interfaces with React.",
+          "I designed and taught basic and intermediate level courses in PHP, JavaScript, CSS and React.",
+        "experience.profesor.work2.desc":
+          "I focused the training on providing students with a solid understanding of backend programming with PHP and the ability to build complete web applications using this technology stack.",
 
         // Soporte IT
         "experience.soporte.title":
           "Antonio José de Sucre University Institute of Technology",
-        "experience.soporte.role": "IT Support Lead / Systems Architect",
+        "experience.soporte.role":
+          "IT Support Lead / Systems Architect - Full-time (In-person)",
         "experience.soporte.date": "March 2008 – May 2017",
         "experience.soporte.from": "Puerto La Cruz, Venezuela",
         "experience.soporte.work1.desc":
@@ -506,8 +723,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "Implementing a customizable alert system where users define thresholds. In case of critical levels, the system sends automatic notifications to designated family members or caregivers, adding a layer of proactive safety.",
         "projects.glucose.desc4":
           "Designing a periodic report generator (daily, weekly, monthly) that summarizes key metrics like averages and 'time in range', facilitating personal tracking and communication with healthcare professionals.",
-        "projects.glucose.desc5":
-          "Tech stack: Python Flask for the API, PostgreSQL for the database, and planning frontend/mobile development with React Native for an accessible user experience.",
 
         "projects.biblioteca.title": "Virtual Library Application",
         "projects.biblioteca.role": "Client Project",
@@ -521,8 +736,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "Developing an integrated web viewer for theses, reports, and digital books, allowing direct reading in the browser without download, improving security and user experience.",
         "projects.biblioteca.desc4":
           "Building a robust backoffice module for library staff to upload materials (individually or in batches), edit complete metadata (abstracts, keywords, ISBN), and manage versions and formats.",
-        "projects.biblioteca.desc5":
-          "Tech stack: .NET MVC (monolith) applying hexagonal architecture principles for a decoupled and maintainable business domain, with SQL Server as the database.",
 
         "projects.psm.title":
           "Website of the Santiago Mariño Polytechnic University Institute",
@@ -600,8 +813,212 @@ document.addEventListener("DOMContentLoaded", function () {
         "education.site6": "Bogotá, Colombia",
         "education.date6": "48 hours - September 2019",
 
+        // Skills
+        "skills.title": "Skills",
+
+        "skills.cat1.title": "Core Technologies",
+        "skills.cat1.row1.label": "Languages & Primary Backend",
+        "skills.cat1.row1.badges": [
+          "C#",
+          ".NET Framework",
+          ".NET Core",
+          ".NET",
+        ],
+        "skills.cat1.row2.label": "Secondary Stack (JavaScript/TypeScript)",
+        "skills.cat1.row2.badges": [
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+        ],
+
+        "skills.cat2.title": "Frontend & Fullstack",
+        "skills.cat2.row1.label": "Frameworks/Libraries",
+        "skills.cat2.row1.badges": ["React", "Vue.js"],
+        "skills.cat2.row2.label": "UI & Styling",
+        "skills.cat2.row2.badges": [
+          "TailwindCSS",
+          "Bootstrap",
+          "Chakra UI",
+          "MUI (Material UI)",
+        ],
+
+        "skills.cat3.title": "Databases & ORM",
+        "skills.cat3.row1.label": "SQL",
+        "skills.cat3.row1.badges": [
+          "SQL Server",
+          "MySQL",
+          "PostgreSQL",
+          "SQLite",
+        ],
+        "skills.cat3.row2.label": "NoSQL & Cache",
+        "skills.cat3.row2.badges": ["MongoDB", "Redis"],
+        "skills.cat3.row3.label": "ORM/Tools",
+        "skills.cat3.row3.badges": [
+          "Entity Framework",
+          "Dapper (C#/.NET)",
+          "Prisma",
+          "GraphQL",
+          "TypeORM (JS/TS)",
+          "SQLAlchemy (Python)",
+        ],
+
+        "skills.cat4.title": "Additional Ecosystems",
+        "skills.cat4.row1.label": "Python",
+        "skills.cat4.row1.badges": ["Flask", "FastAPI"],
+
+        "skills.cat5.title": "Cloud, DevOps & Infrastructure",
+        "skills.cat5.row1.label": "Cloud Platforms",
+        "skills.cat5.row1.badges": [
+          "Google Cloud Platform (GCP)",
+          "Azure DevOps",
+          "AWS EC2",
+          "Render",
+          "Netlify",
+        ],
+        "skills.cat5.row2.label": "CI/CD & Deployment",
+        "skills.cat5.row2.badges": ["Azure Pipelines", "Docker"],
+        "skills.cat5.row3.label": "OS",
+        "skills.cat5.row3.badges": ["Linux"],
+        "skills.cat5.row4.label": "Quality",
+        "skills.cat5.row4.badges": ["SonarQube"],
+        "skills.cat5.row5.label": "Observability & Tracing",
+        "skills.cat5.row5.badges": [
+          "OpenTelemetry",
+          "Grafana",
+          "Azure Application Insights",
+          "Dynatrace",
+        ],
+
+        "skills.cat6.title": "Methodologies & Practices",
+        "skills.cat6.row1.label": "Architectures",
+        "skills.cat6.row1.badges": ["Hexagonal", "DDD"],
+        "skills.cat6.row2.label": "Testing",
+        "skills.cat6.row2.badges": ["Unit", "Integration", "E2E"],
+        "skills.cat6.row3.label": "Best Practices",
+        "skills.cat6.row3.badges": [
+          "Code Review",
+          "Performance Optimization",
+          "Cybersecurity Analysis",
+        ],
+
         // Footer
         "footer.rights": "Luis Eduardo Rondón. All rights reserved.",
+        "tech.label": "Technologies:",
+        "experience.live.badges": [
+          "Node.js",
+          "NestJS",
+          "React",
+          "TailwindCSS",
+          "PostgreSQL",
+          "Prisma",
+          "Docker",
+          "Arquitectura Hexagonal",
+          "Google Cloud Platform (GCP)",
+          "Firebase",
+        ],
+        "experience.acl.badges": [
+          "C#",
+          ".NET Core",
+          "Dapper",
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+          "Testing (Xunit, Jest)",
+          "React",
+          "Chakra UI",
+          "SQL Server",
+          "PostgreSQL",
+          "Azure DevOps (CI/CD)",
+          "Docker",
+          "SonarQube",
+          "SendGrid",
+          "SalesForce",
+        ],
+        "experience.psm.badges": [
+          "C#",
+          ".NET Framework",
+          "ADO NET",
+          "React",
+          "SQL Server",
+          "MVC",
+          "TailwindCSS",
+          "Active Directory",
+          "IpFire",
+          "Windows Server",
+        ],
+        "experience.boitas.badges": [
+          "Node.js",
+          "Vue.js",
+          "GraphQL",
+          "MongoDB",
+          "Elasticsearch",
+          "SendGrid",
+        ],
+        "experience.camin.badges": ["Vue.js", "Nuxt.js", "MySQL", "GoDaddy"],
+        "experience.avior.badges": [
+          "C#",
+          ".NET Framework",
+          "React",
+          "SQL Server",
+          "AWS EC2",
+          "Ubuntu Server",
+          "Ionic",
+          "Sabre API",
+        ],
+        "experience.smartWork.badges": [
+          "C#",
+          ".NET Framework",
+          "Entity Framework",
+          "SQL Server",
+          "React",
+          "React Native",
+        ],
+        "experience.satelca.badges": [
+          "C#",
+          ".NET Framework",
+          "SQL Server",
+          "GSM Telephony (Digitel)",
+          "GPS devices",
+        ],
+        "experience.profesor.badges": ["PHP", "JavaScript", "CSS", "React"],
+        "experience.soporte.badges": [
+          "Windows Server",
+          "Active Directory",
+          "SQL Server",
+          "Networks",
+        ],
+        "projects.glucose.badges": ["Python", "Flask", "PostgreSQL"],
+        "projects.biblioteca.badges": [
+          "C#",
+          ".NET Core",
+          "SQL Server",
+          "ADO NET",
+          "MVC",
+          "Razor Pages",
+        ],
+        "projects.psm.badges": [
+          "JavaScript",
+          "Vite",
+          "React",
+          "React Router",
+          "TailwindCSS",
+        ],
+        "projects.camin.badges": [
+          "C#",
+          ".NET Core",
+          "SQL Server",
+          "ADO NET",
+          "MVC",
+          "Razor Pages",
+        ],
+        "projects.avior.badges": [
+          "JavaScript",
+          "React",
+          "React Router",
+          "AWS EC2",
+          "Ubuntu Server",
+        ],
       },
     },
 
@@ -609,7 +1026,6 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelectorAll("[data-i18n]").forEach((element) => {
         const key = element.getAttribute("data-i18n");
         const translation = this.translations[this.currentLang][key];
-
         if (translation !== undefined) {
           if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
             element.placeholder = translation;
@@ -618,6 +1034,17 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             element.textContent = translation;
           }
+        }
+      });
+
+      // Renderizar badges
+      document.querySelectorAll("[data-badges]").forEach((container) => {
+        const key = container.getAttribute("data-badges");
+        const badges = this.translations[this.currentLang][key];
+        if (Array.isArray(badges)) {
+          container.innerHTML = badges
+            .map((b) => `<span class="badge">${b}</span>`)
+            .join("");
         }
       });
     },
