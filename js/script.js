@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hola, soy Luis Eduardo Rondón",
         "intro.subtitle":
-          "Desarrollador de Software con 7+ años de experiencia, especializado en arquitecturas backend con C#/.NET y Node.js/NestJS. Experto en diseñar soluciones escalables (monolitos, escritorio, APIs, microservicios) y en implementar frontends robustos con React y TypeScript para la entrega de productos completos.",
+          "Desarrollador de Software con 7+ años de experiencia, especializado en arquitecturas backend con C#/.NET y Node.js/NestJS. Experto en diseñar soluciones escalables (monolitos, escritorio, APIs) y en implementar frontends robustos con React y TypeScript para la entrega de productos completos.",
         "intro.stacks":
           "Apasionado por la excelencia técnica, la mentoría y la colaboración en equipos de alto rendimiento.",
 
@@ -350,24 +350,26 @@ document.addEventListener("DOMContentLoaded", function () {
         // Skills
         "skills.title": "Habilidades",
 
-        "skills.cat1.title": "Tecnologías Principales",
-        "skills.cat1.row1.label": "Lenguajes & Backend Principal",
+        "skills.cat1.title": "Lenguajes & Backend",
+        "skills.cat1.row1.label": "Backend Principal (.NET)",
         "skills.cat1.row1.badges": [
           "C#",
           ".NET Framework",
           ".NET Core",
           ".NET",
         ],
-        "skills.cat1.row2.label": "Stack Secundario (JavaScript/TypeScript)",
+        "skills.cat1.row2.label": "Backend Secundario (JS/TS)",
         "skills.cat1.row2.badges": [
           "JavaScript",
           "TypeScript",
           "Node.js",
           "NestJS",
         ],
+        "skills.cat1.row3.label": "Backend Adicional (Python)",
+        "skills.cat1.row3.badges": ["Python", "Flask", "FastAPI"],
 
-        "skills.cat2.title": "Frontend & Fullstack",
-        "skills.cat2.row1.label": "Frameworks/Librerías",
+        "skills.cat2.title": "Frontend",
+        "skills.cat2.row1.label": "Frameworks & Librerías",
         "skills.cat2.row1.badges": ["React", "Vue.js"],
         "skills.cat2.row2.label": "UI & Estilos",
         "skills.cat2.row2.badges": [
@@ -387,49 +389,49 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "skills.cat3.row2.label": "NoSQL & Caché",
         "skills.cat3.row2.badges": ["MongoDB", "Redis"],
-        "skills.cat3.row3.label": "ORM/Herramientas",
+        "skills.cat3.row3.label": "ORM & Herramientas",
         "skills.cat3.row3.badges": [
           "Entity Framework",
-          "Dapper (C#/.NET)",
+          "Dapper",
           "Prisma",
+          "TypeORM",
+          "SQLAlchemy",
           "GraphQL",
-          "TypeORM (JS/TS)",
-          "SQLAlchemy (Python)",
         ],
 
-        "skills.cat4.title": "Ecosistemas Adicionales",
-        "skills.cat4.row1.label": "Python",
-        "skills.cat4.row1.badges": ["Flask", "FastAPI"],
-
-        "skills.cat5.title": "Cloud, DevOps & Infraestructura",
-        "skills.cat5.row1.label": "Cloud Platforms",
-        "skills.cat5.row1.badges": [
+        "skills.cat4.title": "Cloud & Infraestructura",
+        "skills.cat4.row1.label": "Cloud Platforms",
+        "skills.cat4.row1.badges": [
           "Google Cloud Platform (GCP)",
-          "Azure DevOps",
+          "Azure",
           "AWS EC2",
           "Render",
           "Netlify",
         ],
-        "skills.cat5.row2.label": "CI/CD & Despliegue",
-        "skills.cat5.row2.badges": ["Azure Pipelines", "Docker"],
-        "skills.cat5.row3.label": "OS",
-        "skills.cat5.row3.badges": ["Linux"],
-        "skills.cat5.row4.label": "Calidad",
-        "skills.cat5.row4.badges": ["SonarQube"],
-        "skills.cat5.row5.label": "Observabilidad & Trazabilidad",
-        "skills.cat5.row5.badges": [
+        "skills.cat4.row2.label": "Observabilidad & Trazabilidad",
+        "skills.cat4.row2.badges": [
           "OpenTelemetry",
           "Grafana",
           "Azure Application Insights",
           "Dynatrace",
         ],
 
-        "skills.cat6.title": "Metodologías & Prácticas",
+        "skills.cat5.title": "DevOps & Despliegue",
+        "skills.cat5.row1.label": "CI/CD",
+        "skills.cat5.row1.badges": ["Azure Pipelines", "Azure DevOps"],
+        "skills.cat5.row2.label": "Contenerización",
+        "skills.cat5.row2.badges": ["Docker"],
+        "skills.cat5.row3.label": "Calidad de Código",
+        "skills.cat5.row3.badges": ["SonarQube"],
+        "skills.cat5.row4.label": "Sistemas Operativos",
+        "skills.cat5.row4.badges": ["Linux"],
+
+        "skills.cat6.title": "Metodologías & Buenas Prácticas",
         "skills.cat6.row1.label": "Arquitecturas",
         "skills.cat6.row1.badges": ["Hexagonal", "DDD"],
         "skills.cat6.row2.label": "Pruebas",
         "skills.cat6.row2.badges": ["Unitarias", "Integración", "E2E"],
-        "skills.cat6.row3.label": "Buenas Prácticas",
+        "skills.cat6.row3.label": "Prácticas de Desarrollo",
         "skills.cat6.row3.badges": [
           "Revisión de Código",
           "Optimización de Rendimiento",
@@ -562,7 +564,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "intro.name": "Luis Eduardo Rondón",
         "intro.title": "Hello, I'm Luis Eduardo Rondón",
         "intro.subtitle":
-          "Software Developer with 7+ years of experience, specializing in backend architectures with C#/.NET and Node.js/NestJS. Expert in designing scalable solutions (monoliths, desktop, APIs, microservices) and implementing robust frontends with React and TypeScript for delivering complete products.",
+          "Software Developer with 7+ years of experience, specializing in backend architectures with C#/.NET and Node.js/NestJS. Expert in designing scalable solutions (monoliths, desktop, APIs) and implementing robust frontends with React and TypeScript for delivering complete products.",
         "intro.stacks":
           "Passionate about technical excellence, mentoring, and collaborating in high-performing teams.",
 
@@ -815,25 +817,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Skills
         "skills.title": "Skills",
-
-        "skills.cat1.title": "Core Technologies",
-        "skills.cat1.row1.label": "Languages & Primary Backend",
+        "skills.cat1.title": "Languages & Backend",
+        "skills.cat1.row1.label": "Primary Backend (.NET)",
         "skills.cat1.row1.badges": [
           "C#",
           ".NET Framework",
           ".NET Core",
           ".NET",
         ],
-        "skills.cat1.row2.label": "Secondary Stack (JavaScript/TypeScript)",
+        "skills.cat1.row2.label": "Secondary Backend (JS/TS)",
         "skills.cat1.row2.badges": [
           "JavaScript",
           "TypeScript",
           "Node.js",
           "NestJS",
         ],
-
-        "skills.cat2.title": "Frontend & Fullstack",
-        "skills.cat2.row1.label": "Frameworks/Libraries",
+        "skills.cat1.row3.label": "Additional Backend (Python)",
+        "skills.cat1.row3.badges": ["Python", "Flask", "FastAPI"],
+        "skills.cat2.title": "Frontend",
+        "skills.cat2.row1.label": "Frameworks & Libraries",
         "skills.cat2.row1.badges": ["React", "Vue.js"],
         "skills.cat2.row2.label": "UI & Styling",
         "skills.cat2.row2.badges": [
@@ -842,7 +844,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "Chakra UI",
           "MUI (Material UI)",
         ],
-
         "skills.cat3.title": "Databases & ORM",
         "skills.cat3.row1.label": "SQL",
         "skills.cat3.row1.badges": [
@@ -853,49 +854,46 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "skills.cat3.row2.label": "NoSQL & Cache",
         "skills.cat3.row2.badges": ["MongoDB", "Redis"],
-        "skills.cat3.row3.label": "ORM/Tools",
+        "skills.cat3.row3.label": "ORM & Tools",
         "skills.cat3.row3.badges": [
           "Entity Framework",
-          "Dapper (C#/.NET)",
+          "Dapper",
           "Prisma",
+          "TypeORM",
+          "SQLAlchemy",
           "GraphQL",
-          "TypeORM (JS/TS)",
-          "SQLAlchemy (Python)",
         ],
-
-        "skills.cat4.title": "Additional Ecosystems",
-        "skills.cat4.row1.label": "Python",
-        "skills.cat4.row1.badges": ["Flask", "FastAPI"],
-
-        "skills.cat5.title": "Cloud, DevOps & Infrastructure",
-        "skills.cat5.row1.label": "Cloud Platforms",
-        "skills.cat5.row1.badges": [
+        "skills.cat4.title": "Cloud & Infrastructure",
+        "skills.cat4.row1.label": "Cloud Platforms",
+        "skills.cat4.row1.badges": [
           "Google Cloud Platform (GCP)",
-          "Azure DevOps",
+          "Azure",
           "AWS EC2",
           "Render",
           "Netlify",
         ],
-        "skills.cat5.row2.label": "CI/CD & Deployment",
-        "skills.cat5.row2.badges": ["Azure Pipelines", "Docker"],
-        "skills.cat5.row3.label": "OS",
-        "skills.cat5.row3.badges": ["Linux"],
-        "skills.cat5.row4.label": "Quality",
-        "skills.cat5.row4.badges": ["SonarQube"],
-        "skills.cat5.row5.label": "Observability & Tracing",
-        "skills.cat5.row5.badges": [
+        "skills.cat4.row2.label": "Observability & Tracing",
+        "skills.cat4.row2.badges": [
           "OpenTelemetry",
           "Grafana",
           "Azure Application Insights",
           "Dynatrace",
         ],
-
-        "skills.cat6.title": "Methodologies & Practices",
+        "skills.cat5.title": "DevOps & Deployment",
+        "skills.cat5.row1.label": "CI/CD",
+        "skills.cat5.row1.badges": ["Azure Pipelines", "Azure DevOps"],
+        "skills.cat5.row2.label": "Containerization",
+        "skills.cat5.row2.badges": ["Docker"],
+        "skills.cat5.row3.label": "Code Quality",
+        "skills.cat5.row3.badges": ["SonarQube"],
+        "skills.cat5.row4.label": "Operating Systems",
+        "skills.cat5.row4.badges": ["Linux"],
+        "skills.cat6.title": "Methodologies & Best Practices",
         "skills.cat6.row1.label": "Architectures",
         "skills.cat6.row1.badges": ["Hexagonal", "DDD"],
         "skills.cat6.row2.label": "Testing",
         "skills.cat6.row2.badges": ["Unit", "Integration", "E2E"],
-        "skills.cat6.row3.label": "Best Practices",
+        "skills.cat6.row3.label": "Development Practices",
         "skills.cat6.row3.badges": [
           "Code Review",
           "Performance Optimization",
