@@ -91,7 +91,8 @@ document.addEventListener("DOMContentLoaded", function () {
         education: "Educación",
         skills: "Habilidades",
         cv: "Currículum",
-
+        "email.copied": "¡Copiado!",
+        "email.arialabel": "Copiar email",
         // Titulo
         "title.name": "Luis Eduardo Rondón | Desarrollador",
 
@@ -556,6 +557,8 @@ document.addEventListener("DOMContentLoaded", function () {
         education: "Education",
         skills: "Skills",
         cv: "Resume",
+        "email.copied": "Copied!",
+        "email.arialabel": "Copy email",
 
         // Title
         "title.name": "Luis Eduardo Rondón | Developer",
@@ -1122,3 +1125,41 @@ document.addEventListener("DOMContentLoaded", function () {
   sectionManager.highlightActiveSection();
   sectionManager.setupLogoClick();
 });
+
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("revealed");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    threshold: 0.05,
+    rootMargin: "0px 0px -20px 0px",
+  },
+);
+
+const revealItems = document.querySelectorAll(
+  ".experience-item, .project-item",
+);
+
+revealItems.forEach((el, index) => {
+  // Si ya está en viewport al cargar, revelar con delay escalonado
+  const rect = el.getBoundingClientRect();
+  const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+  if (isVisible) {
+    setTimeout(() => el.classList.add("revealed"), index * 60);
+  } else {
+    revealObserver.observe(el);
+  }
+});
+
+document
+  .querySelector(".copy-email-btn")
+  ?.addEventListener("click", function () {
+    navigator.clipboard.writeText(this.dataset.email);
+    this.classList.add("copied");
+    setTimeout(() => this.classList.remove("copied"), 2000);
+  });
